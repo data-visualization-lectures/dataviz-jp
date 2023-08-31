@@ -14,6 +14,9 @@ module.exports = {
       screens: {
         "3xl": "1792px",
       },
+      backgroundImage: {
+        'background-texture': "url('/images/escheresque_ste.webp')",
+      },
     },
   },
   plugins: [require("@tailwindcss/typography")],

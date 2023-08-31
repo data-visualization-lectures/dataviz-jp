@@ -1,8 +1,8 @@
 ---
-title: Hugo Gallery
+title: dataviz.jp
 linktitle: Home
-description: An example site for hugo-theme-gallery. Images from Unsplash.
-#lastmod: 2023-07-05
+description: ログイン不要で使用できる無料データ可視化ツール集
+lastmod: 2023-08-31
 featured_image: martin-martz-wRuhOOaG-Z4-unsplash.jpg # default: first image in this directory
 # featured_image on the home page is used for OpenGraph cards, etc.
 
