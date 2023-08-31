@@ -1,10 +1,9 @@
 title = "Gallery"
-languageCode = "en-us"
-copyright = "© Your Name"
+languageCode = "ja-jp"
+copyright = "Visualizing.JP"
 disableKinds = ["taxonomy", "term"]
-defaultContentLanguage = "en"
+defaultContentLanguage = "ja"
 enableRobotsTXT = true
-timeZone = "Europe/Berlin"
 theme = "github.com/nicokaiser/hugo-theme-gallery"
 
 [params]
@@ -13,7 +12,7 @@ theme = "github.com/nicokaiser/hugo-theme-gallery"
   defaultTheme = "dark"
 
 [author]
-  name = "Your Name"
+  name = "Yuichi Yazaki"
 
 [outputs]
   page = ["HTML"]
@@ -53,9 +52,3 @@ theme = "github.com/nicokaiser/hugo-theme-gallery"
   [[build.cachebusters]]
     source = "assets/.*\\.(.*)$"
     target = "$1"
-
-[menu]
-[[menu.footer]]
-  name = "GitHub"
-  url = "https://github.com/nicokaiser/hugo-theme-gallery/"
-  weight = 3
