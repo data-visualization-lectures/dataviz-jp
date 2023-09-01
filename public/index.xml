@@ -15,7 +15,7 @@
       <guid>/rawgraphs/</guid><media:content url="/rawgraphs/cover_rawgraphs_huf56832bae9937299e69d83d446af6034_566714_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
         <description>
           &lt;img src=&quot;/rawgraphs/cover_rawgraphs_huf56832bae9937299e69d83d446af6034_566714_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
-          &lt;p&gt;Fashion and Beauty are a powerful form of self-expression. This category documents style through inspiring shots of street fashion, skincare products, avant-garde editorial photographs, and more.&lt;/p&gt;
+          &lt;p&gt;ExcelとAdobe Illustratorなどのグラフィック・アプリの間をつなぐミッシング・リンクとなるツール。多様なチャートの種類をサポートしています。出力は画像かSVG形式です。&lt;/p&gt;
         </description></item><item>
       <title>Sankeymatic</title>
       <link>/sankeymatic/</link>
@@ -24,7 +24,7 @@
       <guid>/sankeymatic/</guid><media:content url="/sankeymatic/cover_sankeymatic_hue724d4f49662f2ab9e39db5095be447d_69491_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
         <description>
           &lt;img src=&quot;/sankeymatic/cover_sankeymatic_hue724d4f49662f2ab9e39db5095be447d_69491_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
-          &lt;p&gt;Fashion and Beauty are a powerful form of self-expression. This category documents style through inspiring shots of street fashion, skincare products, avant-garde editorial photographs, and more.&lt;/p&gt;
+          &lt;p&gt;サンキー・ダイアグラムの作成に特化したツールです。データ形式が簡易なものなので、スプレッドシート・ツールで作成したデータを用いて、誰でも手軽にサンキー・ダイアグラムの作成が出来ます。出力はPNGかSVG形式です。&lt;/p&gt;
         </description></item><item>
       <title>Tilegrams</title>
       <link>/tilegrams/</link>
@@ -33,7 +33,7 @@
       <guid>/tilegrams/</guid><media:content url="/tilegrams/cover_tilegrams_hu4ebb722dc071eb3f841a41983d012113_1144284_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
         <description>
           &lt;img src=&quot;/tilegrams/cover_tilegrams_hu4ebb722dc071eb3f841a41983d012113_1144284_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
-          &lt;p&gt;Fashion and Beauty are a powerful form of self-expression. This category documents style through inspiring shots of street fashion, skincare products, avant-garde editorial photographs, and more.&lt;/p&gt;
+          &lt;p&gt;タイル状のカルトグラム地図作成を手軽に作成するためのツールです。現在はアメリカ、ドイツ、フランス、オランダ、ブラジル、アイルランド、インドの国土地図に対応しています。日本地図も今後対応予定です！&lt;/p&gt;
         </description></item><item>
       <title>Color Brewer</title>
       <link>/colorbrewer/</link>
@@ -42,7 +42,7 @@
       <guid>/colorbrewer/</guid><media:content url="/colorbrewer/cover_colorbrewer_hub8bbdf3663cf44f2f5b2436accfa75a8_1382605_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
         <description>
           &lt;img src=&quot;/colorbrewer/cover_colorbrewer_hub8bbdf3663cf44f2f5b2436accfa75a8_1382605_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
-          &lt;p&gt;Fashion and Beauty are a powerful form of self-expression. This category documents style through inspiring shots of street fashion, skincare products, avant-garde editorial photographs, and more.&lt;/p&gt;
+          &lt;p&gt;データの性質にあったカラースキーム選びのためのツール。地図上にダミーのデータがすでに掲載されており、カラーのシミュレーションが手早く行うことが出来ます。選んだカラースキームは、JavaScriptやCSSで活用できる値で出力したり、ASEファイル（Adobe社のPhotoshopなどのアプリ間で共有可能なカラー・スウォッチ）で出力することが出来ます。&lt;/p&gt;
         </description></item>
   </channel>
 </rss>

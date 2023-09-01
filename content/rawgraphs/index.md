@@ -1,6 +1,6 @@
 ---
 title: RAWGraphs2
-description: Fashion and Beauty are a powerful form of self-expression. This category documents style through inspiring shots of street fashion, skincare products, avant-garde editorial photographs, and more.
+description: ExcelとAdobe Illustratorなどのグラフィック・アプリの間をつなぐミッシング・リンクとなるツール。多様なチャートの種類をサポートしています。出力は画像かSVG形式です。
 weight: 1
 address: https://raw.dataviz.jp/
 ---

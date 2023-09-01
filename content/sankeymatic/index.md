@@ -1,6 +1,6 @@
 ---
 title: Sankeymatic
-description: Fashion and Beauty are a powerful form of self-expression. This category documents style through inspiring shots of street fashion, skincare products, avant-garde editorial photographs, and more.
+description: サンキー・ダイアグラムの作成に特化したツールです。データ形式が簡易なものなので、スプレッドシート・ツールで作成したデータを用いて、誰でも手軽にサンキー・ダイアグラムの作成が出来ます。出力はPNGかSVG形式です。
 weight: 2
 address: https://sankeymatic.dataviz.jp/
 ---

@@ -1,6 +1,6 @@
 ---
 title: Tilegrams
-description: Fashion and Beauty are a powerful form of self-expression. This category documents style through inspiring shots of street fashion, skincare products, avant-garde editorial photographs, and more.
+description: タイル状のカルトグラム地図作成を手軽に作成するためのツールです。現在はアメリカ、ドイツ、フランス、オランダ、ブラジル、アイルランド、インドの国土地図に対応しています。日本地図も今後対応予定です！
 weight: 2
 address: https://tilegrams.dataviz.jp/
 ---
