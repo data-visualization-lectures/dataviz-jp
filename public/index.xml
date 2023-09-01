@@ -8,6 +8,24 @@
     <language>ja-jp</language>
     <copyright>Visualizing.JP</copyright>
     <lastBuildDate>Thu, 31 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Mapshaper（地図データ用エディタ）</title>
+      <link>/mapshaper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/mapshaper/</guid><media:content url="/mapshaper/cover_mapshaper_hua9a2c8eecf0b967cd95ab8e42e557b11_201264_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;/mapshaper/cover_mapshaper_hua9a2c8eecf0b967cd95ab8e42e557b11_201264_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
+          &lt;p&gt;Mapshaperは地図データ用のエディタです。ブラウザだけで手軽に地図ファイルの簡素化や、別ファイル形式への変換が行なえます。&lt;/p&gt;
+        </description></item><item>
+      <title>Color Brewer（カラースキーム選び）</title>
+      <link>/colorbrewer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/colorbrewer/</guid><media:content url="/colorbrewer/cover_colorbrewer_hub8bbdf3663cf44f2f5b2436accfa75a8_1382605_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;/colorbrewer/cover_colorbrewer_hub8bbdf3663cf44f2f5b2436accfa75a8_1382605_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
+          &lt;p&gt;データの性質にあったカラースキーム選びのためのツール。地図上にダミーのデータがすでに掲載されており、カラーのシミュレーションが手早く行うことが出来ます。選んだカラースキームは、JavaScriptやCSSで活用できる値で出力したり、ASEファイル（Adobe社のPhotoshopなどのアプリ間で共有可能なカラー・スウォッチ）で出力することが出来ます。&lt;/p&gt;
+        </description></item><item>
       <title>RAWGraphs2（多様なチャート作成）</title>
       <link>/rawgraphs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -34,24 +52,6 @@
         <description>
           &lt;img src=&quot;/tilegrams/cover_tilegrams_hu4ebb722dc071eb3f841a41983d012113_1144284_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
           &lt;p&gt;タイル状のカルトグラム地図作成を手軽に作成するためのツールです。現在はアメリカ、ドイツ、フランス、オランダ、ブラジル、アイルランド、インドの国土地図に対応しています。日本地図も今後対応予定です！&lt;/p&gt;
-        </description></item><item>
-      <title>Color Brewer（カラースキーム選び）</title>
-      <link>/colorbrewer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/colorbrewer/</guid><media:content url="/colorbrewer/cover_colorbrewer_hub8bbdf3663cf44f2f5b2436accfa75a8_1382605_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
-        <description>
-          &lt;img src=&quot;/colorbrewer/cover_colorbrewer_hub8bbdf3663cf44f2f5b2436accfa75a8_1382605_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
-          &lt;p&gt;データの性質にあったカラースキーム選びのためのツール。地図上にダミーのデータがすでに掲載されており、カラーのシミュレーションが手早く行うことが出来ます。選んだカラースキームは、JavaScriptやCSSで活用できる値で出力したり、ASEファイル（Adobe社のPhotoshopなどのアプリ間で共有可能なカラー・スウォッチ）で出力することが出来ます。&lt;/p&gt;
-        </description></item><item>
-      <title>Mapshaper（地図データ用エディタ）</title>
-      <link>/mapshaper/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/mapshaper/</guid><media:content url="/mapshaper/cover_colorbrewer_hub8bbdf3663cf44f2f5b2436accfa75a8_1382605_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
-        <description>
-          &lt;img src=&quot;/mapshaper/cover_colorbrewer_hub8bbdf3663cf44f2f5b2436accfa75a8_1382605_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
-          &lt;p&gt;Mapshaperは地図データ用のエディタです。ブラウザだけで手軽に地図ファイルの簡素化や、別ファイル形式への変換が行なえます。&lt;/p&gt;
         </description></item>
   </channel>
 </rss>
