@@ -7,12 +7,12 @@ enableRobotsTXT = true
 theme = "github.com/nicokaiser/hugo-theme-gallery"
 
 [params]
-  title = "My Gallery"
-  description = "Example site for hugo-theme-gallery"
+  title = "dataviz.jp"
+  description = "ログイン不要で使用できる無料データ可視化ツール集"
   defaultTheme = "dark"
 
 [author]
-  name = "Yuichi Yazaki"
+  name = "Yuichi Yazaki/ヤザキユウイチ"
 
 [outputs]
   page = ["HTML"]
