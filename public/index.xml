@@ -8,7 +8,7 @@
     <language>ja-jp</language>
     <copyright>Visualizing.JP</copyright>
     <lastBuildDate>Thu, 31 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>RAWGraphs2</title>
+      <title>RAWGraphs2（多様なチャート作成）</title>
       <link>/rawgraphs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -17,7 +17,7 @@
           &lt;img src=&quot;/rawgraphs/cover_rawgraphs_huf56832bae9937299e69d83d446af6034_566714_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
           &lt;p&gt;ExcelとAdobe Illustratorなどのグラフィック・アプリの間をつなぐミッシング・リンクとなるツール。多様なチャートの種類をサポートしています。出力は画像かSVG形式です。&lt;/p&gt;
         </description></item><item>
-      <title>Sankeymatic</title>
+      <title>Sankeymatic（サンキー・ダイアグラム）</title>
       <link>/sankeymatic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -26,7 +26,7 @@
           &lt;img src=&quot;/sankeymatic/cover_sankeymatic_hue724d4f49662f2ab9e39db5095be447d_69491_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
           &lt;p&gt;サンキー・ダイアグラムの作成に特化したツールです。データ形式が簡易なものなので、スプレッドシート・ツールで作成したデータを用いて、誰でも手軽にサンキー・ダイアグラムの作成が出来ます。出力はPNGかSVG形式です。&lt;/p&gt;
         </description></item><item>
-      <title>Tilegrams</title>
+      <title>Tilegrams（タイル状地図作成）</title>
       <link>/tilegrams/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
