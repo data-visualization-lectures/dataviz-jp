@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>dataviz-29fbmd6aw-datavizlectures.vercel.app/rawgraphs/</loc>
+    <loc>/rawgraphs/</loc>
   </url><url>
-    <loc>dataviz-29fbmd6aw-datavizlectures.vercel.app/sankeymatic/</loc>
+    <loc>/sankeymatic/</loc>
   </url><url>
-    <loc>dataviz-29fbmd6aw-datavizlectures.vercel.app/tilegrams/</loc>
+    <loc>/tilegrams/</loc>
   </url><url>
-    <loc>dataviz-29fbmd6aw-datavizlectures.vercel.app/colorbrewer/</loc>
+    <loc>/colorbrewer/</loc>
   </url><url>
-    <loc>dataviz-29fbmd6aw-datavizlectures.vercel.app/</loc>
+    <loc>/</loc>
     <lastmod>2023-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>dataviz-29fbmd6aw-datavizlectures.vercel.app/about/</loc>
+    <loc>/about/</loc>
   </url></urlset>

@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dataviz.jp</title>
-    <link>dataviz-29fbmd6aw-datavizlectures.vercel.app/</link>
+    <link>/</link>
     <description>Recent content on dataviz.jp</description>
     
     <language>ja-jp</language>
     <copyright>Visualizing.JP</copyright>
-    <lastBuildDate>Thu, 31 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="dataviz-29fbmd6aw-datavizlectures.vercel.app/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Thu, 31 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>RAWGraphs2</title>
-      <link>dataviz-29fbmd6aw-datavizlectures.vercel.app/rawgraphs/</link>
+      <link>/rawgraphs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>dataviz-29fbmd6aw-datavizlectures.vercel.app/rawgraphs/</guid><media:content url="/dataviz-29fbmd6aw-datavizlectures.vercel.app/rawgraphs/cover_rawgraphs_huf56832bae9937299e69d83d446af6034_566714_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
+      <guid>/rawgraphs/</guid><media:content url="/rawgraphs/cover_rawgraphs_huf56832bae9937299e69d83d446af6034_566714_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;/dataviz-29fbmd6aw-datavizlectures.vercel.app/rawgraphs/cover_rawgraphs_huf56832bae9937299e69d83d446af6034_566714_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
+          &lt;img src=&quot;/rawgraphs/cover_rawgraphs_huf56832bae9937299e69d83d446af6034_566714_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
           &lt;p&gt;Fashion and Beauty are a powerful form of self-expression. This category documents style through inspiring shots of street fashion, skincare products, avant-garde editorial photographs, and more.&lt;/p&gt;
         </description></item><item>
       <title>Sankeymatic</title>
-      <link>dataviz-29fbmd6aw-datavizlectures.vercel.app/sankeymatic/</link>
+      <link>/sankeymatic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>dataviz-29fbmd6aw-datavizlectures.vercel.app/sankeymatic/</guid><media:content url="/dataviz-29fbmd6aw-datavizlectures.vercel.app/sankeymatic/cover_sankeymatic_hue724d4f49662f2ab9e39db5095be447d_69491_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
+      <guid>/sankeymatic/</guid><media:content url="/sankeymatic/cover_sankeymatic_hue724d4f49662f2ab9e39db5095be447d_69491_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;/dataviz-29fbmd6aw-datavizlectures.vercel.app/sankeymatic/cover_sankeymatic_hue724d4f49662f2ab9e39db5095be447d_69491_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
+          &lt;img src=&quot;/sankeymatic/cover_sankeymatic_hue724d4f49662f2ab9e39db5095be447d_69491_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
           &lt;p&gt;Fashion and Beauty are a powerful form of self-expression. This category documents style through inspiring shots of street fashion, skincare products, avant-garde editorial photographs, and more.&lt;/p&gt;
         </description></item><item>
       <title>Tilegrams</title>
-      <link>dataviz-29fbmd6aw-datavizlectures.vercel.app/tilegrams/</link>
+      <link>/tilegrams/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>dataviz-29fbmd6aw-datavizlectures.vercel.app/tilegrams/</guid><media:content url="/dataviz-29fbmd6aw-datavizlectures.vercel.app/tilegrams/cover_tilegrams_hu4ebb722dc071eb3f841a41983d012113_1144284_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
+      <guid>/tilegrams/</guid><media:content url="/tilegrams/cover_tilegrams_hu4ebb722dc071eb3f841a41983d012113_1144284_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;/dataviz-29fbmd6aw-datavizlectures.vercel.app/tilegrams/cover_tilegrams_hu4ebb722dc071eb3f841a41983d012113_1144284_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
+          &lt;img src=&quot;/tilegrams/cover_tilegrams_hu4ebb722dc071eb3f841a41983d012113_1144284_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
           &lt;p&gt;Fashion and Beauty are a powerful form of self-expression. This category documents style through inspiring shots of street fashion, skincare products, avant-garde editorial photographs, and more.&lt;/p&gt;
         </description></item><item>
       <title>Color Brewer</title>
-      <link>dataviz-29fbmd6aw-datavizlectures.vercel.app/colorbrewer/</link>
+      <link>/colorbrewer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>dataviz-29fbmd6aw-datavizlectures.vercel.app/colorbrewer/</guid><media:content url="/dataviz-29fbmd6aw-datavizlectures.vercel.app/colorbrewer/cover_colorbrewer_hub8bbdf3663cf44f2f5b2436accfa75a8_1382605_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
+      <guid>/colorbrewer/</guid><media:content url="/colorbrewer/cover_colorbrewer_hub8bbdf3663cf44f2f5b2436accfa75a8_1382605_900x600_fill_catmullrom_smart1_3.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;/dataviz-29fbmd6aw-datavizlectures.vercel.app/colorbrewer/cover_colorbrewer_hub8bbdf3663cf44f2f5b2436accfa75a8_1382605_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
+          &lt;img src=&quot;/colorbrewer/cover_colorbrewer_hub8bbdf3663cf44f2f5b2436accfa75a8_1382605_900x600_fill_catmullrom_smart1_3.png&quot; /&gt;
           &lt;p&gt;Fashion and Beauty are a powerful form of self-expression. This category documents style through inspiring shots of street fashion, skincare products, avant-garde editorial photographs, and more.&lt;/p&gt;
         </description></item>
   </channel>
