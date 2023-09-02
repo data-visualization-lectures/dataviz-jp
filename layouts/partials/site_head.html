@@ -25,3 +25,13 @@
   {{ $js := resources.Get "js/main.js" | js.Build (dict "minify" true) | resources.Fingerprint }}
   <script src="{{ $js.RelPermalink }}" defer></script>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G4XEBS8MV7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G4XEBS8MV7');
+</script>
+<!-- Google tag (gtag.js) -->
