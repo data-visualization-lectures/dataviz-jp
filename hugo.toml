@@ -8,7 +8,7 @@ theme = "github.com/nicokaiser/hugo-theme-gallery"
 
 [params]
   title = "dataviz.jp"
-  description = "ログイン不要で使用できる無料データ可視化ツール集"
+  description = "ログイン不要・日本語で利用できる無料データ可視化ツール集"
   defaultTheme = "dark"
 
 [author]
