@@ -6,11 +6,11 @@
   </url><url>
     <loc>/colorbrewer/</loc>
   </url><url>
-    <loc>/rawgraphs/</loc>
-  </url><url>
     <loc>/sankeymatic/</loc>
   </url><url>
     <loc>/tilegrams/</loc>
+  </url><url>
+    <loc>/rawgraphs/</loc>
   </url><url>
     <loc>/</loc>
     <lastmod>2023-08-31T00:00:00+00:00</lastmod>
