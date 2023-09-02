@@ -52,3 +52,14 @@ theme = "github.com/nicokaiser/hugo-theme-gallery"
   [[build.cachebusters]]
     source = "assets/.*\\.(.*)$"
     target = "$1"
+
+[menu]
+[[menu.footer]]
+  name = "Visualizing.JP"
+  url = "https://visualizing.jp/"
+  weight = 1
+
+[[menu.footer]]
+  name = "データビジュアライゼーション講習"
+  url = "data-vis-lectures.com"
+  weight = 3
