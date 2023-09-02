@@ -68,6 +68,7 @@
       "hover:bg-slate-700",
       "hover:brightness-90",
       "hover:text-black",
+      "hover:text-neutral-50",
       "hover:text-slate-50",
       "inline-flex",
       "items-center",
