@@ -1,6 +1,6 @@
 title = "dataviz.jp"
 languageCode = "ja-jp"
-copyright = "Visualizing.JP"
+copyright = ""
 disableKinds = ["taxonomy", "term"]
 defaultContentLanguage = "ja"
 enableRobotsTXT = true
