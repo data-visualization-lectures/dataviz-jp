@@ -8,7 +8,7 @@
     {{ range where .Pages.ByDate.Reverse "Params.private" "ne" true }}
       {{ if .IsSection }}
         {{ $active := false }}
-        {{ if or (eq . page.Page) (.IsAncestor page.Page) }}
+        {{ if or (eq . .Page) (.IsAncestor .Page) }}
           {{ $active = true }}
         {{ end }}
         <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
