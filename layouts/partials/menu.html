@@ -17,7 +17,7 @@
         {{ $count := (len (.Resources.ByType "image")) }}
         {{ if gt $count 0 }}
           <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-            <a class="{{ if (eq . page) }}text-black dark:text-white{{ end }} block py-2 hover:text-black dark:hover:text-neutral-200" href="{{ .RelPermalink }}" itemprop="url">
+            <a class="{{ if (eq . .Page) }}text-black dark:text-white{{ end }} block py-2 hover:text-black dark:hover:text-neutral-200" href="{{ .RelPermalink }}" itemprop="url">
               <span itemprop="name">{{ .LinkTitle }}</span>
             </a>
           </li>
