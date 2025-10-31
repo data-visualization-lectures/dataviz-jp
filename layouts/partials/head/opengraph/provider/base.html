@@ -28,15 +28,17 @@
     {{- if not .Date.IsZero -}}
         <meta property='article:published_time' content='{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}'/>
     {{- end -}}
-    {{- if not .Lastmod.IsZero -}}
+    {{- if and .Lastmod (not .Lastmod.IsZero) -}}
         <meta property='article:modified_time' content='{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}'/>
     {{- end -}}
 {{- else -}}
-    {{- with (.Lastmod | default .Site.Lastmod) }}
-        {{- if reflect.IsValid . -}}
-            {{- with . -}}
-                <meta property='og:updated_time' content='{{ .Format "2006-01-02T15:04:05-07:00" | safeHTML }}'/>
-            {{- end -}}
+    {{- $updated := .Lastmod -}}
+    {{- if or (not $updated) ($updated.IsZero) -}}
+        {{- $updated = .Site.LastChange -}}
+    {{- end -}}
+    {{- with $updated -}}
+        {{- if not .IsZero -}}
+            <meta property='og:updated_time' content='{{ .Format "2006-01-02T15:04:05-07:00" | safeHTML }}'/>
         {{- end -}}
     {{- end -}}
 {{- end -}}
