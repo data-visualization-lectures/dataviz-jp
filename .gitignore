@@ -2,3 +2,5 @@ node_modules/
 themes/
 resources/_gen/
 public/
+content/post/.DS_Store
+.DS_Store
