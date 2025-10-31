@@ -1,6 +1,6 @@
 ---
-title: Color Brewer（カラースキーム選び）
-description: 
+title: Color Brewer
+description: カラースキーム選び
 weight: 2
 categories: "data-visualization"
 address: https://colorbrewer.dataviz.jp/

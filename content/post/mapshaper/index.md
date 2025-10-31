@@ -1,6 +1,6 @@
 ---
-title: Mapshaper（地図データ用エディタ）
-description: 
+title: Mapshaper
+description: 地図データ用エディタ
 weight: 1
 categories: "data-wrangling"
 address: http://mapshaper.dataviz.jp/

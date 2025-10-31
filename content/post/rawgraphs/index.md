@@ -1,6 +1,6 @@
 ---
-title: RAWGraphs2（多様なチャート作成）
-description: 
+title: RAWGraphs2
+description: 多様なチャート作成
 weight: 5
 categories: "data-visualization"
 address: https://raw.dataviz.jp/

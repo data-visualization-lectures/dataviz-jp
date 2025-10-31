@@ -1,6 +1,6 @@
 ---
-title: Sankeymatic（サンキー・ダイアグラム）
-description: 
+title: Sankeymatic
+description: サンキー・ダイアグラム
 weight: 3
 categories: "data-visualization"
 address: https://sankeymatic.dataviz.jp/
