@@ -2,7 +2,7 @@ baseurl: https://dataviz-jp.netlify.app/
 languageCode: ja
 title: dataviz.jp
 theme: hugo-theme-stack
-copyright: "© 2024 dataviz.jp"
+copyright: "© dataviz.jp"
 DefaultContentLanguage: ja
 hasCJKLanguage: true
 
@@ -24,6 +24,10 @@ languages:
     params:
       sidebar:
         subtitle: Free, login-free data visualization tools available in Japanese
+
+taxonomies:
+  category: categories
+  tag: tags
 
 services:
   disqus:
