@@ -45,3 +45,25 @@
 .article-list--three-column article {
   height: 100%;
 }
+
+.categories-widget {
+  .category-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.4rem;
+
+    .category-pill__count {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 24px;
+      height: 24px;
+      padding: 0 8px;
+      border-radius: 999px;
+      background-color: var(--accent-color);
+      color: var(--accent-color-text);
+      font-size: 1.2rem;
+    }
+  }
+}

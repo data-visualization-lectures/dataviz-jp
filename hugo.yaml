@@ -45,6 +45,11 @@ params:
       enabled: false
       local: true
       src: img/avatar.png
+    categories:
+      order:
+        - data-visualization
+        - data-wrangling
+        - explainer
 
   article:
     math: false
