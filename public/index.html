@@ -1,250 +1,720 @@
 <!DOCTYPE html>
-<html lang="ja-jp" class="dark h-full"><head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-  <title>dataviz.jp</title>
-  <link rel="canonical" href="/" />
-  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
-  <link rel="icon" type="image/png" href="/images/favicon.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
-  <link rel="preload" href="/fonts/Inter-roman.var.woff2" as="font" type="font/woff2" />
-  <meta name="description" content="ログイン不要・日本語で利用できる無料データ可視化ツール集" />
-  <meta name="generator" content="Hugo 0.118.2">
-  
-  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="dataviz.jp" />
-  <meta property="og:title" content="データ可視化ツール集" />
-<meta property="og:description" content="ログイン不要・日本語で利用できる無料データ可視化ツール集" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/" /><meta property="og:image" content="/cover_dataviz_jp.png" /><meta property="og:site_name" content="データ可視化ツール集" />
+<html lang="ja" dir="ltr">
+    <head>
+	<meta name="generator" content="Hugo 0.152.0"><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="ログイン不要・日本語で利用できる無料データ可視化ツール集">
+<title>dataviz.jp</title>
 
-  
-  <link rel="stylesheet" href="/css/styles.min.ea97e046c66d2094abc7729700c126a5e9d22a8a2ebd660556e021ce5a963b48.css" />
-  
-  <script src="/js/main.6385cdcd259c8f61117754f7e92df1921552ab9ee6072cd5fbd14920726d2923.js" defer></script>
-</head>
+<link rel='canonical' href='https://dataviz-jp.netlify.app/'>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-G4XEBS8MV7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<link rel="stylesheet" href="/scss/style.min.6a692fd055deae459f2a9767f57f3855ba80cafd5041317f24f7360f6ca47cdf.css"><meta property='og:title' content="dataviz.jp">
+<meta property='og:description' content="ログイン不要・日本語で利用できる無料データ可視化ツール集">
+<meta property='og:url' content='https://dataviz-jp.netlify.app/'>
+<meta property='og:site_name' content='dataviz.jp'>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2020-10-09T00:00:00&#43;00:00 '/>
+<meta name="twitter:title" content="dataviz.jp">
+<meta name="twitter:description" content="ログイン不要・日本語で利用できる無料データ可視化ツール集"><link rel="alternate" type="application/rss&#43;xml" href="https://dataviz-jp.netlify.app/index.xml">
+    <link rel="shortcut icon" href="/favicon.ico" />
 
-  gtag('config', 'G-G4XEBS8MV7');
+    </head>
+    <body class="">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
 </script>
-<body class="flex min-h-full flex-col bg-white text-neutral-900 antialiased dark:bg-neutral-900 dark:text-neutral-100 bg-background-texture"><header class="w-full">
-  <div class="mx-auto flex max-w-screen-3xl flex-wrap justify-between px-6" x-data="{ expanded: false }">
-    <div class="flex h-16 w-full justify-between">
-      
-      
-        <a class="inline-flex items-center py-4 text-xl font-medium dark:text-neutral-100" href="/">
-          dataviz.jp
-        </a>
-      
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="メニューを開く・閉じる">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
 
-      <button @click="expanded = !expanded" type="button" class="group -me-4 ml-3 inline-flex items-center p-3 text-sm dark:text-neutral-100" title="">
-        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" x-show="!expanded">
-          <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-        </svg>
-        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" x-cloak="x-cloak" x-show="expanded">
-          <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-        </svg>
-      </button>
+    <header>
+        
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">dataviz.jp</a></h1>
+            <h2 class="site-description">ログイン不要・日本語で利用できる無料データ可視化ツール集</h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li  class='current' >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/_index.zh-cn/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>ダークモード</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    
+    
+    
+    
+
+    <section class="article-list">
+        
+            
+<article class="has-image">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/test-chinese/">
+                
+                    <img src="/helena-hertz-wWZzXlDpMog-unsplash.jpg" loading="lazy" alt="Featured image of post Chinese Test" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/test/" style="background-color: #2a9d8f; color: #fff;">
+                Test
+            </a>
+        
+            <a href="/categories/%E6%B5%8B%E8%AF%95/" >
+                测试
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/test-chinese/">Chinese Test</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            这是一个副标题
+        </h3>
+        
     </div>
 
-    <div x-cloak x-show="expanded" x-collapse class="w-full"><ul class="my-12 text-center text-xl font-medium text-neutral-500 dark:text-neutral-500">
-  
-    <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-      <a class="text-black dark:text-white block py-2 transition-colors hover:text-black dark:hover:text-neutral-200" href="/" itemprop="url">
-        <span itemprop="name">Home</span>
-      </a>
-    </li>
     
-      
-        
-        
-      
     
-      
-        
-        
-          <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-            <a class=" block py-2 hover:text-black dark:hover:text-neutral-200" href="/rawgraphs/" itemprop="url">
-              <span itemprop="name">RAWGraphs2（多様なチャート作成）</span>
-            </a>
-          </li>
-        
-      
     
-      
-        
-        
-          <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-            <a class=" block py-2 hover:text-black dark:hover:text-neutral-200" href="/sankeymatic/" itemprop="url">
-              <span itemprop="name">Sankeymatic（サンキー・ダイアグラム）</span>
-            </a>
-          </li>
-        
-      
     
-      
+    <footer class="article-time">
         
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2020-09-09</time>
+            </div>
         
-          <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-            <a class=" block py-2 hover:text-black dark:hover:text-neutral-200" href="/colorbrewer/" itemprop="url">
-              <span itemprop="name">Color Brewer（カラースキーム選び）</span>
-            </a>
-          </li>
+
         
-      
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    読了時間: 2分
+                </time>
+            </div>
+        
+    </footer>
     
-      
-        
-        
-          <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-            <a class=" block py-2 hover:text-black dark:hover:text-neutral-200" href="/mapshaper/" itemprop="url">
-              <span itemprop="name">Mapshaper（地図データ用エディタ）</span>
-            </a>
-          </li>
-        
-      
+
     
-  
-    <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-      <a class=" block py-2 transition-colors hover:text-black dark:hover:text-neutral-200" href="/about/" itemprop="url">
-        <span itemprop="name">About</span>
-      </a>
-    </li>
-</ul>
 </div>
-  </div>
+
 </header>
-<main class="mx-auto w-full max-w-screen-3xl grow">
-  <div class="mx-auto mb-16 mt-9 max-w-screen-lg px-6 text-center">
-    <h1 class="text-3xl font-semibold tracking-tight md:text-4xl">dataviz.jp</h1>
-    
-      <p class="mt-6 text-neutral-500 dark:text-neutral-400 md:text-lg">ログイン不要・日本語で利用できる無料データ可視化ツール集</p>
-    
-  </div>
-
-<div class="mb-12 mt-9 grid grid-cols-1 gap-6 px-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 3xl:grid-cols-5">
-  
-    
-    
-  
-    
-    
-      
-      
-      
-      
-
-      <a href="/rawgraphs/" class="rounded-2xl bg-neutral-100 transition-[filter] hover:brightness-90 dark:bg-neutral-800 dark:hover:brightness-110" title="RAWGraphs2（多様なチャート作成）">
-        <div class="h-100">
-          <div class="w-full overflow-hidden rounded-2xl" style="background-color: #ebebea">
-            <img class="lazyload aspect-[3/2] w-full" data-src="/rawgraphs/cover_rawgraphs_huf56832bae9937299e69d83d446af6034_566714_900x600_fill_catmullrom_smart1_3.png" alt="RAWGraphs2（多様なチャート作成）" />
-          </div>
-          <div class="p-5">
-            <h5 class="mb-2 text-lg font-semibold leading-6">
-              RAWGraphs2（多様なチャート作成）
-            </h5>
-            <p class="text-sm font-normal text-neutral-600 dark:text-neutral-400">
-              </p>
-          </div>
+</article>
+        
+            
+<article class="has-image">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/markdown-syntax-guide/">
+                <img src="/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash_hu_c86b681f3fee94ff.jpg"
+                        srcset="/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash_hu_c86b681f3fee94ff.jpg 800w, /p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash_hu_bea442a1395058f4.jpg 1600w"
+                        width="800" 
+                        height="534" 
+                        loading="lazy"
+                        alt="Featured image of post Markdown Syntax Guide" />
+                
+            </a>
         </div>
-      </a>
     
-  
-    
-    
-      
-      
-      
-      
 
-      <a href="/sankeymatic/" class="rounded-2xl bg-neutral-100 transition-[filter] hover:brightness-90 dark:bg-neutral-800 dark:hover:brightness-110" title="Sankeymatic（サンキー・ダイアグラム）">
-        <div class="h-100">
-          <div class="w-full overflow-hidden rounded-2xl" style="background-color: #e0d9d6">
-            <img class="lazyload aspect-[3/2] w-full" data-src="/sankeymatic/cover_sankeymatic_hue724d4f49662f2ab9e39db5095be447d_69491_900x600_fill_catmullrom_smart1_3.png" alt="Sankeymatic（サンキー・ダイアグラム）" />
-          </div>
-          <div class="p-5">
-            <h5 class="mb-2 text-lg font-semibold leading-6">
-              Sankeymatic（サンキー・ダイアグラム）
-            </h5>
-            <p class="text-sm font-normal text-neutral-600 dark:text-neutral-400">
-              </p>
-          </div>
-        </div>
-      </a>
+    <div class="article-details">
     
-  
+    <header class="article-category">
+        
+            <a href="/categories/themes/" >
+                Themes
+            </a>
+        
+            <a href="/categories/syntax/" >
+                Syntax
+            </a>
+        
+    </header>
     
-    
-      
-      
-      
-      
 
-      <a href="/colorbrewer/" class="rounded-2xl bg-neutral-100 transition-[filter] hover:brightness-90 dark:bg-neutral-800 dark:hover:brightness-110" title="Color Brewer（カラースキーム選び）">
-        <div class="h-100">
-          <div class="w-full overflow-hidden rounded-2xl" style="background-color: #b5e2d9">
-            <img class="lazyload aspect-[3/2] w-full" data-src="/colorbrewer/cover_colorbrewer_hub8bbdf3663cf44f2f5b2436accfa75a8_1382605_900x600_fill_catmullrom_smart1_3.png" alt="Color Brewer（カラースキーム選び）" />
-          </div>
-          <div class="p-5">
-            <h5 class="mb-2 text-lg font-semibold leading-6">
-              Color Brewer（カラースキーム選び）
-            </h5>
-            <p class="text-sm font-normal text-neutral-600 dark:text-neutral-400">
-              </p>
-          </div>
-        </div>
-      </a>
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/markdown-syntax-guide/">Markdown Syntax Guide</a>
+        </h2>
     
-  
-    
-    
-      
-      
-      
-      
+        
+        <h3 class="article-subtitle">
+            Sample article showcasing basic Markdown syntax and formatting for HTML elements.
+        </h3>
+        
+    </div>
 
-      <a href="/mapshaper/" class="rounded-2xl bg-neutral-100 transition-[filter] hover:brightness-90 dark:bg-neutral-800 dark:hover:brightness-110" title="Mapshaper（地図データ用エディタ）">
-        <div class="h-100">
-          <div class="w-full overflow-hidden rounded-2xl" style="background-color: #f0f0f1">
-            <img class="lazyload aspect-[3/2] w-full" data-src="/mapshaper/cover_mapshaper_hua9a2c8eecf0b967cd95ab8e42e557b11_201264_900x600_fill_catmullrom_smart1_3.png" alt="Mapshaper（地図データ用エディタ）" />
-          </div>
-          <div class="p-5">
-            <h5 class="mb-2 text-lg font-semibold leading-6">
-              Mapshaper（地図データ用エディタ）
-            </h5>
-            <p class="text-sm font-normal text-neutral-600 dark:text-neutral-400">
-              </p>
-          </div>
-        </div>
-      </a>
     
-  
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2019-03-11</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    読了時間: 3分
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
 </div>
 
-    </main><footer class="mx-auto mb-10 mt-4 flex max-w-screen-3xl flex-none flex-wrap justify-center px-6 text-center text-sm text-neutral-600 dark:text-neutral-400">
-  <span class="m-2"></span>
+</header>
+</article>
+        
+            
+<article class="">
+    <header class="article-header">
 
-  
-    <ul class="my-2 flex flex-wrap justify-center">
-      
-        <li>
-          <a href="https://visualizing.jp/" class="mx-2 hover:text-neutral-50">
-            Visualizing.JP
-          </a>
-        </li>
-      
-        <li>
-          <a href="data-vis-lectures.com" class="mx-2 hover:text-neutral-50">
-            データビジュアライゼーション講習
-          </a>
-        </li>
-      
-    </ul>
-  
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/rich-content/">Rich Content</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            A brief description of Hugo Shortcodes
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2019-03-10</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    読了時間: 2分
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+</article>
+        
+            
+<article class="has-image">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/placeholder-text/">
+                <img src="/p/placeholder-text/matt-le-SJSpo9hQf7s-unsplash_hu_35cb8ebf5fe9ea03.jpg"
+                        srcset="/p/placeholder-text/matt-le-SJSpo9hQf7s-unsplash_hu_35cb8ebf5fe9ea03.jpg 800w, /p/placeholder-text/matt-le-SJSpo9hQf7s-unsplash_hu_82f8de9742c8486f.jpg 1600w"
+                        width="800" 
+                        height="533" 
+                        loading="lazy"
+                        alt="Featured image of post Placeholder Text" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/test/" style="background-color: #2a9d8f; color: #fff;">
+                Test
+            </a>
+        
+            <a href="/categories/test-with-whitespaces/" >
+                Test With Whitespaces
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/placeholder-text/">Placeholder Text</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            Lorem Ipsum Dolor Si Amet
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2019-03-09</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    読了時間: 2分
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+</article>
+        
+            
+<article class="">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/math-typesetting/">Math Typesetting</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            A brief guide to setup KaTeX
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2019-03-08</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    読了時間: 1分
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+</article>
+        
+            
+<article class="has-image">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/emoji-support/">
+                <img src="/p/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash_hu_4478d0ca4dd8c594.jpg"
+                        srcset="/p/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash_hu_4478d0ca4dd8c594.jpg 800w, /p/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash_hu_8df8f39ac35f88d8.jpg 1600w"
+                        width="800" 
+                        height="566" 
+                        loading="lazy"
+                        alt="Featured image of post Emoji Support" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/test/" style="background-color: #2a9d8f; color: #fff;">
+                Test
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/emoji-support/">Emoji Support</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            Guide to emoji usage in Hugo
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2019-03-05</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    読了時間: 1分
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+</article>
+        
+    </section>
+<footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2024 - 
+        
+        2025 © 2024 dataviz.jp
+    </section>
+    
+    <section class="powerby">
+        <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> で構築されています。 <br />
+        テーマ <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.31.0">Stack</a></b> は <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> によって設計されています。
+    </section>
 </footer>
-</body>
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
 </html>

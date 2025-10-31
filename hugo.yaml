@@ -1,0 +1,76 @@
+baseurl: https://dataviz-jp.netlify.app/
+languageCode: ja
+title: dataviz.jp
+theme: hugo-theme-stack
+copyright: "© 2024 dataviz.jp"
+DefaultContentLanguage: ja
+hasCJKLanguage: true
+
+pagination:
+  pagerSize: 10
+
+languages:
+  ja:
+    languageName: 日本語
+    title: dataviz.jp
+    weight: 1
+    params:
+      sidebar:
+        subtitle: ログイン不要・日本語で利用できる無料データ可視化ツール集
+  en:
+    languageName: English
+    title: dataviz.jp
+    weight: 2
+    params:
+      sidebar:
+        subtitle: Free, login-free data visualization tools available in Japanese
+
+services:
+  disqus:
+    shortname: ""
+  googleAnalytics:
+    id: ""
+
+permalinks:
+  post: /p/:slug/
+  page: /:slug/
+
+params:
+  mainSections:
+    - post
+  featuredImageField: image
+  rssFullContent: true
+  favicon: /favicon.ico
+
+  footer:
+    since: 2024
+    customText: ""
+
+  dateFormat:
+    published: 2006-01-02
+    lastUpdated: 2006-01-02 15:04
+
+  sidebar:
+    emoji: 📊
+    subtitle: ログイン不要・日本語で利用できる無料データ可視化ツール集
+    avatar:
+      enabled: false
+      local: true
+      src: img/avatar.png
+
+  article:
+    math: false
+    toc: true
+    readingTime: true
+    license:
+      enabled: false
+      default: ""
+
+  comments:
+    enabled: false
+    provider: disqus
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
