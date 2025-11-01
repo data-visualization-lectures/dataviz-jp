@@ -8,6 +8,16 @@ address: https://neural-network-playground.dataviz.jp/
 image: "images/cover_neural-network-playground.png"
 ---
 
+{{< external-link-card
+    url="https://neural-network-playground.dataviz.jp/"
+    title="Neural Network Playground"
+    image="images/cover_neural-network-playground.png"
+    site="dataviz.jp"
+    description=""
+>}}
+{{< /external-link-card >}}
+
+
 
 ## 主な機能
 

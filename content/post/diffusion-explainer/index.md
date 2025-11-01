@@ -8,6 +8,14 @@ address: https://diffusion-explainer.dataviz.jp/
 image: "images/cover_diffusion-explainer.png"
 ---
 
+{{< external-link-card
+    url="https://diffusion-explainer.dataviz.jp/"
+    title="Diffusion Explainer"
+    image="images/cover_diffusion-explainer.png"
+    site="dataviz.jp"
+    description=""
+>}}
+{{< /external-link-card >}}
 
 ## コンテンツの構成
 

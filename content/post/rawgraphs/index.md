@@ -8,6 +8,15 @@ address: https://raw.dataviz.jp/
 image: "images/cover_rawgraphs.png"
 ---
 
+{{< external-link-card
+    url="https://raw.dataviz.jp/"
+    title="RAWGraphs2"
+    image="images/cover_rawgraphs.png"
+    site="dataviz.jp"
+    description=""
+>}}
+{{< /external-link-card >}}
+
 ExcelとAdobe Illustratorなどのグラフィック・アプリの間をつなぐミッシング・リンクとなるツール。
 
 多様なチャートの種類を、手軽に作成することができます。出力は画像かSVG形式です。

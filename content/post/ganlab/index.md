@@ -8,6 +8,15 @@ address: https://ganlab.dataviz.jp/
 image: "images/cover_ganlab.png"
 ---
 
+{{< external-link-card
+    url="https://ganlab.dataviz.jp/"
+    title="GAN Lab"
+    image="images/cover_ganlab.png"
+    site="dataviz.jp"
+    description=""
+>}}
+{{< /external-link-card >}}
+
 
 ## コンテンツ構成
 

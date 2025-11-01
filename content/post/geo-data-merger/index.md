@@ -8,6 +8,14 @@ address: https://geo-data-merger.dataviz.jp/
 image: "images/cover_geo-data-merger.png"
 ---
 
+{{< external-link-card
+    url="https://geo-data-merger.dataviz.jp/"
+    title="(Geo) DataMerger"
+    image="images/cover_geo-data-merger.png"
+    site="dataviz.jp"
+    description=""
+>}}
+{{< /external-link-card >}}
 
 ## 主な機能
 

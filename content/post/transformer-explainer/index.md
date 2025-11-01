@@ -9,6 +9,16 @@ image: "images/cover_transformer-explainer.png"
 ---
 
 
+{{< external-link-card
+    url="https://transformer-explainer.dataviz.jp/"
+    title="Transformer Explainer"
+    image="images/cover_transformer-explainer.png"
+    site="dataviz.jp"
+    description=""
+>}}
+{{< /external-link-card >}}
+
+
 ## コンテンツ構成
 
 1. **Overview**：Transformer の入力から出力までのパイプラインをアニメーションで解説。

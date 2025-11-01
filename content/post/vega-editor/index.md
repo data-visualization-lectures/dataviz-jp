@@ -8,6 +8,15 @@ address: https://vega-editor.dataviz.jp/
 image: "images/cover_vega-editor.png"
 ---
 
+{{< external-link-card
+    url="https://vega-editor.dataviz.jp/"
+    title="Vega Editor"
+    image="images/cover_vega-editor.png"
+    site="dataviz.jp"
+    description=""
+>}}
+{{< /external-link-card >}}
+
 
 ## 主な機能
 

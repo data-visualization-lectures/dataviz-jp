@@ -8,6 +8,15 @@ address: https://colorbrewer.dataviz.jp/
 image: "images/cover_colorbrewer.png"
 ---
 
+{{< external-link-card
+    url="https://colorbrewer.dataviz.jp/"
+    title="Color Brewer"
+    image="images/cover_colorbrewer.png"
+    site="dataviz.jp"
+    description=""
+>}}
+{{< /external-link-card >}}
+
 
 データの性質にあったカラースキーム選びのためのツール。地図上にダミーのデータがすでに掲載されており、カラーのシミュレーションが手早く行うことが出来ます。
 

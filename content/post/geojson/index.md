@@ -8,6 +8,15 @@ address: https://geojson.dataviz.jp/
 image: "images/cover_geojson.png"
 ---
 
+{{< external-link-card
+    url="https://geojson.dataviz.jp/"
+    title="GeoJSON.io"
+    image="images/cover_geojson.png"
+    site="dataviz.jp"
+    description=""
+>}}
+{{< /external-link-card >}}
+
 対応フォーマット：GeoJSON・TopoJSON・CSV（Point）・KML・GPX などをサポートし、双方向にエクスポート可能
 
 ## 主な機能

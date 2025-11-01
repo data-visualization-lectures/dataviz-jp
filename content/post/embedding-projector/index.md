@@ -8,6 +8,16 @@ address: https://embedding-projector.dataviz.jp/
 image: "images/cover_embedding-projector.png"
 ---
 
+{{< external-link-card
+    url="https://embedding-projector.dataviz.jp/"
+    title="Embedding Projector"
+    image="images/cover_embedding-projector.png"
+    site="dataviz.jp"
+    description=""
+>}}
+{{< /external-link-card >}}
+
+
 高次元ベクトルのクラスタを確認し、誤分類サンプルや異常値を視覚的に発見する用途でよく利用されます。
 
 TensorBoard との統合により、学習過程で随時 Embedding を更新しながらトレーニングの挙動を把握できます。

@@ -8,6 +8,15 @@ address: https://tilegrams.dataviz.jp/
 image: "images/cover_tilegrams.png"
 ---
 
+{{< external-link-card
+    url="https://tilegrams.dataviz.jp/"
+    title="Tilegrams"
+    image="images/cover_tilegrams.png"
+    site="dataviz.jp"
+    description=""
+>}}
+{{< /external-link-card >}}
+
 等面積タイル（Hex / Square）で人口や指標を表す「タイル地図（Tilegram）」を生成するツール
 
 ## 主な機能

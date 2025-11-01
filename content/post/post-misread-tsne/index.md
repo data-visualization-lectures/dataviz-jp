@@ -8,6 +8,16 @@ address: https://post-misread-tsne.dataviz.jp/
 image: "images/cover_post-misread-tsne.png"
 ---
 
+{{< external-link-card
+    url="https://post-misread-tsne.dataviz.jp/"
+    title="t-SNEを効果的に使用する方法"
+    image="images/cover_post-misread-tsne.png"
+    site="dataviz.jp"
+    description=""
+>}}
+{{< /external-link-card >}}
+
+
 
 ## 記事の構成
 
