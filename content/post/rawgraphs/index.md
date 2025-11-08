@@ -2,7 +2,7 @@
 title: RAWGraphs2
 description: 多様なチャートを手軽に作成
 slug: "rawgraphs"
-weight: 5
+weight: 1
 categories: "data-visualization"
 address: https://raw.dataviz.jp/
 image: "images/cover_rawgraphs.png"

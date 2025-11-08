@@ -1,8 +1,8 @@
 ---
 title: Leonardo
-description: 多様なチャートを手軽に作成
+description: カラーパレットを生成
 slug: "leonardo"
-weight: 5
+weight: 2
 categories: "data-visualization"
 address: https://leonardo.dataviz.jp/
 image: "images/cover-leonardo.png"

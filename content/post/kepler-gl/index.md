@@ -2,7 +2,7 @@
 title: 3D主題地図ツール kepler.gl
 description: 多様なチャートを手軽に作成
 slug: "kepler-gl"
-weight: 5
+weight: 1
 categories: "data-visualization"
 address: https://kepler-gl.dataviz.jp/
 image: "images/cover_kepler.png"
