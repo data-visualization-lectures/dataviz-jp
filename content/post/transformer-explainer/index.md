@@ -1,6 +1,6 @@
 ---
 title: Transformer Explainer
-description: 
+description: Transformerを視覚的に解説
 slug: "transformer-explainer"
 weight: 1
 categories: "explainer"

@@ -1,6 +1,6 @@
 ---
 title: t-SNEを効果的に使用する方法
-description: 
+description: t-SNEを視覚的に解説
 slug: "post-misread-tsne"
 weight: 1
 categories: "explainer"

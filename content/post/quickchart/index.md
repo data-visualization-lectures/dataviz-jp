@@ -1,17 +1,17 @@
 ---
-title: RAWGraphs2
+title: QuickChart UI
 description: 多様なチャートを手軽に作成
-slug: "rawgraphs"
+slug: "quickchart"
 weight: 5
 categories: "data-visualization"
-address: https://raw.dataviz.jp/
-image: "images/cover_rawgraphs.png"
+address: https://quickchart.dataviz.jp/
+image: "images/cover-quickchart.png"
 ---
 
 {{< external-link-card
-    url="https://raw.dataviz.jp/"
-    title="RAWGraphs2"
-    image="images/cover_rawgraphs.png"
+    url="https://quickchart.dataviz.jp/"
+    title="QuickChart UI"
+    image="images/cover-quickchart.png"
     site="dataviz.jp"
     description=""
 >}}

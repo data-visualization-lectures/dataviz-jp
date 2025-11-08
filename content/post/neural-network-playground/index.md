@@ -1,6 +1,6 @@
 ---
 title: Neural Network Playground
-description: 
+description: ニューラル・ネットワークを視覚的に解説
 slug: "neural-network-playground"
 weight: 1
 categories: "explainer"

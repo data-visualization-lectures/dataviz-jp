@@ -1,17 +1,17 @@
 ---
-title: GAN Lab
-description: GANを視覚的に解説
-slug: "ganlab"
+title: AI Explorables
+description: AIの挙動を視覚的に理解
+slug: "ai-explorables"
 weight: 1
 categories: "explainer"
-address: https://ganlab.dataviz.jp/
-image: "images/cover_ganlab.png"
+address: https://ai-explorables.dataviz.jp/
+image: "images/cover-ai-explorables.png"
 ---
 
 {{< external-link-card
-    url="https://ganlab.dataviz.jp/"
-    title="GAN Lab"
-    image="images/cover_ganlab.png"
+    url="https://ai-explorables.dataviz.jp/"
+    title="AI Explorables"
+    image="images/cover-ai-explorables.png"
     site="dataviz.jp"
     description=""
 >}}

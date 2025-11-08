@@ -1,6 +1,6 @@
 ---
 title: Altairの使い方
-description: 
+description: Pythonベースの可視化ライブラリAltairの解説
 slug: "altair"
 weight: 1
 categories: "explainer"

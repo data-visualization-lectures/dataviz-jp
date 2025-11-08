@@ -1,17 +1,17 @@
 ---
-title: RAWGraphs2
-description: 多様なチャートを手軽に作成
-slug: "rawgraphs"
+title: SVGグラデーションエディタ
+description: 
+slug: "svg-gradient"
 weight: 5
 categories: "data-visualization"
-address: https://raw.dataviz.jp/
-image: "images/cover_rawgraphs.png"
+address: https://svg-gradient.dataviz.jp/
+image: "images/cover-svg-gradient.png"
 ---
 
 {{< external-link-card
-    url="https://raw.dataviz.jp/"
-    title="RAWGraphs2"
-    image="images/cover_rawgraphs.png"
+    url="https://svg-gradient.dataviz.jp/"
+    title="SVGグラデーションエディタ"
+    image="images/cover-svg-gradient.png"
     site="dataviz.jp"
     description=""
 >}}

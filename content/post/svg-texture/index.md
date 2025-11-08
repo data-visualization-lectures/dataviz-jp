@@ -1,17 +1,17 @@
 ---
-title: RAWGraphs2
+title: SVGテクスチャエディタ
 description: 多様なチャートを手軽に作成
-slug: "rawgraphs"
+slug: "svg-texture"
 weight: 5
 categories: "data-visualization"
-address: https://raw.dataviz.jp/
-image: "images/cover_rawgraphs.png"
+address: https://svg-tectures.dataviz.jp/
+image: "images/cover-svg-texture.jpg"
 ---
 
 {{< external-link-card
-    url="https://raw.dataviz.jp/"
-    title="RAWGraphs2"
-    image="images/cover_rawgraphs.png"
+    url="https://svg-tectures.dataviz.jp/"
+    title="SVGテクスチャエディタ"
+    image="images/cover-svg-texture.jpg"
     site="dataviz.jp"
     description=""
 >}}

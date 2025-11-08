@@ -1,6 +1,6 @@
 ---
 title: Sankeymatic
-description: サンキー・ダイアグラム
+description: サンキー・ダイアグラムを手軽に
 slug: "sankeymatic"
 weight: 3
 categories: "data-visualization"

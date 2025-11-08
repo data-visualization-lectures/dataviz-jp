@@ -1,6 +1,6 @@
 ---
 title: 顔でわかる地図投影
-description: 
+description: 横顔のイラストで理解する地図投影
 slug: "projection-face"
 weight: 1
 categories: "explainer"

@@ -1,6 +1,6 @@
 ---
 title: GeoJSON.io
-description: 
+description: 地図をトレースしてGeoJSON作成
 slug: "geojson"
 weight: 1
 categories: "data-wrangling"

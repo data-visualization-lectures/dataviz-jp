@@ -1,17 +1,17 @@
 ---
-title: Mapshaper
+title: Shift JIS ⇄ UTF-8 文字コード変換ツール
 description: 地図データの加工や変換
-slug: "mapshaper"
+slug: "change-character-encoding"
 weight: 1
 categories: "data-wrangling"
-address: http://mapshaper.dataviz.jp/
-image: "images/cover_mapshaper.png"
+address: https://change-character-encoding.dataviz.jp/
+image: "images/cover-change-character-encoding.png"
 ---
 
 {{< external-link-card
-    url="http://mapshaper.dataviz.jp/"
-    title="Mapshaper"
-    image="images/cover_mapshaper.png"
+    url="https://change-character-encoding.dataviz.jp/"
+    title="Shift JIS ⇄ UTF-8 文字コード変換ツール"
+    image="images/cover-change-character-encoding.png"
     site="dataviz.jp"
     description=""
 >}}

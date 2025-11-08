@@ -1,17 +1,17 @@
 ---
-title: RAWGraphs2
+title: Leonardo
 description: 多様なチャートを手軽に作成
-slug: "rawgraphs"
+slug: "leonardo"
 weight: 5
 categories: "data-visualization"
-address: https://raw.dataviz.jp/
-image: "images/cover_rawgraphs.png"
+address: https://leonardo.dataviz.jp/
+image: "images/cover-leonardo.png"
 ---
 
 {{< external-link-card
-    url="https://raw.dataviz.jp/"
-    title="RAWGraphs2"
-    image="images/cover_rawgraphs.png"
+    url="https://leonardo.dataviz.jp/"
+    title="Leonardo"
+    image="images/cover-leonardo.png"
     site="dataviz.jp"
     description=""
 >}}

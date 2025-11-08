@@ -1,6 +1,6 @@
 ---
 title: Embedding Projector
-description: 
+description: 次元削減アルゴリズムの性能を視覚的に理解
 slug: "embedding-projector"
 weight: 1
 categories: "explainer"

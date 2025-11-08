@@ -1,6 +1,6 @@
 ---
 title: Tilegrams
-description: 
+description: タイル地図の作成
 slug: "tilegrams"
 weight: 3
 categories: "data-visualization"

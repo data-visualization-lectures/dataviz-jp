@@ -1,6 +1,6 @@
 ---
 title: Vega Editor
-description: 
+description: JSONでデータとチャートを記述できる
 slug: "vega-editor"
 weight: 3
 categories: "data-visualization"

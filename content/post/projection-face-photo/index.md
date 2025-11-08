@@ -1,17 +1,17 @@
 ---
-title: GAN Lab
-description: GANを視覚的に解説
-slug: "ganlab"
+title: 顔の画像で学ぶ地図投影法
+description: 顔の画像で学ぶ地図投影法
+slug: "projection-face-photo"
 weight: 1
 categories: "explainer"
-address: https://ganlab.dataviz.jp/
-image: "images/cover_ganlab.png"
+address: https://projection-face-photo.dataviz.jp/?lang=ja
+image: "images/cover-projection-face-photo.png"
 ---
 
 {{< external-link-card
-    url="https://ganlab.dataviz.jp/"
-    title="GAN Lab"
-    image="images/cover_ganlab.png"
+    url="https://projection-face-photo.dataviz.jp/?lang=ja"
+    title="顔の画像で学ぶ地図投影法"
+    image="images/cover-projection-face-photo.png"
     site="dataviz.jp"
     description=""
 >}}
