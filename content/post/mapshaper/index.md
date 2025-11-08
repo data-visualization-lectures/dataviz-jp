@@ -3,7 +3,7 @@ title: Mapshaper
 description: 地図データの加工や変換
 slug: "mapshaper"
 weight: 1
-categories: "data-wrangling"
+categories: "data-wrangling-map"
 address: http://mapshaper.dataviz.jp/
 image: "images/cover_mapshaper.png"
 ---

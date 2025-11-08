@@ -73,7 +73,14 @@
       </li>
     {{ end }}
     {{ $categoryOrder := default (slice) .Site.Params.sidebar.categories.order }}
-    {{ $categoryIcons := dict "data-visualization" "dataviz" "data-wrangling" "tools" "explainer" "book" }}
+    {{ $categoryIcons := dict
+      "data-visualization" "dataviz"
+      "data-wrangling" "tools"
+      "data-wrangling-map" "tools"
+      "explainer" "book"
+      "explainer-maps" "book"
+      "explainer-ai" "book"
+    }}
     {{ range $slug := $categoryOrder }}
       {{ with $.Site.GetPage (printf "categories/%s" $slug) }}
         <li>

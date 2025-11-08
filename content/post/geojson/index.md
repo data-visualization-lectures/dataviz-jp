@@ -3,7 +3,7 @@ title: GeoJSON.io
 description: 地図をトレースしてGeoJSON作成
 slug: "geojson"
 weight: 1
-categories: "data-wrangling"
+categories: "data-wrangling-map"
 address: https://geojson.dataviz.jp/
 image: "images/cover_geojson.png"
 ---

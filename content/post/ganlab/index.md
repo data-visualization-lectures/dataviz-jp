@@ -3,7 +3,7 @@ title: GAN Lab
 description: GANを視覚的に解説
 slug: "ganlab"
 weight: 1
-categories: "explainer"
+categories: "explainer-ai"
 address: https://ganlab.dataviz.jp/
 image: "images/cover_ganlab.png"
 ---

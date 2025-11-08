@@ -1,5 +1,5 @@
 ---
-title: "データ加工ツール"
+title: "データ加工"
 slug: "data-wrangling"
 description: "加工・整形・変換など、データ整備に使えるツールのまとめです。"
 style:

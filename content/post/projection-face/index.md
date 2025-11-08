@@ -3,7 +3,7 @@ title: 顔でわかる地図投影
 description: 横顔のイラストで理解する地図投影
 slug: "projection-face"
 weight: 1
-categories: "explainer"
+categories: "explainer-maps"
 address: https://projection-face.dataviz.jp/
 image: "images/cover_projection-face.png"
 ---

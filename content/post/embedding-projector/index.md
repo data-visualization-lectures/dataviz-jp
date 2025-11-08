@@ -3,7 +3,7 @@ title: Embedding Projector
 description: 次元削減アルゴリズムの性能を視覚的に理解
 slug: "embedding-projector"
 weight: 1
-categories: "explainer"
+categories: "explainer-ai"
 address: https://embedding-projector.dataviz.jp/
 image: "images/cover_embedding-projector.png"
 ---

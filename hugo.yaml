@@ -48,7 +48,10 @@ params:
       order:
         - data-visualization
         - data-wrangling
+        - data-wrangling-map
         - explainer
+        - explainer-maps
+        - explainer-ai
 
   article:
     math: false

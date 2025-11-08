@@ -1,7 +1,7 @@
 ---
-title: "解説コンテンツ"
+title: "解説：可視化"
 slug: "explainer"
-description: "データ可視化の考え方や事例を紹介する読み物コンテンツです。"
+description: "データ可視化ツールの使い方を紹介する解説コンテンツです。"
 style:
   background: "#d97706"
   color: "#ffffff"

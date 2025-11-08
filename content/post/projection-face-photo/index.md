@@ -3,7 +3,7 @@ title: 顔の画像で学ぶ地図投影法
 description: 顔の画像で学ぶ地図投影法
 slug: "projection-face-photo"
 weight: 1
-categories: "explainer"
+categories: "explainer-maps"
 address: https://projection-face-photo.dataviz.jp/?lang=ja
 image: "images/cover-projection-face-photo.png"
 ---

@@ -3,7 +3,7 @@ title: (Geo) DataMerger
 description: 地理データとテーマデータを手軽に結合
 slug: "geo-data-merger"
 weight: 1
-categories: "data-wrangling"
+categories: "data-wrangling-map"
 address: https://geo-data-merger.dataviz.jp/
 image: "images/cover_geo-data-merger.png"
 ---

@@ -3,7 +3,7 @@ title: Diffusion Explainer
 description: Stable Diffusionがどのようにあなたのテキストプロンプトを画像に変換するかを学ぶ
 slug: "diffusion-explainer"
 weight: 1
-categories: "explainer"
+categories: "explainer-ai"
 address: https://diffusion-explainer.dataviz.jp/
 image: "images/cover_diffusion-explainer.png"
 ---

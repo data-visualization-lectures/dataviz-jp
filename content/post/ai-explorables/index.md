@@ -3,7 +3,7 @@ title: AI Explorables
 description: AIの挙動を視覚的に理解
 slug: "ai-explorables"
 weight: 1
-categories: "explainer"
+categories: "explainer-ai"
 address: https://ai-explorables.dataviz.jp/
 image: "images/cover-ai-explorables.png"
 ---

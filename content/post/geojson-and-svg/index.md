@@ -3,7 +3,7 @@ title: SVG ⇄ GeoJSON 変換ツール
 description: SVG ⇄ GeoJSON を相互に変換できる
 slug: "geojson-and-svg"
 weight: 1
-categories: "data-wrangling"
+categories: "data-wrangling-map"
 address: https://geojson-and-svg.dataviz.jp/
 image: "images/cover_geojson-and-svg.png"
 ---
