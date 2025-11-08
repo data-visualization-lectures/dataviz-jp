@@ -10,6 +10,7 @@
     {{ $term := $.Site.GetPage (printf "categories/%s" .slug) }}
     {{ if $term }}
       {{ $pages := where $term.Pages "Type" "in" $mainSections }}
+      {{ $pages = sort $pages "Weight" "asc" }}
       {{ if gt (len $pages) 0 }}
         <section class="home-category">
           <header class="home-category__header">
@@ -21,7 +22,7 @@
             {{ end }}
           </header>
           <div class="article-list article-list--three-column">
-            {{ range $pages.ByDate.Reverse }}
+            {{ range $pages }}
               {{ partial "article-list/default" . }}
             {{ end }}
           </div>
