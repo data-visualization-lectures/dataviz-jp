@@ -92,6 +92,14 @@ body {
   }
 }
 
+html[data-scheme="dark"] {
+  .external-link-card {
+    background: linear-gradient(135deg, var(--card-background-selected), var(--card-background));
+    border: 1px solid var(--card-separator-color);
+    box-shadow: var(--shadow-l2);
+  }
+}
+
 .external-link-card__inner {
   position: relative;
   display: grid;
