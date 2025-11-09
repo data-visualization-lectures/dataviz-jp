@@ -32,3 +32,8 @@ image: "images/cover_tilegrams.png"
 2. 自動配置されたタイルを `Manual edit` モードで調整し、地理的な位置関係や美観を最適化します。
 3. `Export` から SVG / TopoJSON を取得し、Web ページや紙面へ展開します。
 
+![スクリーンショット](images/screen01.png)
+
+![スクリーンショット](images/screen02.png)
+
+![スクリーンショット](images/screen03.png)
