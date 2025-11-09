@@ -16,7 +16,7 @@ services:
   disqus:
     shortname: ""
   googleAnalytics:
-    id: ""
+    id: "G-7NYMBRBRWZ"
 
 permalinks:
   post: /:slug/
