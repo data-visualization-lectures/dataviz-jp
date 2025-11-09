@@ -3,7 +3,7 @@ title: Color Brewer
 description: カラースキーム選びを地図上でのシミュレーション
 slug: "colorbrewer"
 weight: 2
-categories: "data-visualization"
+categories: "data-visualization-color"
 address: https://colorbrewer.dataviz.jp/
 image: "images/cover_colorbrewer.png"
 ---
