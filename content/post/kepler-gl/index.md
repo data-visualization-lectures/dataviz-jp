@@ -1,6 +1,6 @@
 ---
-title: 3D主題地図ツール kepler.gl
-description: 多様なチャートを手軽に作成
+title: kepler.gl
+description: 3D主題地図ツール
 slug: "kepler-gl"
 weight: 1
 categories: "data-visualization"
