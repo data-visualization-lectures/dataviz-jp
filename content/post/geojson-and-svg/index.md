@@ -18,3 +18,5 @@ SVG ⇄ GeoJSON を相互に変換できるツールです。
     description=""
 >}}
 {{< /external-link-card >}}
+
+SVG ⇄ GeoJSON を相互に変換できるツールです。行政が配布している地物ファイルはGeoJSONを基本としています。これをSVGに変換することで、Adobe Illustrator、Figmaなどのデザインツールでの利用を可能にします。
