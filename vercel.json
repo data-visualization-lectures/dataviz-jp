@@ -1,11 +1,13 @@
 {
-  "buildCommand": "npm run build",
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "hugo",
+  "buildCommand": "hugo --gc --minify",
   "outputDirectory": "public",
-  "framework": null,
-  "env": {
-    "HUGO_VERSION": "0.152.0",
-    "HUGO_ENV": "production",
-    "HUGO_ENABLEGITINFO": "true",
-    "HUGO_MOD_VENDOR": "true"
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.152.0",
+      "HUGO_ENV": "production",
+      "HUGO_ENABLEGITINFO": "true"
+    }
   }
 }
