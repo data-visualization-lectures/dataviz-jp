@@ -1,7 +1,7 @@
 ---
-title: "データ可視化ツール"
+title: "データ可視化"
 slug: "data-visualization"
-description: "チャート作成や可視化に役立つツールをまとめています。"
+description: "チャート作成に役立つツールをまとめています。"
 style:
   background: "#2563eb"
   color: "#ffffff"
