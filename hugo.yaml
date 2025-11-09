@@ -65,6 +65,10 @@ params:
     enabled: false
     provider: disqus
 
+  colorScheme:
+    toggle: false
+    default: dark
+
 markup:
   goldmark:
     renderer:
