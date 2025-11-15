@@ -2,7 +2,7 @@
 title: Leonardo
 description: カラーパレットを生成
 slug: "leonardo"
-weight: 2
+weight: 1
 categories: "data-visualization-color"
 address: https://leonardo.dataviz.jp/
 image: "images/cover-leonardo.png"
