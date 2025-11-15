@@ -1,6 +1,6 @@
 ---
 title: i want hue
-description: データサイエンティストのために、最適に区別可能な色のパレットを生成・調整します。
+description: 最適に区別可能なカラー・パレットの生成
 slug: "iwanthue"
 weight: 1
 categories: "data-visualization-color"
@@ -13,7 +13,7 @@ image: "images/cover_iwanthue.png"
     title="i want hue"
     image="images/cover_iwanthue.png"
     site="dataviz.jp"
-    description="データサイエンティストのために、最適に区別可能な色のパレットを生成・調整します。"
+    description="最適に区別可能なカラー・パレットの生成"
 >}}
 {{< /external-link-card >}}
 
