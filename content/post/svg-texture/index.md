@@ -3,7 +3,7 @@ title: SVGテクスチャエディタ
 description: チャートのテクスチャをデザイン
 slug: "svg-texture"
 weight: 5
-categories: "data-visualization"
+categories: "data-visualization-parts"
 address: https://svg-tectures.dataviz.jp/
 image: "images/cover-svg-texture.jpg"
 ---

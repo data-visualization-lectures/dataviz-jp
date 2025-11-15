@@ -47,6 +47,7 @@ params:
     categories:
       order:
         - data-visualization
+        - data-visualization-parts
         - data-visualization-color
         - data-wrangling
         - data-wrangling-map
