@@ -1,7 +1,7 @@
-baseurl: https://dataviz-jp.netlify.app/
+baseurl: https://www.dataviz.jp/
 languageCode: ja
 title: dataviz.jp
-copyright: "© dataviz.jp"
+copyright: "dataviz.jp"
 DefaultContentLanguage: ja
 hasCJKLanguage: true
 
@@ -35,11 +35,11 @@ params:
 
   dateFormat:
     published: 2006-01-02
-    lastUpdated: 2006-01-02 15:04
+    lastUpdated: 2025-11-15
 
   sidebar:
     emoji: 📊
-    subtitle: ログイン不要・日本語で利用できる無料データ可視化ツール集
+    subtitle: ログイン不要・日本語で利用できる無料データ可視化ツール集 presented by Visualizing.JP
     avatar:
       enabled: false
       local: true
