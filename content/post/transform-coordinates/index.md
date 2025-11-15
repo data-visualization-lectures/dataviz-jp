@@ -1,6 +1,6 @@
 ---
 title: 座標変換ツール
-description: データクレンジングの万能ツール
+description: 地物ファイルの座標を変換
 slug: "transform-coordinates"
 weight: 1
 categories: "data-wrangling-map"
@@ -13,7 +13,7 @@ image: "images/cover_transform-coordinates.png"
     title="座標変換ツール"
     image="images/cover_transform-coordinates.png"
     site="dataviz.jp"
-    description=""
+    description="地物ファイルの座標を変換"
 >}}
 {{< /external-link-card >}}
 
