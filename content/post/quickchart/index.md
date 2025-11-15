@@ -1,6 +1,6 @@
 ---
 title: QuickChart UI
-description: 多様なチャートを手軽に作成
+description: URLだけでチャート画像生成
 slug: "quickchart"
 weight: 5
 categories: "data-visualization"
@@ -13,6 +13,6 @@ image: "images/cover-quickchart.png"
     title="QuickChart UI"
     image="images/cover-quickchart.png"
     site="dataviz.jp"
-    description=""
+    description="URLだけでチャート画像生成"
 >}}
 {{< /external-link-card >}}

@@ -1,6 +1,6 @@
 ---
 title: SVGテクスチャエディタ
-description: 多様なチャートを手軽に作成
+description: チャートのテクスチャをデザイン
 slug: "svg-texture"
 weight: 5
 categories: "data-visualization"
@@ -13,6 +13,6 @@ image: "images/cover-svg-texture.jpg"
     title="SVGテクスチャエディタ"
     image="images/cover-svg-texture.jpg"
     site="dataviz.jp"
-    description=""
+    description="チャートのテクスチャをデザイン"
 >}}
 {{< /external-link-card >}}

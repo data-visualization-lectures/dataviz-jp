@@ -1,6 +1,6 @@
 ---
 title: SVGグラデーションエディタ
-description: 
+description: チャートのグラデーションをデザイン
 slug: "svg-gradient"
 weight: 5
 categories: "data-visualization"
@@ -13,7 +13,7 @@ image: "images/cover-svg-gradient.png"
     title="SVGグラデーションエディタ"
     image="images/cover-svg-gradient.png"
     site="dataviz.jp"
-    description=""
+    description="チャートのグラデーションをデザイン"
 >}}
 {{< /external-link-card >}}
 

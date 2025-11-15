@@ -1,6 +1,6 @@
 ---
-title: Visdown - Markdown for Visualisation
-description: マークダウンだけで可視化を作るツール
+title: Visdown
+description: マークダウンだけで可視化を作る
 slug: "visdown"
 weight: 4
 categories: "data-visualization"
@@ -10,10 +10,10 @@ image: "images/cover_visdown.png"
 
 {{< external-link-card
     url="https://visdown.dataviz.jp/"
-    title="Visdown - Markdown for Visualisation"
+    title="Visdown"
     image="images/cover_visdown.png"
     site="dataviz.jp"
-    description="マークダウンだけで可視化を作るツール"
+    description="マークダウンだけで可視化を作る"
 >}}
 {{< /external-link-card >}}
 
