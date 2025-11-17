@@ -3,7 +3,7 @@ title: 日本地図カルトグラム
 description: 日本地図カルトグラムを手軽に作成できるツール
 slug: "cartogram-japan"
 weight: 1
-categories: "data-visualization"
+categories: "data-visualization-map"
 address: https://cartogram-japan.dataviz.jp/
 image: "images/cover_cartogram-japan.png"
 ---

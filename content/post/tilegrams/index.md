@@ -3,7 +3,7 @@ title: Tilegrams
 description: タイル地図の作成
 slug: "tilegrams"
 weight: 3
-categories: "data-visualization"
+categories: "data-visualization-map"
 address: https://tilegrams.dataviz.jp/
 image: "images/cover_tilegrams.png"
 ---

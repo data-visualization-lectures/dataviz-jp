@@ -3,7 +3,7 @@ title: kepler.gl
 description: 3D主題地図ツール
 slug: "kepler-gl"
 weight: 1
-categories: "data-visualization"
+categories: "data-visualization-map"
 address: https://kepler-gl.dataviz.jp/
 image: "images/cover_kepler.png"
 ---
