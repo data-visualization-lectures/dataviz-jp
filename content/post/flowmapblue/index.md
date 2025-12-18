@@ -3,7 +3,7 @@ title: FlowmapBlue
 description: 地点間の移動量を表す地理的フローマップを作成
 slug: "flowmapblue"
 weight: 1
-categories: "data-visualization-map"
+categories: "free-tools"
 address: https://flowmapblue.dataviz.jp/
 image: "images/cover_flowmapblue.png"
 ---

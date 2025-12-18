@@ -39,7 +39,7 @@ params:
 
   sidebar:
     emoji: 📊
-    subtitle: ログイン不要・日本語で利用できる無料データ可視化ツール集 presented by Visualizing.JP
+    subtitle: 現在サービス化への移行中です。無料ツールは「無料ツール」カテゴリーにまとめています。presented by Visualizing.JP
     avatar:
       enabled: false
       local: true
@@ -55,6 +55,7 @@ params:
         - explainer
         - explainer-maps
         - explainer-ai
+        - free-tools
 
   article:
     math: false

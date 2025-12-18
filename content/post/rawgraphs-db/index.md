@@ -1,15 +1,15 @@
 ---
 title: RAWGraphs2
 description: 多様なチャートを手軽に作成
-slug: "rawgraphs"
+slug: "rawgraphs-db"
 weight: 1
-categories: "free-tools"
-address: https://raw.dataviz.jp/
+categories: "data-visualization"
+address: https://rawgraphs.dataviz.jp/
 image: "images/cover_rawgraphs.png"
 ---
 
 {{< external-link-card
-    url="https://raw.dataviz.jp/"
+    url="https://rawgraphs.dataviz.jp/"
     title="RAWGraphs2"
     image="images/cover_rawgraphs.png"
     site="dataviz.jp"
