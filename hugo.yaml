@@ -46,6 +46,7 @@ params:
       src: img/avatar.png
     categories:
       order:
+        - free-tools
         - data-visualization
         - data-visualization-map
         - data-visualization-parts
@@ -55,7 +56,6 @@ params:
         - explainer
         - explainer-maps
         - explainer-ai
-        - free-tools
 
   article:
     math: false
