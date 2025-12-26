@@ -53,9 +53,6 @@ params:
         - data-visualization-color
         - data-wrangling
         - data-wrangling-map
-        - explainer
-        - explainer-maps
-        - explainer-ai
 
   article:
     math: false
