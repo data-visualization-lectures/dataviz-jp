@@ -1,6 +1,6 @@
 ---
 title: SVG ⇄ GeoJSON 変換ツール
-description: SVG ⇄ GeoJSON を相互に変換できる
+description: GeoJSON と SVG の相互変換を支援
 slug: "geojson-and-svg"
 weight: 1
 categories: "data-wrangling-map"
@@ -8,15 +8,40 @@ address: https://geojson-and-svg.dataviz.jp/
 image: "images/cover_geojson-and-svg.png"
 ---
 
-SVG ⇄ GeoJSON を相互に変換できるツールです。
 
 {{< external-link-card
     url="https://geojson-and-svg.dataviz.jp/"
     title="SVG ⇄ GeoJSON 変換ツール"
     image="images/cover_geojson-and-svg.png"
     site="dataviz.jp"
-    description=""
+    description="GeoJSON と SVG の相互変換を支援"
 >}}
 {{< /external-link-card >}}
 
-SVG ⇄ GeoJSON を相互に変換できるツールです。行政が配布している地物ファイルはGeoJSONを基本としています。これをSVGに変換することで、Adobe Illustrator、Figmaなどのデザインツールでの利用を可能にします。
+
+## どんなツールか？
+
+地理空間データ（GeoJSON）と SVG（ベクター画像形式）との相互変換／可視化を支援する Web ベースのツールです。
+
+地図データやポリゴンなどの地理情報を、Web 表示や印刷用途に使いやすい SVG 形式に変換したり、逆に SVG を GeoJSON 形式として扱う際の補助を目的とします。
+
+GeoJSON は位置情報を持つ JSON 形式の標準フォーマットで、Web マッピングや GIS との連携に広く使われます。
+
+
+## 機能
+
+地理空間データ（GeoJSON）と SVG（ベクター画像形式）との相互変換
+
+## 使い方
+
+- 1. ファイルの読み込み
+- 2. ダウンロード
+
+特別な操作は不要です。
+
+
+## データ形式
+
+- SVG
+- GeoJSON
+
