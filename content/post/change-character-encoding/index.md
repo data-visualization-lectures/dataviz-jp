@@ -1,6 +1,6 @@
 ---
 title: Shift JIS ⇄ UTF-8 文字コード変換ツール
-description: 地図データの加工や変換
+description: 文字コードを、Shift JIS ⇄ UTF-8 間で相互に変換
 slug: "change-character-encoding"
 weight: 1
 categories: "data-wrangling"
@@ -13,9 +13,13 @@ image: "images/cover-change-character-encoding.png"
     title="Shift JIS ⇄ UTF-8 文字コード変換ツール"
     image="images/cover-change-character-encoding.png"
     site="dataviz.jp"
-    description=""
+    description="文字コードを、Shift JIS ⇄ UTF-8 間で相互に変換"
 >}}
 {{< /external-link-card >}}
+
+
+## どんなツールか？
+
 
 テキストファイルの文字コードを、Shift JIS ⇄ UTF-8 間で相互に変換できるツールです。
 
@@ -23,3 +27,28 @@ image: "images/cover-change-character-encoding.png"
 - 世の中のほとんどのモダンなツールは UTF-8 を前提としています。
 
 そのギャップを埋めるための簡易ツールです。
+
+
+## 機能
+
+- Shift JIS → UTF-8 変換：古いシステムや Excel で使われる Shift JIS 文字コードのテキストを UTF-8 に変換。
+- UTF-8 → Shift JIS 変換： UTF-8 形式のテキストを Shift JIS に変換し、レガシーソフトや旧システムで利用可能に。
+
+
+## 使い方
+
+- 1. 変換したいテキストを入力・アップロード。 ￼
+- 2. 変換後のテキストをコピー／ダウンロード。
+
+ファイルが Shift JIS または UTF-8 かの判別は自動です。
+
+
+## データ形式
+
+- 表データ(CSV、TSV、DSV)
+- JSON
+
+
+
+
+
