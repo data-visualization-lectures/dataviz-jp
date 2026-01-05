@@ -28,6 +28,7 @@ params:
   featuredImageField: image
   rssFullContent: true
   favicon: /favicon.ico
+  widthClass: extended
 
   footer:
     since: 2024
