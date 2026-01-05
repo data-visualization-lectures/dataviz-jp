@@ -39,7 +39,7 @@ params:
 
   sidebar:
     emoji: 📊
-    subtitle: 現在サービス化への移行中です。無料ツールは「無料ツール」カテゴリーにまとめています。presented by Visualizing.JP
+    subtitle: presented by Visualizing.JP
     avatar:
       enabled: false
       local: true

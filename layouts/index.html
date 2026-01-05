@@ -1,45 +1,191 @@
 {{ define "main" }}
-  {{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
-  {{ $orderedCategories := slice
-    (dict "slug" "data-visualization")
-    (dict "slug" "data-visualization-map")
-    (dict "slug" "data-visualization-parts")
-    (dict "slug" "data-visualization-color")
-    (dict "slug" "data-wrangling")
-    (dict "slug" "data-wrangling-map")
-    (dict "slug" "explainer")
-    (dict "slug" "explainer-maps")
-    (dict "slug" "explainer-ai")
-  }}
+<style>
+  .lp-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 2rem 0;
+    color: var(--card-text-color-main);
+  }
 
-  {{ range $orderedCategories }}
-    {{ $term := $.Site.GetPage (printf "categories/%s" .slug) }}
-    {{ if $term }}
-      {{ $pages := where $term.Pages "Type" "in" $mainSections }}
-      {{ $pages = sort $pages "Weight" "asc" }}
-      {{ if gt (len $pages) 0 }}
-        <section class="home-category">
-          <header class="home-category__header">
-            <h2 class="home-category__title">
-              <a href="{{ $term.Permalink }}">{{ $term.Title }}</a>
-            </h2>
-            {{ with $term.Description }}
-              <p class="home-category__description">{{ . }}</p>
-            {{ end }}
-          </header>
-          <div class="article-list article-list--three-column">
-            {{ range $pages }}
-              {{ partial "article-list/default" . }}
-            {{ end }}
-          </div>
-        </section>
-      {{ end }}
-    {{ end }}
-  {{ end }}
+  /* Hero Section */
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 2rem;
+    min-height: 400px;
+  }
 
-  {{- partial "footer/footer" . -}}
+  @media (max-width: 768px) {
+    .hero {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+
+    .hero-image {
+      order: -1;
+    }
+  }
+
+  .hero-content {
+    flex: 1;
+  }
+
+  .hero-title {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    color: #10B981;
+  }
+
+  .hero-subtitle {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    line-height: 1.3;
+  }
+
+  .hero-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 768px) {
+    .hero-buttons {
+      justify-content: center;
+    }
+  }
+
+  .hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .hero-image img {
+    max-width: 100%;
+    max-height: 200px;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+
+  /* Features Section */
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+
+  @media (max-width: 768px) {
+    .features {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .feature-card {
+    background: var(--card-background);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-l1);
+    transition: transform 0.2s;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .feature-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    padding: 0.5rem;
+    background: rgba(16, 185, 129, 0.1);
+    border-radius: 8px;
+    color: #10B981;
+  }
+
+  .feature-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .feature-desc {
+    line-height: 1.6;
+    color: var(--body-text-color);
+  }
+</style>
+
+<div class="lp-container">
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">dataviz.jp</h1>
+      <p class="hero-subtitle">データ可視化とデータラングリングの便利ツール集</p>
+      <p class="hero-subtitle">現在サービス化への移行中であり、無料ツールのみご利用いただけます。</p>
+      <!-- <div class="hero-buttons">
+        <a href="/categories/free-tools" class="button primary">無料ツール</a>
+        <a href="/categories/data-visualization" class="button secondary">データ可視化</a>
+      </div> -->
+    </div>
+    <div class="hero-image">
+      <img src="/images/hero-dataviz.png" alt="データ可視化イメージ" style="width: 100%; height: auto; border-radius: 20px;">
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features">
+    <a href="/categories/free-tools" class="feature-card" style="text-decoration: none; color: inherit;">
+      <div class="feature-icon">🛠️</div>
+      <h3 class="feature-title">無料ツール</h3>
+      <p class="feature-desc">無料で使えるツールをまとめています。</p>
+    </a>
+
+    <a href="/categories/data-visualization" class="feature-card" style="text-decoration: none; color: inherit;">
+      <div class="feature-icon">📊</div>
+      <h3 class="feature-title">データ可視化</h3>
+      <p class="feature-desc">チャート作成に役立つツールをまとめています。</p>
+    </a>
+
+    <a href="/categories/data-visualization-map" class="feature-card" style="text-decoration: none; color: inherit;">
+      <div class="feature-icon">🌍</div>
+      <h3 class="feature-title">データ可視化：地図</h3>
+      <p class="feature-desc">地図を使ったデータ可視化ツールをまとめています。</p>
+    </a>
+
+    <a href="/categories/data-visualization-parts" class="feature-card" style="text-decoration: none; color: inherit;">
+      <div class="feature-icon">🎨</div>
+      <h3 class="feature-title">データ可視化：個別</h3>
+      <p class="feature-desc">チャートの一部や特定の可視化表現に焦点を当てたリソースをまとめています。</p>
+    </a>
+
+    <a href="/categories/data-visualization-color" class="feature-card" style="text-decoration: none; color: inherit;">
+      <div class="feature-icon">🎨</div>
+      <h3 class="feature-title">データ可視化：色</h3>
+      <p class="feature-desc">配色設計やカラーパレット作成に特化した可視化ツール。</p>
+    </a>
+
+    <a href="/categories/data-wrangling" class="feature-card" style="text-decoration: none; color: inherit;">
+      <div class="feature-icon">🔧</div>
+      <h3 class="feature-title">データ加工</h3>
+      <p class="feature-desc">加工・整形・変換など、データ整備に使えるツールのまとめです。</p>
+    </a>
+
+    <a href="/categories/data-wrangling-map" class="feature-card" style="text-decoration: none; color: inherit;">
+      <div class="feature-icon">📍</div>
+      <h3 class="feature-title">データ加工：地図</h3>
+      <p class="feature-desc">地図用データの整形・結合・クレンジングに焦点を当てたツールです。</p>
+    </a>
+  </section>
+</div>
 {{ end }}
 
 {{ define "right-sidebar" }}
-  {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+<!-- No sidebar on homepage -->
 {{ end }}
