@@ -17,7 +17,6 @@ image: "images/cover_rawgraphs.png"
 >}}
 {{< /external-link-card >}}
 
-
 ## どんなツールか？
 
 多種多様なチャートをわかりやすい操作感で作成することができるツールです。
@@ -48,7 +47,10 @@ ExcelとAdobe Illustratorなどのグラフィック・アプリの間をつな�
 - 表データ(CSV、TSV、DSV)
 - JSON
 
+## 注意
 
+Microsoft Edgeを利用時に、ドラッグ操作がうまくいかないことがあります。
+その場合はChromeなどほかのブラウザを利用してください。
 
 
 
