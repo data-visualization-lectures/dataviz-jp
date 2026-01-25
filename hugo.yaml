@@ -47,7 +47,6 @@ params:
       src: img/avatar.png
     categories:
       order:
-        - free-tools
         - data-visualization
         - data-visualization-map
         - data-visualization-parts
