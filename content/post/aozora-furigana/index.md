@@ -3,7 +3,7 @@ title: 青空文庫ルビ削除ツール
 description: 青空文庫の小説からルビとメタデータを削除
 slug: "aozora-furigana"
 weight: 1
-categories: "free-tools"
+categories: "data-visualization-map"
 address: https://aozora-furigana.dataviz.jp/
 image: "images/cover_aozora-furigana.png"
 ---
