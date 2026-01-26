@@ -35,12 +35,12 @@ params:
     customText: ""
 
   dateFormat:
-    published: 2006-01-02
-    lastUpdated: 2025-11-15
+    published: 2026-01-26
+    lastUpdated: 2026-01-26
 
   sidebar:
     emoji: 📊
-    subtitle: presented by Visualizing.JP
+    subtitle: データ可視化とデータ加工の便利ツール集
     avatar:
       enabled: false
       local: true
