@@ -6,7 +6,7 @@ DefaultContentLanguage: ja
 hasCJKLanguage: true
 
 pagination:
-  pagerSize: 10
+  pagerSize: 20
 
 taxonomies:
   category: categories
