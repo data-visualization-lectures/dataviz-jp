@@ -3,5 +3,22 @@
     mode: 'public'
   };
 </script>
+<style>
+  .external-link-card__media {
+    height: 160px !important;
+    overflow: hidden;
+  }
+
+  .article-content .external-link-card__media img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center;
+  }
+
+  .article-page .main-article .article-content img {
+    height: 100%;
+  }
+</style>
 <script src="https://auth.dataviz.jp/lib/supabase.js"></script>
 <script src="https://auth.dataviz.jp/lib/dataviz-auth-client.js"></script>
