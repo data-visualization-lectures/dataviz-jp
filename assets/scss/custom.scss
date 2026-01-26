@@ -274,3 +274,10 @@ html[data-scheme="dark"] {
     --code-font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
     --article-font-family: var(--base-font-family);
 }
+
+.menu-divider {
+  border-top: 1px solid var(--card-separator-color);
+  width: 100%;
+  height: 0;
+  padding: 0;
+}

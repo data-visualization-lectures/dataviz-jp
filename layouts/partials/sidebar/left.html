@@ -72,6 +72,7 @@
         </a>
       </li>
     {{ end }}
+    <li class="menu-divider" aria-hidden="true"></li>
     {{ $categoryOrder := default (slice) .Site.Params.sidebar.categories.order }}
     {{ $categoryIcons := dict
       "data-visualization" "dataviz"
@@ -92,6 +93,7 @@
         </li>
       {{ end }}
     {{ end }}
+    <li class="menu-divider" aria-hidden="true"></li>
     <li class="menu-bottom-section">
       <ol class="menu">
         {{- $currentLanguageCode := .Language.Lang -}}
