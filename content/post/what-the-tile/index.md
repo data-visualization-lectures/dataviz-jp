@@ -3,7 +3,7 @@ title: 地図タイル・ブラウザー
 description: オープンな地図タイル数種類を切り替えて、XYZ タイル方式のタイル座標が確認
 slug: "what-the-tile"
 weight: 1
-categories: "data-visualization-map"
+categories: "data-wrangling-map"
 address: https://what-the-tile.dataviz.jp/
 image: "images/cover_what-the-tile.png"
 ---
