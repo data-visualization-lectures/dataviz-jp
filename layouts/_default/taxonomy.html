@@ -43,9 +43,10 @@
     </div>
   </header>
 
-  {{ $paginator := .Paginate .Pages }}
+  {{- $sortedPages := sort .Pages "Title" "asc" -}}
+  {{ $paginator := .Paginate $sortedPages }}
   <section class="article-list article-list--three-column">
-    {{ range $paginator.Pages }}
+    {{ range sort $paginator.Pages "Title" "asc" }}
       {{ partial "article-list/default" . }}
     {{ end }}
   </section>

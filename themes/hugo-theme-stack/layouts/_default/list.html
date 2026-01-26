@@ -59,7 +59,7 @@
             <h2 class="section-title">{{ T "list.subsection" (len $subsections) }}</h2>
             <div class="subsection-list">
                 <div class="article-list--tile">
-                    {{ range . }}
+                    {{ range .ByTitle }}
                         {{ partial "article-list/tile" (dict "context" . "size" "250x150" "Type" "section") }}
                     {{ end }}
                 </div>
@@ -68,9 +68,10 @@
     {{- end -}}
     
     {{/* List only pages that are not a subsection */}}
-    {{ $paginator := .Paginate $pages }}
+    {{- $sortedPages := sort $pages "Title" "asc" -}}
+    {{ $paginator := .Paginate $sortedPages }}
     <section class="article-list--compact">
-        {{ range $paginator.Pages }}
+        {{ range sort $paginator.Pages "Title" "asc" }}
             {{ partial "article-list/compact" . }}
         {{ end }}
     </section>
