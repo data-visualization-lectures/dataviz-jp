@@ -2,7 +2,7 @@
 title: Data Illustrator
 description: 多様なチャートを手軽に作成
 slug: "data-illustrator"
-weight: 1
+weight: 10
 categories: "data-visualization"
 address: https://data-illustrator.dataviz.jp/
 image: "images/cover_data-illustrator.png"

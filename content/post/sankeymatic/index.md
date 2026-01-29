@@ -2,7 +2,7 @@
 title: Sankeymatic
 description: サンキー・ダイアグラムを手軽に
 slug: "sankeymatic"
-weight: 3
+weight: 1
 categories: "data-visualization"
 address: https://sankeymatic.dataviz.jp/
 image: "images/cover_sankeymatic.png"

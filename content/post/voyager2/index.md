@@ -2,7 +2,7 @@
 title: Voyager2
 description: データ探索（Exploratory Data Analysis, EDA）を支援するビジュアライゼーションツール
 slug: "voyager2"
-weight: 3
+weight: 10
 categories: "data-visualization"
 address: https://voyager2.dataviz.jp/
 image: "images/cover_voyager2.png"

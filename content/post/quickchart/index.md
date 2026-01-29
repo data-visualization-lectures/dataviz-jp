@@ -2,7 +2,7 @@
 title: QuickChart UI
 description: URLだけでチャート画像生成
 slug: "quickchart"
-weight: 5
+weight: 20
 categories: "data-visualization"
 address: https://quickchart.dataviz.jp/
 image: "images/cover-quickchart.png"

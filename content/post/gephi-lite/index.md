@@ -2,7 +2,7 @@
 title: Gephi Lite
 description: ネットワークグラフを手軽に作成
 slug: "gephi-lite"
-weight: 1
+weight: 10
 categories: "data-visualization"
 address: https://raw.dataviz.jp/
 image: "images/cover_gephi-lite.png"
