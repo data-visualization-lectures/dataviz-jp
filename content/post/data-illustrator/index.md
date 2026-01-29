@@ -1,17 +1,17 @@
 ---
-title: Data Illustrateur
+title: Data Illustrator
 description: 多様なチャートを手軽に作成
-slug: "data-illustrateur"
+slug: "data-illustrator"
 weight: 1
 categories: "data-visualization"
-address: https://data-illustrateur.dataviz.jp/
-image: "images/cover_data-illustrateur.png"
+address: https://data-illustrator.dataviz.jp/
+image: "images/cover_data-illustrator.png"
 ---
 
 {{< external-link-card
-    url="https://data-illustrateur.dataviz.jp/"
-    title="Data Illustrateur"
-    image="images/cover_data-illustrateur.png"
+    url="https://data-illustrator.dataviz.jp/"
+    title="Data Illustrator"
+    image="images/cover_data-illustrator.png"
     site="dataviz.jp"
     description=""
 >}}
@@ -23,7 +23,7 @@ image: "images/cover_data-illustrateur.png"
 ## どんなツールか？
 
 
-Data Illustrateur は，プログラミング不要で視覚的にデータ可視化を作成できるウェブアプリです。
+Data Illustrator は，プログラミング不要で視覚的にデータ可視化を作成できるウェブアプリです。
 Figma や Adobe Illustrator のように，ベクターデザイン操作感でグラフィックを描く感覚でチャートを生成できることを目指しています。 ￼
 
 
