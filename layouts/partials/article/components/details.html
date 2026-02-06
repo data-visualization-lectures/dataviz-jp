@@ -1,0 +1,85 @@
+<div class="article-details">
+    {{ if .Params.categories }}
+    <header class="article-category">
+        {{ range (.GetTerms "categories") }}
+        <a href="{{ .RelPermalink }}" {{ with .Params.style
+            }}style="background-color: {{ .background }}; color: {{ .color }};" {{ end }}>
+            {{ .LinkTitle }}
+        </a>
+        {{ end }}
+    </header>
+    {{ end }}
+
+    {{ partial "components/breadcrumb.html" . }}
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="{{ .RelPermalink }}">
+                {{- .Title -}}
+            </a>
+        </h2>
+
+        {{ with .Params.description }}
+        <h3 class="article-subtitle">
+            {{ . }}
+        </h3>
+        {{ end }}
+    </div>
+
+    {{ $showReadingTime := .Params.readingTime | default (.Site.Params.article.readingTime) }}
+    {{ $showDate := not .Date.IsZero }}
+    {{ $showFooter := or $showDate $showReadingTime }}
+    {{ if $showFooter }}
+    <footer class="article-time">
+        {{ if $showDate }}
+        <div>
+            {{ partial "helper/icon" "date" }}
+            <time class="article-time--published">
+                {{- .Date | time.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") -}}
+            </time>
+        </div>
+        {{ end }}
+
+        {{ if $showReadingTime }}
+        <div>
+            {{ partial "helper/icon" "clock" }}
+            <time class="article-time--reading">
+                {{ T "article.readingTime" .ReadingTime }}
+            </time>
+        </div>
+        {{ end }}
+    </footer>
+    {{ end }}
+
+    {{/* Author Display Logic */}}
+    {{ $author := .Params.author | default .Site.Params.sidebar.author.name }}
+    {{ $authorImage := .Params.authorImage | default .Site.Params.sidebar.author.image }}
+    {{ $authorBio := .Params.authorBio | default .Site.Params.sidebar.author.bio }}
+
+    {{ if $author }}
+    <div class="article-author"
+        style="margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--card-border-color); display: flex; align-items: center; gap: 15px;">
+        {{ if $authorImage }}
+        <img src="{{ $authorImage | absURL }}" alt="{{ $author }}"
+            style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;">
+        {{ end }}
+        <div>
+            <div style="font-weight: bold; font-size: 1.1em;">{{ $author }}</div>
+            {{ if $authorBio }}
+            <div style="font-size: 0.9em; opacity: 0.8; margin-top: 5px;">{{ $authorBio }}</div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+
+    {{ if .IsTranslated }}
+    <footer class="article-translations">
+        {{ partial "helper/icon" "language" }}
+        <div>
+            {{ range .Translations }}
+            <a href="{{ .Permalink }}" class="link">{{ .Language.LanguageName }}</a>
+            {{ end }}
+        </div>
+    </footer>
+    {{ end }}
+</div>
