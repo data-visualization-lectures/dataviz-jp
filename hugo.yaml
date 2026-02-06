@@ -4,6 +4,12 @@ title: dataviz.jp
 copyright: "dataviz.jp"
 DefaultContentLanguage: ja
 hasCJKLanguage: true
+enableRobotsTXT: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
 
 pagination:
   pagerSize: 20
@@ -23,6 +29,15 @@ permalinks:
   page: /:slug/
 
 params:
+  defaultImage:
+    opengraph:
+      enabled: true
+      local: false
+      src: img/avatar.png
+  opengraph:
+    twitter:
+      site: visualizing_jp
+      card: summary
   mainSections:
     - post
   featuredImageField: image
@@ -45,6 +60,10 @@ params:
       enabled: false
       local: true
       src: img/avatar.png
+    author:
+      name: 矢崎裕一／Yuichi Yazaki
+      image: img/avatar.png
+      bio: 株式会社ビジネス・アーキテクツにてユーザー・インターフェイス・デザイナーおよびアート・ディレクターを7年間経験後、独立。企業や教育機関での講義活動、ウェブサイトVisualizing.JPにおける情報発信、コミュニティData Visualization Japanにおけるコミュニティ活動など、データ可視化の実践と普及に関するさまざまな活動をおこなっている。共著書に『RESASの教科書』(日経BP、2016)がある。千葉工業大学デザイン科学修士修了。データ・ビジュアライゼーション・ジャパン発起人/Yahoo!ニュース・エキスパート。
     categories:
       order:
         - data-visualization
