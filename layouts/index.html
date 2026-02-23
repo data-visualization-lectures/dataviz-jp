@@ -182,5 +182,5 @@
 {{ end }}
 
 {{ define "right-sidebar" }}
-<!-- No sidebar on homepage -->
+{{ partial "sidebar/right.html" (dict "Context" . "Scope" "frontpage") }}
 {{ end }}

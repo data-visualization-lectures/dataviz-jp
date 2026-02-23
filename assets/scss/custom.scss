@@ -294,3 +294,44 @@ html[data-scheme="dark"] {
     /* 50px + 48px */
   }
 }
+
+/* Front page: use a slimmer right sidebar for preview */
+.right-sidebar--frontpage {
+  display: flex;
+
+  @include respond(lg) {
+    max-width: 220px;
+  }
+
+  @include respond(xl) {
+    max-width: 240px;
+  }
+}
+
+.widget.page-links {
+  .page-links__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .page-links__item a {
+    display: block;
+    padding: 12px 14px;
+    border-radius: var(--tag-border-radius);
+    background-color: var(--card-background);
+    box-shadow: var(--shadow-l1);
+    color: var(--card-text-color-main);
+    font-size: 1.4rem;
+    line-height: 1.4;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+    &:hover {
+      box-shadow: var(--shadow-l2);
+      transform: translateY(-1px);
+    }
+  }
+}

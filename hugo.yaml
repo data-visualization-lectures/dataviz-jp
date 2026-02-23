@@ -73,6 +73,20 @@ params:
         - data-wrangling
         - data-wrangling-map
 
+  widgets:
+    frontpage:
+      - type: page-links
+        params:
+          links:
+            - name: よくある質問
+              url: "/faq/"
+            - name: 価格
+              url: "/pricing/"
+            - name: 利用規約
+              url: "/terms/"
+            - name: お問い合わせ
+              url: "/contact/"
+
   article:
     math: false
     toc: true
