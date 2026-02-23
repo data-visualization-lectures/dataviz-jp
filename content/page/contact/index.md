@@ -4,6 +4,14 @@ slug: "contact"
 date: 2026-02-23
 ---
 
-現在、このページは準備中です。  
-お問い合わせ方法をこのページでご案内します。
+お問い合わせは、以下のフォームよりお願いいたします。
+
+{{< external-link-card
+    url="https://forms.gle/UJL643uYbWXV2ZoM7"
+    title="お問い合わせ"
+    image=""
+    site="Google Forms"
+    description=""
+>}}
+{{< /external-link-card >}}
 
