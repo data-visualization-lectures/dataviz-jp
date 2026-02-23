@@ -299,6 +299,11 @@ html[data-scheme="dark"] {
 .right-sidebar--frontpage {
   display: flex;
 
+  @include respond(md) {
+    padding-top: var(--main-top-padding);
+    padding-bottom: var(--main-top-padding);
+  }
+
   @include respond(lg) {
     max-width: 220px;
   }
