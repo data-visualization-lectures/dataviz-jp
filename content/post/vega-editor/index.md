@@ -5,13 +5,13 @@ slug: "vega-editor"
 weight: 10
 categories: "data-visualization"
 address: https://vega-editor.dataviz.jp/
-image: "images/cover_vega-editor.png"
+image: "images/cover_vega-editor.jpg"
 ---
 
 {{< external-link-card
     url="https://vega-editor.dataviz.jp/"
     title="Vega Editor"
-    image="images/cover_vega-editor.png"
+    image="images/cover_vega-editor.jpg"
     site="dataviz.jp"
     description="JSON 形式で可視化仕様を書くことで、インタラクティブなグラフやチャートをリアルタイムにレンダリング"
 >}}

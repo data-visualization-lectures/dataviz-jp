@@ -5,13 +5,13 @@ slug: "kepler-gl"
 weight: 1
 categories: "data-visualization-map"
 address: https://kepler-gl.dataviz.jp/
-image: "images/cover_kepler.png"
+image: "images/cover_kepler-gl.jpg"
 ---
 
 {{< external-link-card
     url="https://kepler-gl.dataviz.jp/"
     title="大規模地理空間データの可視化・探索ツール"
-    image="images/cover_kepler.png"
+    image="images/cover_kepler-gl.jpg"
     site="dataviz.jp"
     description=""
 >}}

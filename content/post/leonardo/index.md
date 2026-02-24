@@ -5,13 +5,13 @@ slug: "leonardo"
 weight: 1
 categories: "data-visualization-color"
 address: https://leonardo.dataviz.jp/
-image: "images/cover-leonardo.png"
+image: "images/cover_leonardo.jpg"
 ---
 
 {{< external-link-card
     url="https://leonardo.dataviz.jp/"
     title="Leonardo"
-    image="images/cover-leonardo.png"
+    image="images/cover_leonardo.jpg"
     site="dataviz.jp"
     description="Adobe がオープンソースとして提供しているツール"
 >}}

@@ -5,13 +5,13 @@ slug: "tabula-pdf"
 weight: 1
 categories: "data-wrangling"
 address: https://tabula-pdf.dataviz.jp/
-image: "images/cover_tabula-pdf.png"
+image: "images/cover_tabula-pdf.jpg"
 ---
 
 {{< external-link-card
     url="https://tabula-pdf.dataviz.jp/"
     title="Tabula PDF"
-    image="images/cover_tabula-pdf.png"
+    image="images/cover_tabula-pdf.jpg"
     site="dataviz.jp"
     description="PDFから表データを取り出す"
 >}}

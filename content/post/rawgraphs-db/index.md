@@ -5,13 +5,13 @@ slug: "rawgraphs-db"
 weight: 1
 categories: "data-visualization"
 address: https://rawgraphs.dataviz.jp/
-image: "images/cover_rawgraphs.png"
+image: "images/cover_rawgraphs-db.jpg"
 ---
 
 {{< external-link-card
     url="https://rawgraphs.dataviz.jp/"
     title="RAWGraphs2"
-    image="images/cover_rawgraphs.png"
+    image="images/cover_rawgraphs-db.jpg"
     site="dataviz.jp"
     description=""
 >}}

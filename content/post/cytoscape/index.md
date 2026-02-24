@@ -5,13 +5,13 @@ slug: "cytoscape"
 weight: 3
 categories: "data-visualization"
 address: https://cytoscape.dataviz.jp/
-image: "images/cover_cytoscape.png"
+image: "images/cover_cytoscape.jpg"
 ---
 
 {{< external-link-card
     url="https://cytoscape.dataviz.jp/"
     title="Cytoscape"
-    image="images/cover_cytoscape.png"
+    image="images/cover_cytoscape.jpg"
     site="dataviz.jp"
     description=""
 >}}

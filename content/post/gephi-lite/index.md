@@ -5,13 +5,13 @@ slug: "gephi-lite"
 weight: 10
 categories: "data-visualization"
 address: https://raw.dataviz.jp/
-image: "images/cover_gephi-lite.png"
+image: "images/cover_gephi-lite.jpg"
 ---
 
 {{< external-link-card
     url="https://gephi-lite.dataviz.jp/"
     title="Gephi Lite"
-    image="images/cover_gephi-lite.png"
+    image="images/cover_gephi-lite.jpg"
     site="dataviz.jp"
     description=""
 >}}

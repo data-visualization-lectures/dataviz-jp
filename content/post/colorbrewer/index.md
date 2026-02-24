@@ -5,13 +5,13 @@ slug: "colorbrewer"
 weight: 2
 categories: "data-visualization-color"
 address: https://colorbrewer.dataviz.jp/
-image: "images/cover_colorbrewer.png"
+image: "images/cover_colorbrewer.jpg"
 ---
 
 {{< external-link-card
     url="https://colorbrewer.dataviz.jp/"
     title="Color Brewer"
-    image="images/cover_colorbrewer.png"
+    image="images/cover_colorbrewer.jpg"
     site="dataviz.jp"
     description="カラースキーム選びを地図上でシミュレーション"
 >}}

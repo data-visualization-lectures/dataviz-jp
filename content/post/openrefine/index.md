@@ -5,13 +5,13 @@ slug: "openrefine"
 weight: 1
 categories: "data-wrangling"
 address: https://open-refine.dataviz.jp/
-image: "images/cover_openrefine.jpg"
+image: "images/cover_open-refine.jpg"
 ---
 
 {{< external-link-card
     url="https://open-refine.dataviz.jp/"
     title="OpenRefine"
-    image="images/cover_openrefine.jpg"
+    image="images/cover_open-refine.jpg"
     site="dataviz.jp"
     description="表データのクレンジング・ツール"
 >}}
