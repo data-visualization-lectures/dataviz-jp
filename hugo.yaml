@@ -101,7 +101,7 @@ params:
 
   colorScheme:
     toggle: false
-    default: dark
+    default: light
 
 markup:
   goldmark:
