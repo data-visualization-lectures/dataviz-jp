@@ -100,7 +100,7 @@ params:
     provider: disqus
 
   colorScheme:
-    toggle: true
+    toggle: false
     default: dark
 
 markup:
