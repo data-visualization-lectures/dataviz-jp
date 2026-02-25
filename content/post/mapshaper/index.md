@@ -5,13 +5,13 @@ slug: "mapshaper"
 weight: 1
 categories: "data-wrangling-map"
 address: http://mapshaper.dataviz.jp/
-image: "images/cover_mapshaper.png"
+image: "images/cover_mapshaper.jpg"
 ---
 
 {{< external-link-card
     url="http://mapshaper.dataviz.jp/"
     title="Mapshaper"
-    image="images/cover_mapshaper.png"
+    image="images/cover_mapshaper.jpg"
     site="dataviz.jp"
     description=""
 >}}
