@@ -5,13 +5,13 @@ slug: "data-illustrator"
 weight: 10
 categories: "data-visualization"
 address: https://data-illustrator.dataviz.jp/
-image: "images/cover_data-illustrator.png"
+image: "images/cover_data-illustrator.jpg"
 ---
 
 {{< external-link-card
     url="https://data-illustrator.dataviz.jp/"
     title="Data Illustrator"
-    image="images/cover_data-illustrator.png"
+    image="images/cover_data-illustrator.jpg"
     site="dataviz.jp"
     description=""
 >}}
