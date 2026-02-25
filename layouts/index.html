@@ -53,9 +53,17 @@
     flex-wrap: wrap;
   }
 
+  .hero-cta {
+    justify-content: flex-start;
+  }
+
   @media (max-width: 1280px) {
     .hero-buttons {
       justify-content: center;
+    }
+
+    .hero-cta {
+      justify-content: flex-start;
     }
   }
 
@@ -137,6 +145,11 @@
     <div class="hero-image">
       <img src="/images/hero-dataviz.png" alt="データ可視化イメージ" style="width: 100%; height: auto; border-radius: 20px;">
     </div>
+  </section>
+
+  <section class="hero-buttons hero-cta">
+    <a href="https://auth.dataviz.jp/auth/sign-up" class="button primary">無料ではじめる</a>
+    <a href="/overview/" class="button secondary">もっと詳しく</a>
   </section>
 
   <!-- Features -->
