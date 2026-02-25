@@ -5,13 +5,13 @@ slug: "geojson"
 weight: 1
 categories: "data-wrangling-map"
 address: https://geojson.dataviz.jp/
-image: "images/cover_geojson.png"
+image: "images/cover_geojson.jpg"
 ---
 
 {{< external-link-card
     url="https://geojson.dataviz.jp/"
     title="GeoJSON.io"
-    image="images/cover_geojson.png"
+    image="images/cover_geojson.jpg"
     site="dataviz.jp"
     description="地図タイルをトレースしてGeoJSON作成"
 >}}
@@ -32,6 +32,7 @@ image: "images/cover_geojson.png"
 - 複数形式の読み込み...GeoJSON をはじめ、TopoJSON、CSV や KML などの空間データを読み込んで編集できます（ツールとして歴史的にサポート）。 ￼
 - 簡易的な属性編集...テーブルビューでフィールド値の編集や削除が行え、空間 Feature のプロパティを調整可能。 ￼
 
+![ext](images/cover_geojson.png)
 
 ## 使い方
 

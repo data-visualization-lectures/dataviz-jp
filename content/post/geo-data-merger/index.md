@@ -5,13 +5,13 @@ slug: "geo-data-merger"
 weight: 1
 categories: "data-wrangling-map"
 address: https://geo-data-merger.dataviz.jp/
-image: "images/cover_geo-data-merger.png"
+image: "images/cover_geo-data-merger.jpg"
 ---
 
 {{< external-link-card
     url="https://geo-data-merger.dataviz.jp/"
     title="(Geo) DataMerger"
-    image="images/cover_geo-data-merger.png"
+    image="images/cover_geo-data-merger.jpg"
     site="dataviz.jp"
     description="地理データとテーマデータを手軽に結合"
 >}}
@@ -28,6 +28,9 @@ image: "images/cover_geo-data-merger.png"
 - キーによる結合（Join）...地理データ（各 Feature の properties）と属性データを共通のキー列で結合（左結合ベース）。 ￼
 - 不要列の削除...結合後、出力に含めたくない列を UI 上から選択して除去可能。 ￼
 - 出力形式の選択...結合後のデータを GeoJSON／TopoJSON／CSV などで保存・ダウンロード。
+
+
+![](images/cover_geo-data-merger.png)
 
 
 ## 使い方

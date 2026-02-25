@@ -5,13 +5,13 @@ slug: "address-to-latlon"
 weight: 1
 categories: "data-wrangling-map"
 address: https://address-to-latlon.dataviz.jp/
-image: "images/cover_address-to-latlon.png"
+image: "images/cover_address-to-latlon.jpg"
 ---
 
 {{< external-link-card
     url="https://address-to-latlon.dataviz.jp/"
     title="住所 → 緯度経度 変換ツール"
-    image="images/cover_address-to-latlon.png"
+    image="images/cover_address-to-latlon.jpg"
     site="dataviz.jp"
     description=""
 >}}
@@ -31,6 +31,7 @@ image: "images/cover_address-to-latlon.png"
 - 文字コード対応...入力ファイルの文字コード（UTF-8／Shift_JIS）を指定可能。 ￼
 - ブラウザ完結処理...データはブラウザ内で処理され、サーバーへ送信されません（プライバシー保護）。 
 
+![](images/cover_address-to-latlon.png)
 
 ## 使い方
 

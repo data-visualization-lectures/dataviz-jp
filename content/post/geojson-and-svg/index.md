@@ -5,14 +5,14 @@ slug: "geojson-and-svg"
 weight: 1
 categories: "data-wrangling-map"
 address: https://geojson-and-svg.dataviz.jp/
-image: "images/cover_geojson-and-svg.png"
+image: "images/cover_geojson-and-svg.jpg"
 ---
 
 
 {{< external-link-card
     url="https://geojson-and-svg.dataviz.jp/"
     title="SVG ⇄ GeoJSON 変換ツール"
-    image="images/cover_geojson-and-svg.png"
+    image="images/cover_geojson-and-svg.jpg"
     site="dataviz.jp"
     description="GeoJSON と SVG の相互変換を支援"
 >}}
@@ -31,6 +31,8 @@ GeoJSON は位置情報を持つ JSON 形式の標準フォーマットで、Web
 ## 機能
 
 地理空間データ（GeoJSON）と SVG（ベクター画像形式）との相互変換
+
+![](images/cover_geojson-and-svg.png)
 
 ## 使い方
 
