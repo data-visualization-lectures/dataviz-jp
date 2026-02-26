@@ -1,0 +1,318 @@
+{{ define "main" }}
+<style>
+  /* Pricing Page */
+  .pricing-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 0;
+    color: var(--card-text-color-main);
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .pricing-header {
+    text-align: center;
+  }
+
+  .pricing-header__title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+  }
+
+  .pricing-header__subtitle {
+    font-size: 1.6rem;
+    color: var(--card-text-color-secondary);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* Pricing Cards Grid */
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    align-items: stretch;
+  }
+
+  @media (max-width: 768px) {
+    .pricing-grid {
+      grid-template-columns: 1fr;
+      max-width: 420px;
+      margin: 0 auto;
+    }
+  }
+
+  /* Card */
+  .pricing-card {
+    background: var(--card-background);
+    border-radius: 12px;
+    box-shadow: var(--shadow-l1);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid transparent;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .pricing-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-l2);
+  }
+
+  .pricing-card--recommended {
+    border-color: #10B981;
+    position: relative;
+  }
+
+  .pricing-card__badge {
+    position: absolute;
+    top: -13px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #10B981;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.25rem 1rem;
+    border-radius: 999px;
+    white-space: nowrap;
+    letter-spacing: 0.05em;
+  }
+
+  .pricing-card__name {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--card-text-color-secondary);
+    margin-bottom: 0.75rem;
+  }
+
+  .pricing-card__price {
+    display: flex;
+    align-items: baseline;
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .pricing-card__amount {
+    font-size: 3.2rem;
+    font-weight: 800;
+    line-height: 1;
+    color: var(--card-text-color-main);
+  }
+
+  .pricing-card__period {
+    font-size: 1.4rem;
+    color: var(--card-text-color-tertiary);
+  }
+
+  .pricing-card__description {
+    font-size: 1.4rem;
+    color: var(--card-text-color-secondary);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    min-height: 4.5em;
+  }
+
+  .pricing-card__divider {
+    border: none;
+    border-top: 1px solid var(--card-separator-color);
+    margin: 0 0 1.5rem 0;
+  }
+
+  .pricing-card__features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    flex: 1;
+  }
+
+  .pricing-card__features li {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: var(--card-text-color-main);
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .pricing-card__features li::before {
+    content: "✓";
+    color: #10B981;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 0.05em;
+  }
+
+  .pricing-card__cta {
+    margin-top: auto;
+  }
+
+  .pricing-card__cta .button {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* FAQ Section */
+  .pricing-faq {
+    margin-top: 1rem;
+  }
+
+  .pricing-faq__title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .pricing-faq__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .pricing-faq__grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .pricing-faq__item {
+    background: var(--card-background);
+    border-radius: 12px;
+    box-shadow: var(--shadow-l1);
+    padding: 1.5rem;
+  }
+
+  .pricing-faq__question {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--card-text-color-main);
+  }
+
+  .pricing-faq__answer {
+    font-size: 1.4rem;
+    color: var(--card-text-color-secondary);
+    line-height: 1.6;
+    margin: 0;
+  }
+</style>
+
+<div class="pricing-container">
+  <!-- Header -->
+  <header class="pricing-header">
+    <h1 class="pricing-header__title">料金プラン（まだ仮のものです）</h1>
+    <p class="pricing-header__subtitle">あなたのニーズに合ったプランをお選びください</p>
+  </header>
+
+  <!-- Pricing Cards -->
+  <div class="pricing-grid">
+
+    <!-- Free -->
+    <div class="pricing-card">
+      <div class="pricing-card__name">Free</div>
+      <div class="pricing-card__price">
+        <span class="pricing-card__amount">¥0000</span>
+        <span class="pricing-card__period">/ 月</span>
+      </div>
+      <p class="pricing-card__description">
+        個人利用や試用に最適な無料プラン。基本的な機能をお試しいただけます。
+      </p>
+      <hr class="pricing-card__divider">
+      <ul class="pricing-card__features">
+        <li>基本的なチャート作成</li>
+        <li>データインポート（CSV）</li>
+        <li>最大3プロジェクト</li>
+        <li>コミュニティサポート</li>
+      </ul>
+      <div class="pricing-card__cta">
+        <a href="https://auth.dataviz.jp/auth/sign-up" class="button secondary">無料ではじめる</a>
+      </div>
+    </div>
+
+    <!-- Pro -->
+    <div class="pricing-card pricing-card--recommended">
+      <span class="pricing-card__badge">おすすめ</span>
+      <div class="pricing-card__name">Pro</div>
+      <div class="pricing-card__price">
+        <span class="pricing-card__amount">¥0000</span>
+        <span class="pricing-card__period">/ 月</span>
+      </div>
+      <p class="pricing-card__description">
+        本格的にデータ可視化に取り組む方へ。すべての基本機能に加え、高度な機能が使えます。
+      </p>
+      <hr class="pricing-card__divider">
+      <ul class="pricing-card__features">
+        <li>Freeプランの全機能</li>
+        <li>高度なチャートタイプ</li>
+        <li>データインポート（Excel, JSON）</li>
+        <li>プロジェクト数 無制限</li>
+        <li>画像エクスポート（PNG, SVG）</li>
+        <li>優先メールサポート</li>
+      </ul>
+      <div class="pricing-card__cta">
+        <a href="https://auth.dataviz.jp/auth/sign-up" class="button primary">Proではじめる</a>
+      </div>
+    </div>
+
+    <!-- Enterprise -->
+    <div class="pricing-card">
+      <div class="pricing-card__name">Enterprise</div>
+      <div class="pricing-card__price">
+        <span class="pricing-card__amount">お問い合わせ</span>
+      </div>
+      <p class="pricing-card__description">
+        チームや組織での利用に。カスタマイズや専用サポートをご提供します。
+      </p>
+      <hr class="pricing-card__divider">
+      <ul class="pricing-card__features">
+        <li>Proプランの全機能</li>
+        <li>チームコラボレーション</li>
+        <li>SSO / SAML認証</li>
+        <li>専用サポート担当者</li>
+        <li>SLA保証</li>
+        <li>カスタムインテグレーション</li>
+      </ul>
+      <div class="pricing-card__cta">
+        <a href="/contact/" class="button secondary">お問い合わせ</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FAQ -->
+  <section class="pricing-faq">
+    <h2 class="pricing-faq__title">よくある質問（仮）<a href="/faq/">→ もっと見る</a></h2>
+    <div class="pricing-faq__grid">
+      <div class="pricing-faq__item">
+        <h3 class="pricing-faq__question">プランはいつでも変更できますか？</h3>
+        <p class="pricing-faq__answer">はい、いつでもアップグレード・ダウングレードが可能です。変更は次の請求サイクルから適用されます。</p>
+      </div>
+      <div class="pricing-faq__item">
+        <h3 class="pricing-faq__question">無料トライアルはありますか？</h3>
+        <p class="pricing-faq__answer">Freeプランで基本機能をお試しいただけます。Proプランも14日間の無料トライアルをご用意しています。</p>
+      </div>
+      <div class="pricing-faq__item">
+        <h3 class="pricing-faq__question">支払い方法は？</h3>
+        <p class="pricing-faq__answer">クレジットカード（Visa, Mastercard, AMEX）に対応しています。年払いの場合、2ヶ月分お得になります。</p>
+      </div>
+      <div class="pricing-faq__item">
+        <h3 class="pricing-faq__question">解約はできますか？</h3>
+        <p class="pricing-faq__answer">いつでも解約可能です。解約後も現在の請求期間の終了までサービスをご利用いただけます。</p>
+      </div>
+    </div>
+  </section>
+</div>
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "frontpage") }}
+{{ end }}

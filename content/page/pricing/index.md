@@ -1,9 +1,7 @@
 ---
-title: "価格"
+title: "料金プラン"
 slug: "pricing"
 date: 2026-02-23
+layout: "pricing"
 ---
-
-現在、このページは準備中です。  
-料金プランの詳細を掲載予定です。
 
