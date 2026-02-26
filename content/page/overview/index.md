@@ -1,5 +1,5 @@
 ---
-title: "オーバービュー"
+title: "機能紹介"
 slug: "overview"
 date: 2026-02-23
 ---
