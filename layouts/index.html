@@ -10,26 +10,19 @@
 
   /* Hero Section */
   .hero {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 2rem;
-    min-height: 400px;
   }
 
-  @media (max-width: 1280px) {
-    .hero {
-      grid-template-columns: 1fr;
-      text-align: center;
-    }
-
-    .hero-image {
-      order: -1;
-    }
+  .hero-image {
+    order: -1;
   }
 
   .hero-content {
-    flex: 1;
+    max-width: 800px;
   }
 
   .hero-title {
@@ -51,24 +44,10 @@
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
-  }
-
-  .hero-cta {
-    justify-content: flex-start;
-  }
-
-  @media (max-width: 1280px) {
-    .hero-buttons {
-      justify-content: center;
-    }
-
-    .hero-cta {
-      justify-content: flex-start;
-    }
+    justify-content: center;
   }
 
   .hero-image {
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
