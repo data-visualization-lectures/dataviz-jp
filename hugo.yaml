@@ -78,10 +78,10 @@ params:
       - type: page-links
         params:
           links:
+            - name: 料金プラン
+              url: "/pricing/"
             - name: よくある質問
               url: "/faq/"
-            - name: 価格
-              url: "/pricing/"
             - name: 利用規約
               url: "/terms/"
             - name: お問い合わせ
