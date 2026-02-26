@@ -78,6 +78,8 @@ params:
       - type: page-links
         params:
           links:
+            - name: 機能紹介
+              url: "/overview/"
             - name: 料金プラン
               url: "/pricing/"
             - name: よくある質問
@@ -86,6 +88,8 @@ params:
               url: "/terms/"
             - name: お問い合わせ
               url: "/contact/"
+            - name: 運営会社
+              url: "/about/"
 
   article:
     math: false
