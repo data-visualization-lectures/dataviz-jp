@@ -48,7 +48,7 @@ body {
   grid-template-columns: 1fr;
   gap: var(--section-separation);
 
-  @include respond(md) {
+  @include respond(lg) {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
