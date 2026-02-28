@@ -52,7 +52,3 @@
 {{- partial "pagination.html" . -}}
 {{ partialCached "footer/footer" . }}
 {{ end }}
-
-{{ define "right-sidebar" }}
-{{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
-{{ end }}
