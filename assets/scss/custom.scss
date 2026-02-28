@@ -313,6 +313,87 @@ html[data-scheme="dark"] {
   }
 }
 
+/* Article link buttons (default card layout) */
+.article-link-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.article-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.2s;
+
+  &:hover {
+    transform: translateY(-1px);
+  }
+
+  svg {
+    flex-shrink: 0;
+  }
+}
+
+.article-link-btn--detail {
+  background: var(--card-background-selected);
+  color: var(--card-text-color-main);
+
+  &:hover {
+    background: var(--card-separator-color);
+  }
+}
+
+.article-link-btn--external {
+  background: var(--accent-color);
+  color: var(--accent-color-text);
+
+  &:hover {
+    background: var(--accent-color-darker);
+  }
+}
+
+/* Compact article list with external link icon */
+.article-compact {
+  position: relative;
+}
+
+.article-compact__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  gap: 1rem;
+}
+
+.article-compact__external {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--accent-color);
+  color: var(--accent-color-text);
+  text-decoration: none;
+  transition: background 0.2s, transform 0.2s;
+  z-index: 1;
+
+  &:hover {
+    background: var(--accent-color-darker);
+    transform: translateY(-50%) scale(1.1);
+  }
+}
+
 .widget.page-links {
   .page-links__list {
     margin: 0;
