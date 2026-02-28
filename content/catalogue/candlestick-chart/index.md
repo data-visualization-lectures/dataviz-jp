@@ -8,3 +8,17 @@ chart_subcategories:
   - linear-cartesian
 weight: 480
 ---
+
+このチャートを作ることができるのは...
+
+{{< external-link-card
+    url="https://rawgraphs.dataviz.jp/"
+    title="RAWGraphs2"
+    image="/images/cover_rawgraphs-db.jpg"
+    site="dataviz.jp"
+    description=""
+>}}
+{{< /external-link-card >}}
+
+時系列の最小単位ごとに、最大値や最小値、開始値や終了値というデータを同時に示します。株式市場の値動きなど社会活動を対象に利用されるほか、気温などの自然現象にも用いられることがあります。
+

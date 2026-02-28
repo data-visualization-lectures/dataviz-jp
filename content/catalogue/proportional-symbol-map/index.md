@@ -8,3 +8,7 @@ chart_subcategories:
   - point-geometry
 weight: 590
 ---
+
+シンボル・マップのうち、階級区分しないデータを用いたものです。
+
+

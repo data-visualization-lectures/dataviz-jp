@@ -8,3 +8,7 @@ chart_subcategories:
   - typographic
 weight: 390
 ---
+
+通常の積み重ね棒グラフの矩形の内部に、該当するデータ値をテキストで直接表示します。
+
+

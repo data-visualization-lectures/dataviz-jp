@@ -8,3 +8,17 @@ chart_subcategories:
   - linear-cartesian
 weight: 420
 ---
+
+このチャートを作ることができるのは...
+
+{{< external-link-card
+    url="https://rawgraphs.dataviz.jp/"
+    title="RAWGraphs2"
+    image="/images/cover_rawgraphs-db.jpg"
+    site="dataviz.jp"
+    description=""
+>}}
+{{< /external-link-card >}}
+
+ー般によく用いられるチャートです。 横軸で時間を示し、縦軸に時間以外の変数を割り当てます。データポイント同士を線で接続することで、線の傾きにより変化の大きさが視覚的にわかります。
+

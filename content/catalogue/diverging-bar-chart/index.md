@@ -8,3 +8,17 @@ chart_subcategories:
   - linear-cartesian
 weight: 460
 ---
+
+このチャートを作ることができるのは...
+
+{{< external-link-card
+    url="https://rawgraphs.dataviz.jp/"
+    title="RAWGraphs2"
+    image="/images/cover_rawgraphs-db.jpg"
+    site="dataviz.jp"
+    description=""
+>}}
+{{< /external-link-card >}}
+
+分岐的データ(対立する二者や増加と減少をあつかったデータ)で時系列による変化を棒グラフで表しています。
+

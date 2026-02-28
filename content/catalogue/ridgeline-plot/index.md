@@ -8,3 +8,6 @@ chart_subcategories:
   - distribution-summary
 weight: 50
 ---
+
+複数の変数やグループを比較するために、密度プロットをずらして並べて表示します。
+
