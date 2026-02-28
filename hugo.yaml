@@ -80,6 +80,8 @@ params:
           links:
             - name: 機能紹介
               url: "/overview/"
+            - name: チャートカタログ
+              url: "/catalogue/"
             - name: 料金プラン
               url: "/pricing/"
             - name: よくある質問
