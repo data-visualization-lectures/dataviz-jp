@@ -1,17 +1,17 @@
 ---
 title: 都道府県地図コロプレス
 description: 都道府県地図コロプレスを手軽に作成できるツール
-slug: "colopleth-prefectures"
+slug: "choropleth-prefectures"
 weight: 1
 categories: "data-visualization-map"
-address: https://colopleth-prefectures.dataviz.jp/
-image: "images/cover_colopleth-prefectures.png"
+address: https://choropleth-prefectures.dataviz.jp/
+image: "images/cover_choropleth-prefectures.png"
 ---
 
 {{< external-link-card
-    url="https://colopleth-prefectures.dataviz.jp/"
+    url="https://choropleth-prefectures.dataviz.jp/"
     title="都道府県地図コロプレス"
-    image="images/cover_colopleth-prefectures.png"
+    image="images/cover_choropleth-prefectures.png"
     site="dataviz.jp"
     description="都道府県地図コロプレスを手軽に作成できるツール"
 >}}
