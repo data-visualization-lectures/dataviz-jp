@@ -32,7 +32,7 @@ date: 2026-02-23
 ---
 
 {{< external-link-card
-    url="https://all-about.dataviz.jp/"
+    url="https://all-about-book.visualizing.jp/"
     title="データ可視化の基本が全部わかる本"
     image="../images/book_all-about-dataviz.jpg"
     site="dataviz.jp"
