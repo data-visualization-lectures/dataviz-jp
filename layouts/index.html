@@ -172,3 +172,7 @@
   </section>
 </div>
 {{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "frontpage") }}
+{{ end }}
