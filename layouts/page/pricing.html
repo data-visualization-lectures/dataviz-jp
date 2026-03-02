@@ -29,10 +29,17 @@
     margin: 0;
   }
 
+  .pricing-section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
   /* Pricing Cards Grid */
   .pricing-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     align-items: stretch;
   }
@@ -214,13 +221,12 @@
   </header>
 
   <!-- Pricing Cards -->
+  <h2 class="pricing-section-title">通常プラン</h2>
   <div class="pricing-grid">
-
-    <!-- Free -->
     <div class="pricing-card">
-      <div class="pricing-card__name">Free</div>
+      <div class="pricing-card__name">月額</div>
       <div class="pricing-card__price">
-        <span class="pricing-card__amount">¥0000</span>
+        <span class="pricing-card__amount">¥2,480</span>
         <span class="pricing-card__period">/ 月</span>
       </div>
       <p class="pricing-card__description">
@@ -234,20 +240,19 @@
         <li>コミュニティサポート</li>
       </ul>
       <div class="pricing-card__cta">
-        <a href="https://auth.dataviz.jp/auth/sign-up" class="button secondary">無料ではじめる</a>
+        <a href="https://auth.dataviz.jp/auth/sign-up" class="button primary">申し込む</a>
       </div>
     </div>
 
-    <!-- Pro -->
     <div class="pricing-card pricing-card--recommended">
       <span class="pricing-card__badge">おすすめ</span>
-      <div class="pricing-card__name">Pro</div>
+      <div class="pricing-card__name">年額</div>
       <div class="pricing-card__price">
-        <span class="pricing-card__amount">¥0000</span>
-        <span class="pricing-card__period">/ 月</span>
+        <span class="pricing-card__amount">¥24,800</span>
+        <span class="pricing-card__period">/ 年（2ヶ月分お得）</span>
       </div>
       <p class="pricing-card__description">
-        本格的にデータ可視化に取り組む方へ。すべての基本機能に加え、高度な機能が使えます。
+        本格的にデータ可視化に取り組む方へ。すべての基本機能に加え、高度な機能が使えます。月額よりも2ヶ月分お得です。
       </p>
       <hr class="pricing-card__divider">
       <ul class="pricing-card__features">
@@ -259,57 +264,55 @@
         <li>優先メールサポート</li>
       </ul>
       <div class="pricing-card__cta">
-        <a href="https://auth.dataviz.jp/auth/sign-up" class="button primary">Proではじめる</a>
+        <a href="https://auth.dataviz.jp/auth/sign-up" class="button primary">申し込む</a>
       </div>
     </div>
+  </div><!-- Pricing Cards: 通常プラン -->
 
-    <!-- Enterprise -->
+  <!-- Coaching Cards -->
+  <h2 class="pricing-section-title">コーチングプラン</h2>
+  <div class="pricing-grid">
     <div class="pricing-card">
-      <div class="pricing-card__name">Enterprise</div>
+      <div class="pricing-card__name">月額</div>
       <div class="pricing-card__price">
-        <span class="pricing-card__amount">お問い合わせ</span>
+        <span class="pricing-card__amount">¥6,980</span>
+        <span class="pricing-card__period">/ 月</span>
       </div>
       <p class="pricing-card__description">
-        チームや組織での利用に。カスタマイズや専用サポートをご提供します。
+        本ツール利用と<a href="https://personal.data-viz-lectures.com/">1対1でのコーチング</a>のセットです。月々1,000円お得です。
       </p>
       <hr class="pricing-card__divider">
       <ul class="pricing-card__features">
-        <li>Proプランの全機能</li>
-        <li>チームコラボレーション</li>
-        <li>SSO / SAML認証</li>
-        <li>専用サポート担当者</li>
-        <li>SLA保証</li>
-        <li>カスタムインテグレーション</li>
+        <li>通常プランと同様のツール提供サービス（2,480円）</li>
+        <li>1対1でのコーチング（5,500円→4,500円）</li>
+        <li>合計金額より1,000円ディスカウント</li>
       </ul>
       <div class="pricing-card__cta">
-        <a href="/contact/" class="button secondary">お問い合わせ</a>
+        <a href="https://auth.dataviz.jp/auth/sign-up" class="button primary">申し込む</a>
       </div>
     </div>
 
-  </div>
-
-  <!-- FAQ -->
-  <section class="pricing-faq">
-    <h2 class="pricing-faq__title">よくある質問（仮）<a href="/faq/">→ もっと見る</a></h2>
-    <div class="pricing-faq__grid">
-      <div class="pricing-faq__item">
-        <h3 class="pricing-faq__question">プランはいつでも変更できますか？</h3>
-        <p class="pricing-faq__answer">はい、いつでもアップグレード・ダウングレードが可能です。変更は次の請求サイクルから適用されます。</p>
+    <div class="pricing-card">
+      <div class="pricing-card__name">年額</div>
+      <div class="pricing-card__price">
+        <span class="pricing-card__amount">¥69,800</span>
+        <span class="pricing-card__period">/ 年（2ヶ月分お得）</span>
       </div>
-      <div class="pricing-faq__item">
-        <h3 class="pricing-faq__question">無料トライアルはありますか？</h3>
-        <p class="pricing-faq__answer">Freeプランで基本機能をお試しいただけます。Proプランも14日間の無料トライアルをご用意しています。</p>
-      </div>
-      <div class="pricing-faq__item">
-        <h3 class="pricing-faq__question">支払い方法は？</h3>
-        <p class="pricing-faq__answer">クレジットカード（Visa, Mastercard, AMEX）に対応しています。年払いの場合、2ヶ月分お得になります。</p>
-      </div>
-      <div class="pricing-faq__item">
-        <h3 class="pricing-faq__question">解約はできますか？</h3>
-        <p class="pricing-faq__answer">いつでも解約可能です。解約後も現在の請求期間の終了までサービスをご利用いただけます。</p>
+      <p class="pricing-card__description">
+        本ツール利用と<a href="https://personal.data-viz-lectures.com/">1対1でのコーチング</a>のセットです。月々1,000円お得です。
+      </p>
+      <hr class="pricing-card__divider">
+      <ul class="pricing-card__features">
+        <li>通常プランと同様のツール提供サービス（2,480円）</li>
+        <li>1対1でのコーチング（5,500円→4,500円）</li>
+        <li>月額よりも2ヶ月分を割引</li>
+      </ul>
+      <div class="pricing-card__cta">
+        <a href="https://auth.dataviz.jp/auth/sign-up" class="button primary">申し込む</a>
       </div>
     </div>
-  </section>
+  </div><!-- Pricing Cards: コーチングプラン -->
+
 </div>
 {{ end }}
 

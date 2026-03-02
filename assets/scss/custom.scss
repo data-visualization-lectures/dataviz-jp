@@ -207,6 +207,17 @@ html[data-scheme="dark"] {
   }
 }
 
+/* Inline link styles */
+.article-content a,
+.pricing-card__description a,
+.pricing-faq__answer a {
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 /* Global Button Styles */
 .button {
   display: inline-flex;
