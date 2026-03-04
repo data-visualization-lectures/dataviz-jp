@@ -86,6 +86,8 @@ params:
               url: "/faq/"
             - name: 利用規約
               url: "/terms/"
+            - name: プライバシー・ポリシー
+              url: "/privacy/"
             - name: お問い合わせ
               url: "/contact/"
             - name: 運営会社
