@@ -27,6 +27,14 @@ Tools that can create this chart...
     description="Write visualization specs in JSON to render interactive graphs and charts in real time"
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://data-illustrator.dataviz.jp/"
+    title="Data Illustrator"
+    image="/images/cover_data-illustrator.jpg"
+    site="dataviz.jp"
+    description="Create diverse charts with ease"
+>}}
+{{< /external-link-card >}}
 
 A commonly used chart type. The horizontal axis represents time, and a non-time variable is assigned to the vertical axis. By connecting data points with lines, the slope of the lines visually conveys the magnitude of change.
 

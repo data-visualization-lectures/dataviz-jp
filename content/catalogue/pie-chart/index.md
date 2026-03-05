@@ -27,6 +27,14 @@ weight: 90
     description="JSON 形式で可視化仕様を書くことで、インタラクティブなグラフやチャートをリアルタイムにレンダリング"
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://data-illustrator.dataviz.jp/"
+    title="Data Illustrator"
+    image="/images/cover_data-illustrator.jpg"
+    site="dataviz.jp"
+    description="多様なチャートを手軽に作成"
+>}}
+{{< /external-link-card >}}
 
 円の内部の角度によって、データ値の大きさを割合で示します。近年は利用に否定的な意見も多いですが、項目数が多かったり、3D描画して割合の見え方を歪めたりするなどの不適切な見せ方をしなければ問題ありません。
 

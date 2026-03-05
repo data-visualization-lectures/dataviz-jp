@@ -27,5 +27,13 @@ weight: 170
     description="JSON 形式で可視化仕様を書くことで、インタラクティブなグラフやチャートをリアルタイムにレンダリング"
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://data-illustrator.dataviz.jp/"
+    title="Data Illustrator"
+    image="/images/cover_data-illustrator.jpg"
+    site="dataviz.jp"
+    description="多様なチャートを手軽に作成"
+>}}
+{{< /external-link-card >}}
 
 複数のディメンション(切り口)に対して1つのメジャーを高さとして示します。棒の位置はグループが視認できるようまとめます。グループ棒グラフとしてグループでまとめつつ、同時に積み重ねグラフ化する(メジャーを積み重ねる)ことは避けましょう。

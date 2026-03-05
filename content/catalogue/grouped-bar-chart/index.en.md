@@ -27,5 +27,13 @@ Tools that can create this chart...
     description="Write visualization specs in JSON to render interactive graphs and charts in real time"
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://data-illustrator.dataviz.jp/"
+    title="Data Illustrator"
+    image="/images/cover_data-illustrator.jpg"
+    site="dataviz.jp"
+    description="Create diverse charts with ease"
+>}}
+{{< /external-link-card >}}
 
 A single measure is shown as the bar height across multiple dimensions (categories). Bars are positioned so that groups are visually identifiable. Avoid combining grouped bar chart grouping with stacked bar chart stacking (stacking measures) at the same time.

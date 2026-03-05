@@ -27,6 +27,14 @@ weight: 160
     description="JSON 形式で可視化仕様を書くことで、インタラクティブなグラフやチャートをリアルタイムにレンダリング"
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://data-illustrator.dataviz.jp/"
+    title="Data Illustrator"
+    image="/images/cover_data-illustrator.jpg"
+    site="dataviz.jp"
+    description="多様なチャートを手軽に作成"
+>}}
+{{< /external-link-card >}}
 
 1つのディメンション(切り口)に対して複数のメジャーを同時に高さとして示します。メジャーは色かテクスチャで塗り分けます。メジャーの数値を実数であつかいます。
 

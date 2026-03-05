@@ -27,6 +27,14 @@ You can create this chart with...
     description="Write visualization specs in JSON to render interactive graphs and charts in real time"
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://data-illustrator.dataviz.jp/"
+    title="Data Illustrator"
+    image="/images/cover_data-illustrator.jpg"
+    site="dataviz.jp"
+    description="Create diverse charts with ease"
+>}}
+{{< /external-link-card >}}
 
 A bar chart represents the magnitude of one measure against one dimension (category) using the length of bars. For example, this is useful when you want to see the population (measure) for each prefecture (dimension). Since most people know how to read bar charts and they convey numerical values accurately through length, they can be used effectively in many situations.
 

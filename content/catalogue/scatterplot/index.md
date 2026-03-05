@@ -10,6 +10,8 @@ weight: 260
 ---
 
 
+このチャートを作ることができるのは...
+
 {{< external-link-card
     url="https://vega-editor.dataviz.jp/"
     title="Vega Editor"

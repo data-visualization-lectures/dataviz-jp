@@ -27,6 +27,14 @@ weight: 110
     description="JSON 形式で可視化仕様を書くことで、インタラクティブなグラフやチャートをリアルタイムにレンダリング"
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://data-illustrator.dataviz.jp/"
+    title="Data Illustrator"
+    image="/images/cover_data-illustrator.jpg"
+    site="dataviz.jp"
+    description="多様なチャートを手軽に作成"
+>}}
+{{< /external-link-card >}}
 
 100%積み上げ棒グラフの軸が二軸あるようなチャートです。2つの変数について、その割合を同時に示すことが特徴です。シンプルに見えて、意外に読み解きづらいので、凡例やアノテーションで理解しやすく補完することが重要です。
 

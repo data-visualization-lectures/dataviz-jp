@@ -27,6 +27,14 @@ weight: 150
     description="JSON 形式で可視化仕様を書くことで、インタラクティブなグラフやチャートをリアルタイムにレンダリング"
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://data-illustrator.dataviz.jp/"
+    title="Data Illustrator"
+    image="/images/cover_data-illustrator.jpg"
+    site="dataviz.jp"
+    description="多様なチャートを手軽に作成"
+>}}
+{{< /external-link-card >}}
 
 1つのディメンション(切り口)に対して、1つのメジャーの大きさを長さで示します。たとえば都道府県ごと(デイメンション)の人口(メジャー)を知りたい場合などが該当します。多くの人が読み方を知っており、数値を長さで伝える伝達の正確さから、多くの場面で利用できるでしょう。
 
