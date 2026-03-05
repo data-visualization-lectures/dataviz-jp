@@ -149,7 +149,7 @@
 </style>
 
 <div class="chart-detail">
-  <a href="/catalogue/" class="chart-detail__back">&larr; チャートカタログに戻る</a>
+  <a href="{{ "catalogue/" | relLangURL }}" class="chart-detail__back">{{ T "chart.back" }}</a>
 
   <div class="chart-detail__header">
     <h1 class="chart-detail__title">{{ .Title }}</h1>
@@ -161,18 +161,10 @@
     {{ end }}
 
     {{ with .Params.chart_categories }}
-      {{ $categoryLabels := dict
-        "numeric"       "数値"
-        "text"          "言葉"
-        "time"          "時間"
-        "location"      "位置"
-        "structure"     "構造"
-        "relationship"  "関係"
-      }}
       <div class="chart-detail__categories">
         {{ range . }}
           <span class="chart-detail__category-badge">
-            {{ index $categoryLabels . | default . }}
+            {{ T (printf "cat.%s" .) }}
           </span>
         {{ end }}
       </div>
@@ -196,7 +188,7 @@
 
   {{ with .Params.related_charts }}
     <section>
-      <h2 class="chart-detail__related-title">関連するチャート</h2>
+      <h2 class="chart-detail__related-title">{{ T "chart.related" }}</h2>
       <div class="chart-detail__related-grid">
         {{ range . }}
           {{ with $.Site.GetPage (printf "/catalogue/%s" .) }}

@@ -113,61 +113,57 @@
   <!-- Hero -->
   <section class="hero">
     <div class="hero-content">
-      <h1 class="hero-title">データの道具箱</h1>
-      <p class="hero-subtitle">データ可視化とデータ加工の便利ツール集</p>
-      <p class="hero-subtitle">本サービスは現在、過去にご利用いただいたお客さま向けのクローズドテスト期間です。招待コードをお持ちの方のみご利用いただけます。フィードバックをもとに機能改善を行った後、一般公開を予定しています。</p>
-      <!-- <div class="hero-buttons">
-        <a href="/categories/free-tools" class="button primary">無料ツール</a>
-        <a href="/categories/data-visualization" class="button secondary">データ可視化</a>
-      </div> -->
+      <h1 class="hero-title">{{ T "hero.title" }}</h1>
+      <p class="hero-subtitle">{{ T "hero.subtitle" }}</p>
+      <p class="hero-subtitle">{{ T "hero.notice" }}</p>
     </div>
     <div class="hero-image">
-      <img src="/images/hero-dataviz.png" alt="データ可視化イメージ" style="width: 100%; height: auto; border-radius: 20px;">
+      <img src="/images/hero-dataviz.png" alt="{{ T "hero.image.alt" }}" style="width: 100%; height: auto; border-radius: 20px;">
     </div>
   </section>
 
   <section class="hero-buttons hero-cta">
-    <a href="https://auth.dataviz.jp/auth/sign-up" class="button primary">今すぐはじめる</a>
-    <a href="/overview/" class="button secondary">もっと詳しく</a>
+    <a href="https://auth.dataviz.jp/auth/sign-up" class="button primary">{{ T "hero.cta.primary" }}</a>
+    <a href="{{ "overview/" | relLangURL }}" class="button secondary">{{ T "hero.cta.secondary" }}</a>
   </section>
 
   <!-- Features -->
   <section class="features">
 
-    <a href="/categories/data-visualization" class="feature-card" style="text-decoration: none; color: inherit;">
+    <a href="{{ "categories/data-visualization" | relLangURL }}" class="feature-card" style="text-decoration: none; color: inherit;">
       <div class="feature-icon">📊</div>
-      <h3 class="feature-title">データ可視化</h3>
-      <p class="feature-desc">チャート作成に役立つツールをまとめています。</p>
+      <h3 class="feature-title">{{ T "feature.dataviz.title" }}</h3>
+      <p class="feature-desc">{{ T "feature.dataviz.desc" }}</p>
     </a>
 
-    <a href="/categories/data-visualization-map" class="feature-card" style="text-decoration: none; color: inherit;">
+    <a href="{{ "categories/data-visualization-map" | relLangURL }}" class="feature-card" style="text-decoration: none; color: inherit;">
       <div class="feature-icon">🌍</div>
-      <h3 class="feature-title">データ可視化：地図</h3>
-      <p class="feature-desc">地図を使ったデータ可視化ツールをまとめています。</p>
+      <h3 class="feature-title">{{ T "feature.dataviz-map.title" }}</h3>
+      <p class="feature-desc">{{ T "feature.dataviz-map.desc" }}</p>
     </a>
 
-    <a href="/categories/data-visualization-parts" class="feature-card" style="text-decoration: none; color: inherit;">
+    <a href="{{ "categories/data-visualization-parts" | relLangURL }}" class="feature-card" style="text-decoration: none; color: inherit;">
       <div class="feature-icon">🎨</div>
-      <h3 class="feature-title">データ可視化：個別</h3>
-      <p class="feature-desc">チャートの一部や特定の可視化表現に焦点を当てたリソースをまとめています。</p>
+      <h3 class="feature-title">{{ T "feature.dataviz-parts.title" }}</h3>
+      <p class="feature-desc">{{ T "feature.dataviz-parts.desc" }}</p>
     </a>
 
-    <a href="/categories/data-visualization-color" class="feature-card" style="text-decoration: none; color: inherit;">
+    <a href="{{ "categories/data-visualization-color" | relLangURL }}" class="feature-card" style="text-decoration: none; color: inherit;">
       <div class="feature-icon">🎨</div>
-      <h3 class="feature-title">データ可視化：色</h3>
-      <p class="feature-desc">配色設計やカラーパレット作成に特化した可視化ツール。</p>
+      <h3 class="feature-title">{{ T "feature.dataviz-color.title" }}</h3>
+      <p class="feature-desc">{{ T "feature.dataviz-color.desc" }}</p>
     </a>
 
-    <a href="/categories/data-wrangling" class="feature-card" style="text-decoration: none; color: inherit;">
+    <a href="{{ "categories/data-wrangling" | relLangURL }}" class="feature-card" style="text-decoration: none; color: inherit;">
       <div class="feature-icon">🔧</div>
-      <h3 class="feature-title">データ加工</h3>
-      <p class="feature-desc">加工・整形・変換など、データ整備に使えるツールのまとめです。</p>
+      <h3 class="feature-title">{{ T "feature.wrangling.title" }}</h3>
+      <p class="feature-desc">{{ T "feature.wrangling.desc" }}</p>
     </a>
 
-    <a href="/categories/data-wrangling-map" class="feature-card" style="text-decoration: none; color: inherit;">
+    <a href="{{ "categories/data-wrangling-map" | relLangURL }}" class="feature-card" style="text-decoration: none; color: inherit;">
       <div class="feature-icon">🔧</div>
-      <h3 class="feature-title">データ加工：地図</h3>
-      <p class="feature-desc">地図用データの整形・結合・クレンジングに焦点を当てたツールです。</p>
+      <h3 class="feature-title">{{ T "feature.wrangling-map.title" }}</h3>
+      <p class="feature-desc">{{ T "feature.wrangling-map.desc" }}</p>
     </a>
   </section>
 </div>

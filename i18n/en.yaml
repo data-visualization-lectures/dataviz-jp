@@ -1,0 +1,183 @@
+# Homepage
+hero.title:
+  other: "Data Toolbox"
+hero.subtitle:
+  other: "Handy tools for data visualization & data wrangling"
+hero.notice:
+  other: "This service is currently in a closed testing phase for previous customers. Only users with an invitation code can access it. After incorporating feedback and improving features, we plan to open it to the public."
+hero.cta.primary:
+  other: "Get Started"
+hero.cta.secondary:
+  other: "Learn More"
+hero.image.alt:
+  other: "Data Visualization Image"
+
+# Feature cards
+feature.dataviz.title:
+  other: "Data Visualization"
+feature.dataviz.desc:
+  other: "A collection of tools for creating charts."
+feature.dataviz-map.title:
+  other: "Data Visualization: Maps"
+feature.dataviz-map.desc:
+  other: "Data visualization tools using maps."
+feature.dataviz-parts.title:
+  other: "Data Visualization: Components"
+feature.dataviz-parts.desc:
+  other: "Resources focused on chart components and specific visualization techniques."
+feature.dataviz-color.title:
+  other: "Data Visualization: Color"
+feature.dataviz-color.desc:
+  other: "Visualization tools specialized in color scheme design and palette creation."
+feature.wrangling.title:
+  other: "Data Wrangling"
+feature.wrangling.desc:
+  other: "Tools for data processing, formatting, and transformation."
+feature.wrangling-map.title:
+  other: "Data Wrangling: Maps"
+feature.wrangling-map.desc:
+  other: "Tools for formatting, merging, and cleansing map data."
+
+# Sidebar
+sidebar.sample-data:
+  other: "Sample Data"
+sidebar.data-portal:
+  other: "Data Portal"
+
+# Pricing page
+pricing.title:
+  other: "Pricing Plans (Draft)"
+pricing.subtitle:
+  other: "Choose the plan that fits your needs"
+pricing.standard:
+  other: "Standard Plan"
+pricing.coaching:
+  other: "Coaching Plan"
+pricing.monthly:
+  other: "Monthly"
+pricing.yearly:
+  other: "Yearly"
+pricing.per-month:
+  other: "/ month"
+pricing.per-year:
+  other: "/ year (Save 2 months)"
+pricing.recommended:
+  other: "Recommended"
+pricing.cta:
+  other: "Subscribe"
+pricing.standard.monthly.desc:
+  other: "Perfect for personal use and trial. Try out the basic features."
+pricing.standard.yearly.desc:
+  other: "For those serious about data visualization. All basic features plus advanced capabilities. Save 2 months compared to monthly."
+pricing.standard.monthly.f1:
+  other: "Basic chart creation"
+pricing.standard.monthly.f2:
+  other: "Data import (CSV)"
+pricing.standard.monthly.f3:
+  other: "Up to 3 projects"
+pricing.standard.monthly.f4:
+  other: "Community support"
+pricing.standard.yearly.f1:
+  other: "All Free plan features"
+pricing.standard.yearly.f2:
+  other: "Advanced chart types"
+pricing.standard.yearly.f3:
+  other: "Data import (Excel, JSON)"
+pricing.standard.yearly.f4:
+  other: "Unlimited projects"
+pricing.standard.yearly.f5:
+  other: "Image export (PNG, SVG)"
+pricing.standard.yearly.f6:
+  other: "Priority email support"
+pricing.coaching.desc:
+  other: "Bundle of this tool and <a href=\"https://personal.data-viz-lectures.com/\">1-on-1 coaching</a>. Save ¥1,000/month."
+pricing.coaching.yearly.desc:
+  other: "Bundle of this tool and <a href=\"https://personal.data-viz-lectures.com/\">1-on-1 coaching</a>. Save ¥1,000/month."
+pricing.coaching.f1:
+  other: "Same tool service as Standard Plan (¥2,480)"
+pricing.coaching.f2:
+  other: "1-on-1 coaching (¥5,500 → ¥4,500)"
+pricing.coaching.monthly.f3:
+  other: "¥1,000 discount from total"
+pricing.coaching.yearly.f3:
+  other: "Save 2 months compared to monthly"
+
+# Catalogue
+catalogue.filter.all:
+  other: "All"
+catalogue.filter.aria:
+  other: "Chart category filter"
+catalogue.count:
+  other: " charts"
+
+# Catalogue categories
+cat.numeric:
+  other: "Numeric"
+cat.text:
+  other: "Text"
+cat.time:
+  other: "Time"
+cat.location:
+  other: "Location"
+cat.structure:
+  other: "Structure"
+cat.relationship:
+  other: "Relationship"
+
+# Catalogue subcategories
+subcat.distribution-summary:
+  other: "Distribution (Summary)"
+subcat.distribution-individual:
+  other: "Distribution (Individual)"
+subcat.breakdown:
+  other: "Breakdown"
+subcat.comparison:
+  other: "Comparison"
+subcat.multivariate:
+  other: "Multivariate Comparison"
+subcat.correlation:
+  other: "Correlation"
+subcat.text-frequency:
+  other: "Text Frequency"
+subcat.text-sets:
+  other: "Text Sets"
+subcat.typographic:
+  other: "Typographic Symbols"
+subcat.paragraphs:
+  other: "Paragraph-centric"
+subcat.linear-cartesian:
+  other: "Linear Time × Cartesian"
+subcat.cyclic-cartesian:
+  other: "Cyclic Time × Cartesian"
+subcat.linear-polar:
+  other: "Linear Time × Polar"
+subcat.cyclic-polar:
+  other: "Cyclic Time × Polar"
+subcat.point-geometry:
+  other: "Point Geometry"
+subcat.line-geometry:
+  other: "Line Geometry"
+subcat.area-geometry:
+  other: "Area Geometry"
+subcat.multivariate-geometry:
+  other: "Multivariate Geometry"
+subcat.tree-connection:
+  other: "Tree: Connection"
+subcat.tree-juxtaposition:
+  other: "Tree: Juxtaposition"
+subcat.tree-nested:
+  other: "Tree: Nested"
+subcat.network-connection:
+  other: "Network: Connection"
+subcat.network-flow:
+  other: "Network: Flow"
+subcat.network-matrix:
+  other: "Network: Matrix"
+
+# Chart detail page
+chart.back:
+  other: "← Back to Catalogue"
+chart.category:
+  other: "Category"
+chart.related:
+  other: "Related Charts"

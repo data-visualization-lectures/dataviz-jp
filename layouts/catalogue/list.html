@@ -206,78 +206,41 @@
   </header>
 
   <!-- Filter Buttons -->
-  <nav class="catalogue-filters" aria-label="チャートカテゴリフィルター">
+  <nav class="catalogue-filters" aria-label="{{ T "catalogue.filter.aria" }}">
     <!-- Category row -->
     <div class="catalogue-filters__row">
       <button class="catalogue-filters__btn catalogue-filters__btn--active"
               data-filter="all" type="button">
-        すべて
+        {{ T "catalogue.filter.all" }}
       </button>
-      {{ $categories := slice
-        (dict "key" "numeric" "label" "数値")
-        (dict "key" "text" "label" "言葉")
-        (dict "key" "time" "label" "時間")
-        (dict "key" "location" "label" "位置")
-        (dict "key" "structure" "label" "構造")
-        (dict "key" "relationship" "label" "関係")
-      }}
-      {{ range $categories }}
+      {{ $catKeys := slice "numeric" "text" "time" "location" "structure" "relationship" }}
+      {{ range $catKeys }}
         <button class="catalogue-filters__btn"
-                data-filter="{{ .key }}" type="button">
-          {{ .label }}
+                data-filter="{{ . }}" type="button">
+          {{ T (printf "cat.%s" .) }}
         </button>
       {{ end }}
     </div>
 
     <!-- Subcategory rows (one per category, hidden by default) -->
     {{ $subcategories := slice
-      (dict "parent" "numeric" "subs" (slice
-        (dict "key" "distribution-summary" "label" "分布を知りたい（要約値）")
-        (dict "key" "distribution-individual" "label" "分布を知りたい（個別値）")
-        (dict "key" "breakdown" "label" "内訳を知りたい")
-        (dict "key" "comparison" "label" "比較をしたい")
-        (dict "key" "multivariate" "label" "多変量で比較したい")
-        (dict "key" "correlation" "label" "相関関係を知りたい")
-      ))
-      (dict "parent" "text" "subs" (slice
-        (dict "key" "text-frequency" "label" "テキストの頻度")
-        (dict "key" "text-sets" "label" "テキストの集合")
-        (dict "key" "typographic" "label" "図形記号の文字記号化")
-        (dict "key" "paragraphs" "label" "段落の文章を主役とする")
-      ))
-      (dict "parent" "time" "subs" (slice
-        (dict "key" "linear-cartesian" "label" "線形時間×直交座標系")
-        (dict "key" "cyclic-cartesian" "label" "周期時間×直交座標系")
-        (dict "key" "linear-polar" "label" "線形時間×極座標系")
-        (dict "key" "cyclic-polar" "label" "周期時間×極座標系")
-      ))
-      (dict "parent" "location" "subs" (slice
-        (dict "key" "point-geometry" "label" "点ジオメトリー")
-        (dict "key" "line-geometry" "label" "線ジオメトリー")
-        (dict "key" "area-geometry" "label" "面ジオメトリー")
-        (dict "key" "multivariate-geometry" "label" "多変量ジオメトリー")
-      ))
-      (dict "parent" "structure" "subs" (slice
-        (dict "key" "tree-connection" "label" "ツリー構造のコネクション型")
-        (dict "key" "tree-juxtaposition" "label" "ツリー構造の面型（並置）")
-        (dict "key" "tree-nested" "label" "ツリー構造の面型（入れ子）")
-      ))
-      (dict "parent" "relationship" "subs" (slice
-        (dict "key" "network-connection" "label" "ネットワーク構造のコネクション型")
-        (dict "key" "network-flow" "label" "ネットワーク構造のフロー型")
-        (dict "key" "network-matrix" "label" "ネットワーク構造のマトリックス型")
-      ))
+      (dict "parent" "numeric" "subs" (slice "distribution-summary" "distribution-individual" "breakdown" "comparison" "multivariate" "correlation"))
+      (dict "parent" "text" "subs" (slice "text-frequency" "text-sets" "typographic" "paragraphs"))
+      (dict "parent" "time" "subs" (slice "linear-cartesian" "cyclic-cartesian" "linear-polar" "cyclic-polar"))
+      (dict "parent" "location" "subs" (slice "point-geometry" "line-geometry" "area-geometry" "multivariate-geometry"))
+      (dict "parent" "structure" "subs" (slice "tree-connection" "tree-juxtaposition" "tree-nested"))
+      (dict "parent" "relationship" "subs" (slice "network-connection" "network-flow" "network-matrix"))
     }}
     {{ range $subcategories }}
       <div class="catalogue-filters__sub" data-parent="{{ .parent }}">
         <button class="catalogue-filters__sub-btn catalogue-filters__sub-btn--active"
                 data-subfilter="all" type="button">
-          すべて
+          {{ T "catalogue.filter.all" }}
         </button>
         {{ range .subs }}
           <button class="catalogue-filters__sub-btn"
-                  data-subfilter="{{ .key }}" type="button">
-            {{ .label }}
+                  data-subfilter="{{ . }}" type="button">
+            {{ T (printf "subcat.%s" .) }}
           </button>
         {{ end }}
       </div>
@@ -285,7 +248,7 @@
   </nav>
 
   <p class="catalogue-count">
-    <span id="catalogue-visible-count">{{ len .Pages }}</span>件 / {{ len .Pages }}件
+    <span id="catalogue-visible-count">{{ len .Pages }}</span>{{ T "catalogue.count" }} / {{ len .Pages }}{{ T "catalogue.count" }}
   </p>
 
   <!-- Chart Grid -->

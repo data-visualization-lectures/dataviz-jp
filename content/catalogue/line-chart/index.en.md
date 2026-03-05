@@ -1,0 +1,24 @@
+---
+title: "Line Chart"
+title_en: "Line Chart"
+slug: "line-chart"
+chart_categories:
+  - time
+chart_subcategories:
+  - linear-cartesian
+weight: 420
+---
+
+Tools that can create this chart...
+
+{{< external-link-card
+    url="https://rawgraphs.dataviz.jp/"
+    title="RAWGraphs2"
+    image="/images/cover_rawgraphs-db.jpg"
+    site="dataviz.jp"
+    description=""
+>}}
+{{< /external-link-card >}}
+
+A commonly used chart type. The horizontal axis represents time, and a non-time variable is assigned to the vertical axis. By connecting data points with lines, the slope of the lines visually conveys the magnitude of change.
+

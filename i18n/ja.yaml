@@ -1,0 +1,183 @@
+# Homepage
+hero.title:
+  other: "データの道具箱"
+hero.subtitle:
+  other: "データ可視化とデータ加工の便利ツール集"
+hero.notice:
+  other: "本サービスは現在、過去にご利用いただいたお客さま向けのクローズドテスト期間です。招待コードをお持ちの方のみご利用いただけます。フィードバックをもとに機能改善を行った後、一般公開を予定しています。"
+hero.cta.primary:
+  other: "今すぐはじめる"
+hero.cta.secondary:
+  other: "もっと詳しく"
+hero.image.alt:
+  other: "データ可視化イメージ"
+
+# Feature cards
+feature.dataviz.title:
+  other: "データ可視化"
+feature.dataviz.desc:
+  other: "チャート作成に役立つツールをまとめています。"
+feature.dataviz-map.title:
+  other: "データ可視化：地図"
+feature.dataviz-map.desc:
+  other: "地図を使ったデータ可視化ツールをまとめています。"
+feature.dataviz-parts.title:
+  other: "データ可視化：個別"
+feature.dataviz-parts.desc:
+  other: "チャートの一部や特定の可視化表現に焦点を当てたリソースをまとめています。"
+feature.dataviz-color.title:
+  other: "データ可視化：色"
+feature.dataviz-color.desc:
+  other: "配色設計やカラーパレット作成に特化した可視化ツール。"
+feature.wrangling.title:
+  other: "データ加工"
+feature.wrangling.desc:
+  other: "加工・整形・変換など、データ整備に使えるツールのまとめです。"
+feature.wrangling-map.title:
+  other: "データ加工：地図"
+feature.wrangling-map.desc:
+  other: "地図用データの整形・結合・クレンジングに焦点を当てたツールです。"
+
+# Sidebar
+sidebar.sample-data:
+  other: "サンプル・データ"
+sidebar.data-portal:
+  other: "データポータル"
+
+# Pricing page
+pricing.title:
+  other: "料金プラン（まだ仮のものです）"
+pricing.subtitle:
+  other: "あなたのニーズに合ったプランをお選びください"
+pricing.standard:
+  other: "通常プラン"
+pricing.coaching:
+  other: "コーチングプラン"
+pricing.monthly:
+  other: "月額"
+pricing.yearly:
+  other: "年額"
+pricing.per-month:
+  other: "/ 月"
+pricing.per-year:
+  other: "/ 年（2ヶ月分お得）"
+pricing.recommended:
+  other: "おすすめ"
+pricing.cta:
+  other: "申し込む"
+pricing.standard.monthly.desc:
+  other: "個人利用や試用に最適な無料プラン。基本的な機能をお試しいただけます。"
+pricing.standard.yearly.desc:
+  other: "本格的にデータ可視化に取り組む方へ。すべての基本機能に加え、高度な機能が使えます。月額よりも2ヶ月分お得です。"
+pricing.standard.monthly.f1:
+  other: "基本的なチャート作成"
+pricing.standard.monthly.f2:
+  other: "データインポート（CSV）"
+pricing.standard.monthly.f3:
+  other: "最大3プロジェクト"
+pricing.standard.monthly.f4:
+  other: "コミュニティサポート"
+pricing.standard.yearly.f1:
+  other: "Freeプランの全機能"
+pricing.standard.yearly.f2:
+  other: "高度なチャートタイプ"
+pricing.standard.yearly.f3:
+  other: "データインポート（Excel, JSON）"
+pricing.standard.yearly.f4:
+  other: "プロジェクト数 無制限"
+pricing.standard.yearly.f5:
+  other: "画像エクスポート（PNG, SVG）"
+pricing.standard.yearly.f6:
+  other: "優先メールサポート"
+pricing.coaching.desc:
+  other: "本ツール利用と<a href=\"https://personal.data-viz-lectures.com/\">1対1でのコーチング</a>のセットです。月々1,000円お得です。"
+pricing.coaching.yearly.desc:
+  other: "本ツール利用と<a href=\"https://personal.data-viz-lectures.com/\">1対1でのコーチング</a>のセットです。月々1,000円お得です。"
+pricing.coaching.f1:
+  other: "通常プランと同様のツール提供サービス（2,480円）"
+pricing.coaching.f2:
+  other: "1対1でのコーチング（5,500円→4,500円）"
+pricing.coaching.monthly.f3:
+  other: "合計金額より1,000円ディスカウント"
+pricing.coaching.yearly.f3:
+  other: "月額よりも2ヶ月分を割引"
+
+# Catalogue
+catalogue.filter.all:
+  other: "すべて"
+catalogue.filter.aria:
+  other: "チャートカテゴリフィルター"
+catalogue.count:
+  other: "件"
+
+# Catalogue categories
+cat.numeric:
+  other: "数値"
+cat.text:
+  other: "言葉"
+cat.time:
+  other: "時間"
+cat.location:
+  other: "位置"
+cat.structure:
+  other: "構造"
+cat.relationship:
+  other: "関係"
+
+# Catalogue subcategories
+subcat.distribution-summary:
+  other: "分布を知りたい（要約値）"
+subcat.distribution-individual:
+  other: "分布を知りたい（個別値）"
+subcat.breakdown:
+  other: "内訳を知りたい"
+subcat.comparison:
+  other: "比較をしたい"
+subcat.multivariate:
+  other: "多変量で比較したい"
+subcat.correlation:
+  other: "相関関係を知りたい"
+subcat.text-frequency:
+  other: "テキストの頻度"
+subcat.text-sets:
+  other: "テキストの集合"
+subcat.typographic:
+  other: "図形記号の文字記号化"
+subcat.paragraphs:
+  other: "段落の文章を主役とする"
+subcat.linear-cartesian:
+  other: "線形時間×直交座標系"
+subcat.cyclic-cartesian:
+  other: "周期時間×直交座標系"
+subcat.linear-polar:
+  other: "線形時間×極座標系"
+subcat.cyclic-polar:
+  other: "周期時間×極座標系"
+subcat.point-geometry:
+  other: "点ジオメトリー"
+subcat.line-geometry:
+  other: "線ジオメトリー"
+subcat.area-geometry:
+  other: "面ジオメトリー"
+subcat.multivariate-geometry:
+  other: "多変量ジオメトリー"
+subcat.tree-connection:
+  other: "ツリー構造のコネクション型"
+subcat.tree-juxtaposition:
+  other: "ツリー構造の面型（並置）"
+subcat.tree-nested:
+  other: "ツリー構造の面型（入れ子）"
+subcat.network-connection:
+  other: "ネットワーク構造のコネクション型"
+subcat.network-flow:
+  other: "ネットワーク構造のフロー型"
+subcat.network-matrix:
+  other: "ネットワーク構造のマトリックス型"
+
+# Chart detail page
+chart.back:
+  other: "← カタログに戻る"
+chart.category:
+  other: "カテゴリ"
+chart.related:
+  other: "関連するチャート"

@@ -1,15 +1,76 @@
 baseurl: https://www.dataviz.jp/
-languageCode: ja
-title: データの道具箱
 copyright: "dataviz.jp"
 DefaultContentLanguage: ja
 hasCJKLanguage: true
 enableRobotsTXT: true
 
+languages:
+  ja:
+    languageName: 日本語
+    weight: 1
+    languageCode: ja
+    title: データの道具箱
+    params:
+      sidebar:
+        subtitle: データ可視化とデータ加工の便利ツール集
+        author:
+          bio: 株式会社ビジネス・アーキテクツにてユーザー・インターフェイス・デザイナーおよびアート・ディレクターを7年間経験後、独立。企業や教育機関での講義活動、ウェブサイトVisualizing.JPにおける情報発信、コミュニティData Visualization Japanにおけるコミュニティ活動など、データ可視化の実践と普及に関するさまざまな活動をおこなっている。共著書に『RESASの教科書』(日経BP、2016)がある。千葉工業大学デザイン科学修士修了。データ・ビジュアライゼーション・ジャパン発起人/Yahoo!ニュース・エキスパート。
+      widgets:
+        frontpage:
+          - type: page-links
+            params:
+              links:
+                - name: 機能紹介
+                  url: "/overview/"
+                - name: 料金プラン
+                  url: "/pricing/"
+                - name: よくある質問
+                  url: "/faq/"
+                - name: 利用規約
+                  url: "/terms/"
+                - name: プライバシー・ポリシー
+                  url: "/privacy/"
+                - name: 特定商取引法に基づく表記
+                  url: "/transaction-law/"
+                - name: お問い合わせ
+                  url: "/contact/"
+                - name: 運営会社
+                  url: "/about/"
+  en:
+    languageName: English
+    weight: 2
+    languageCode: en
+    title: Data Toolbox
+    params:
+      sidebar:
+        subtitle: "Handy tools for data visualization & data wrangling"
+        author:
+          bio: "After 7 years as a UI designer and art director at Business Architects Inc., Yuichi went independent. He is active in data visualization practice and education, including lectures at companies and universities, publishing on Visualizing.JP, and community activities through Data Visualization Japan. Co-author of 'The RESAS Textbook' (Nikkei BP, 2016). M.S. in Design Science, Chiba Institute of Technology. Founder of Data Visualization Japan / Yahoo! News Expert."
+      widgets:
+        frontpage:
+          - type: page-links
+            params:
+              links:
+                - name: Features
+                  url: "/en/overview/"
+                - name: Pricing
+                  url: "/en/pricing/"
+                - name: FAQ
+                  url: "/en/faq/"
+                - name: Terms of Service
+                  url: "/en/terms/"
+                - name: Privacy Policy
+                  url: "/en/privacy/"
+                - name: Specified Commercial Transaction Act
+                  url: "/en/transaction-law/"
+                - name: Contact
+                  url: "/en/contact/"
+                - name: About
+                  url: "/en/about/"
+
 minify:
   disableXML: true
   minifyOutput: true
-
 
 pagination:
   pagerSize: 20
@@ -55,7 +116,6 @@ params:
 
   sidebar:
     emoji: 📊
-    subtitle: データ可視化とデータ加工の便利ツール集
     avatar:
       enabled: false
       local: true
@@ -63,7 +123,6 @@ params:
     author:
       name: 矢崎裕一／Yuichi Yazaki
       image: img/avatar.png
-      bio: 株式会社ビジネス・アーキテクツにてユーザー・インターフェイス・デザイナーおよびアート・ディレクターを7年間経験後、独立。企業や教育機関での講義活動、ウェブサイトVisualizing.JPにおける情報発信、コミュニティData Visualization Japanにおけるコミュニティ活動など、データ可視化の実践と普及に関するさまざまな活動をおこなっている。共著書に『RESASの教科書』(日経BP、2016)がある。千葉工業大学デザイン科学修士修了。データ・ビジュアライゼーション・ジャパン発起人/Yahoo!ニュース・エキスパート。
     categories:
       order:
         - data-visualization
@@ -72,26 +131,6 @@ params:
         - data-visualization-color
         - data-wrangling
         - data-wrangling-map
-
-  widgets:
-    frontpage:
-      - type: page-links
-        params:
-          links:
-            - name: 機能紹介
-              url: "/overview/"
-            - name: 料金プラン
-              url: "/pricing/"
-            - name: よくある質問
-              url: "/faq/"
-            - name: 利用規約
-              url: "/terms/"
-            - name: プライバシー・ポリシー
-              url: "/privacy/"
-            - name: お問い合わせ
-              url: "/contact/"
-            - name: 運営会社
-              url: "/about/"
 
   article:
     math: false
