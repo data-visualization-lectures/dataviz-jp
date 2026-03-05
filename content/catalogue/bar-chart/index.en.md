@@ -19,6 +19,14 @@ You can create this chart with...
     description=""
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://vega-editor.dataviz.jp/"
+    title="Vega Editor"
+    image="/images/cover_vega-editor.jpg"
+    site="dataviz.jp"
+    description="Write visualization specs in JSON to render interactive graphs and charts in real time"
+>}}
+{{< /external-link-card >}}
 
 A bar chart represents the magnitude of one measure against one dimension (category) using the length of bars. For example, this is useful when you want to see the population (measure) for each prefecture (dimension). Since most people know how to read bar charts and they convey numerical values accurately through length, they can be used effectively in many situations.
 

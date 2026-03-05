@@ -19,6 +19,14 @@ weight: 460
     description=""
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://vega-editor.dataviz.jp/"
+    title="Vega Editor"
+    image="/images/cover_vega-editor.jpg"
+    site="dataviz.jp"
+    description="JSON 形式で可視化仕様を書くことで、インタラクティブなグラフやチャートをリアルタイムにレンダリング"
+>}}
+{{< /external-link-card >}}
 
 分岐的データ(対立する二者や増加と減少をあつかったデータ)で時系列による変化を棒グラフで表しています。
 

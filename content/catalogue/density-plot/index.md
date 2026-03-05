@@ -19,6 +19,14 @@ weight: 30
     description=""
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://vega-editor.dataviz.jp/"
+    title="Vega Editor"
+    image="/images/cover_vega-editor.jpg"
+    site="dataviz.jp"
+    description="JSON 形式で可視化仕様を書くことで、インタラクティブなグラフやチャートをリアルタイムにレンダリング"
+>}}
+{{< /external-link-card >}}
 
 確率分布を曲線で描きます。 曲線を描くためにカーネル密度推定を用いる場合は、カーネル密度プロットとよばれることもあります。
 

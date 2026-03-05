@@ -19,6 +19,14 @@ weight: 110
     description=""
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://vega-editor.dataviz.jp/"
+    title="Vega Editor"
+    image="/images/cover_vega-editor.jpg"
+    site="dataviz.jp"
+    description="JSON 形式で可視化仕様を書くことで、インタラクティブなグラフやチャートをリアルタイムにレンダリング"
+>}}
+{{< /external-link-card >}}
 
 100%積み上げ棒グラフの軸が二軸あるようなチャートです。2つの変数について、その割合を同時に示すことが特徴です。シンプルに見えて、意外に読み解きづらいので、凡例やアノテーションで理解しやすく補完することが重要です。
 

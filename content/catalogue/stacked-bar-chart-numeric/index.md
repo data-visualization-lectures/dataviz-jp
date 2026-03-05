@@ -19,6 +19,14 @@ weight: 160
     description=""
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://vega-editor.dataviz.jp/"
+    title="Vega Editor"
+    image="/images/cover_vega-editor.jpg"
+    site="dataviz.jp"
+    description="JSON 形式で可視化仕様を書くことで、インタラクティブなグラフやチャートをリアルタイムにレンダリング"
+>}}
+{{< /external-link-card >}}
 
 1つのディメンション(切り口)に対して複数のメジャーを同時に高さとして示します。メジャーは色かテクスチャで塗り分けます。メジャーの数値を実数であつかいます。
 

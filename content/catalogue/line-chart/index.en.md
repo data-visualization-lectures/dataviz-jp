@@ -19,6 +19,14 @@ Tools that can create this chart...
     description=""
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://vega-editor.dataviz.jp/"
+    title="Vega Editor"
+    image="/images/cover_vega-editor.jpg"
+    site="dataviz.jp"
+    description="Write visualization specs in JSON to render interactive graphs and charts in real time"
+>}}
+{{< /external-link-card >}}
 
 A commonly used chart type. The horizontal axis represents time, and a non-time variable is assigned to the vertical axis. By connecting data points with lines, the slope of the lines visually conveys the magnitude of change.
 

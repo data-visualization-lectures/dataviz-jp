@@ -19,6 +19,14 @@ Tools that can create this chart...
     description=""
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://vega-editor.dataviz.jp/"
+    title="Vega Editor"
+    image="/images/cover_vega-editor.jpg"
+    site="dataviz.jp"
+    description="Write visualization specs in JSON to render interactive graphs and charts in real time"
+>}}
+{{< /external-link-card >}}
 
 This chart is similar to a 100% stacked bar chart but with two axes. Its key feature is the ability to simultaneously show the proportions of two variables. Although it appears simple, it can be surprisingly difficult to interpret, so it is important to supplement it with legends and annotations to aid understanding.
 

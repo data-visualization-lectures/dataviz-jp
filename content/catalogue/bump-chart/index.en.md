@@ -19,5 +19,13 @@ You can create this chart with...
     description=""
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://vega-editor.dataviz.jp/"
+    title="Vega Editor"
+    image="/images/cover_vega-editor.jpg"
+    site="dataviz.jp"
+    description="Write visualization specs in JSON to render interactive graphs and charts in real time"
+>}}
+{{< /external-link-card >}}
 
 This chart shows how the ranking of items changes over time. It can be thought of as a simplified line chart focused specifically on changes in rank order. Even when the underlying data is numerical, values are converted to rankings for display.

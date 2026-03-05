@@ -19,5 +19,13 @@ Tools that can create this chart...
     description=""
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://vega-editor.dataviz.jp/"
+    title="Vega Editor"
+    image="/images/cover_vega-editor.jpg"
+    site="dataviz.jp"
+    description="Write visualization specs in JSON to render interactive graphs and charts in real time"
+>}}
+{{< /external-link-card >}}
 
 A single measure is shown as the bar height across multiple dimensions (categories). Bars are positioned so that groups are visually identifiable. Avoid combining grouped bar chart grouping with stacked bar chart stacking (stacking measures) at the same time.

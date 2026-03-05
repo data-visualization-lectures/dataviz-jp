@@ -19,6 +19,14 @@ You can create this chart with...
     description=""
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://vega-editor.dataviz.jp/"
+    title="Vega Editor"
+    image="/images/cover_vega-editor.jpg"
+    site="dataviz.jp"
+    description="Write visualization specs in JSON to render interactive graphs and charts in real time"
+>}}
+{{< /external-link-card >}}
 
 For a single dimension, multiple measures are displayed simultaneously as stacked heights. Each measure is differentiated by color or texture. The measure values are treated as absolute numbers.
 

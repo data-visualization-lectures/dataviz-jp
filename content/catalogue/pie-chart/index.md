@@ -19,6 +19,14 @@ weight: 90
     description=""
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://vega-editor.dataviz.jp/"
+    title="Vega Editor"
+    image="/images/cover_vega-editor.jpg"
+    site="dataviz.jp"
+    description="JSON 形式で可視化仕様を書くことで、インタラクティブなグラフやチャートをリアルタイムにレンダリング"
+>}}
+{{< /external-link-card >}}
 
 円の内部の角度によって、データ値の大きさを割合で示します。近年は利用に否定的な意見も多いですが、項目数が多かったり、3D描画して割合の見え方を歪めたりするなどの不適切な見せ方をしなければ問題ありません。
 

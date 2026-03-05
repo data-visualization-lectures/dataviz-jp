@@ -19,6 +19,14 @@ weight: 150
     description=""
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://vega-editor.dataviz.jp/"
+    title="Vega Editor"
+    image="/images/cover_vega-editor.jpg"
+    site="dataviz.jp"
+    description="JSON 形式で可視化仕様を書くことで、インタラクティブなグラフやチャートをリアルタイムにレンダリング"
+>}}
+{{< /external-link-card >}}
 
 1つのディメンション(切り口)に対して、1つのメジャーの大きさを長さで示します。たとえば都道府県ごと(デイメンション)の人口(メジャー)を知りたい場合などが該当します。多くの人が読み方を知っており、数値を長さで伝える伝達の正確さから、多くの場面で利用できるでしょう。
 

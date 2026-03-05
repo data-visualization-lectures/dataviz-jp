@@ -19,5 +19,13 @@ weight: 20
     description=""
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://vega-editor.dataviz.jp/"
+    title="Vega Editor"
+    image="/images/cover_vega-editor.jpg"
+    site="dataviz.jp"
+    description="JSON 形式で可視化仕様を書くことで、インタラクティブなグラフやチャートをリアルタイムにレンダリング"
+>}}
+{{< /external-link-card >}}
 
 箱と線を用いて、5つの基本統計量を示します(図143)。 第1四分位 (25パーセンタイル)、 第2四分位(50パーセンタイル)、 第3四分位(75パーセンタイル)を箱の位置で示し、最小値、最大値を線の先端の位置で示します。

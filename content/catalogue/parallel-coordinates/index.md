@@ -19,6 +19,14 @@ weight: 240
     description=""
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://vega-editor.dataviz.jp/"
+    title="Vega Editor"
+    image="/images/cover_vega-editor.jpg"
+    site="dataviz.jp"
+    description="JSON 形式で可視化仕様を書くことで、インタラクティブなグラフやチャートをリアルタイムにレンダリング"
+>}}
+{{< /external-link-card >}}
 
 チャート名自体が座標系のあり方を表し、複数の軸が平行に並んでいます。レーダー・チャートとの違いとして、「より多くの変数を同時に比較する」「軸の順序を変えることで相関する変数を探す」
 「ブラッシングとよばれる、軸に対してのデータのフィルタリングをする」(ツールの機能による)があります。

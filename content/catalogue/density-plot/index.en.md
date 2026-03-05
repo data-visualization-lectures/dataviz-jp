@@ -19,5 +19,13 @@ You can create this chart with...
     description=""
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://vega-editor.dataviz.jp/"
+    title="Vega Editor"
+    image="/images/cover_vega-editor.jpg"
+    site="dataviz.jp"
+    description="Write visualization specs in JSON to render interactive graphs and charts in real time"
+>}}
+{{< /external-link-card >}}
 
 This chart depicts a probability distribution as a smooth curve. When kernel density estimation is used to draw the curve, it is sometimes referred to as a kernel density plot.

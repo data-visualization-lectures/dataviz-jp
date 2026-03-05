@@ -19,6 +19,14 @@ Tools that can create this chart...
     description=""
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://vega-editor.dataviz.jp/"
+    title="Vega Editor"
+    image="/images/cover_vega-editor.jpg"
+    site="dataviz.jp"
+    description="Write visualization specs in JSON to render interactive graphs and charts in real time"
+>}}
+{{< /external-link-card >}}
 
 The angle within the circle represents the proportional size of data values. In recent years, there have been many negative opinions about its use, but it is perfectly fine as long as inappropriate practices are avoided, such as including too many items or distorting the appearance of proportions with 3D rendering.
 

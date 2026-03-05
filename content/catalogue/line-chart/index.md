@@ -19,6 +19,14 @@ weight: 420
     description=""
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://vega-editor.dataviz.jp/"
+    title="Vega Editor"
+    image="/images/cover_vega-editor.jpg"
+    site="dataviz.jp"
+    description="JSON 形式で可視化仕様を書くことで、インタラクティブなグラフやチャートをリアルタイムにレンダリング"
+>}}
+{{< /external-link-card >}}
 
 ー般によく用いられるチャートです。 横軸で時間を示し、縦軸に時間以外の変数を割り当てます。データポイント同士を線で接続することで、線の傾きにより変化の大きさが視覚的にわかります。
 

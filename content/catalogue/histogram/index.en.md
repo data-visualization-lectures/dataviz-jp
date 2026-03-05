@@ -19,6 +19,14 @@ Tools that can create this chart...
     description=""
 >}}
 {{< /external-link-card >}}
+{{< external-link-card
+    url="https://vega-editor.dataviz.jp/"
+    title="Vega Editor"
+    image="/images/cover_vega-editor.jpg"
+    site="dataviz.jp"
+    description="Write visualization specs in JSON to render interactive graphs and charts in real time"
+>}}
+{{< /external-link-card >}}
 
 A data variable is sorted in ascending order to show its distribution. A data width called a "bin" is specified, and the count of data points within each bin is displayed. The bin width and the resulting counts determine the appearance of the histogram.
 

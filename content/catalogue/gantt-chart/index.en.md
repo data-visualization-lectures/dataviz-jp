@@ -9,4 +9,14 @@ chart_subcategories:
 weight: 490
 ---
 
+
+{{< external-link-card
+    url="https://vega-editor.dataviz.jp/"
+    title="Vega Editor"
+    image="/images/cover_vega-editor.jpg"
+    site="dataviz.jp"
+    description="Write visualization specs in JSON to render interactive graphs and charts in real time"
+>}}
+{{< /external-link-card >}}
+
 The horizontal axis represents time, showing the duration for each category. It is used to compare the active periods of people or services, or to show the timeline breakdown of a single project.
