@@ -1,6 +1,6 @@
 ---
 title: 都道府県地図コロプレス
-description: 都道府県地図コロプレスを手軽に作成できるツール
+description: "A tool for easily creating prefecture choropleth maps"
 slug: "choropleth-prefectures"
 weight: 1
 categories: "data-visualization-map"

@@ -1,6 +1,6 @@
 ---
 title: Data Illustrator
-description: 多様なチャートを手軽に作成
+description: "Create diverse charts with ease"
 slug: "data-illustrator"
 weight: 10
 categories: "data-visualization"

@@ -1,6 +1,6 @@
 ---
 title: Cytoscape
-description: Cytoscapeのウェブ版
+description: "Web version of Cytoscape"
 slug: "cytoscape"
 weight: 3
 categories: "data-visualization"

@@ -1,6 +1,6 @@
 ---
 title: GTFSネットワークデータ変換
-description: 交通データGTFSをネットワーク・データに変換します
+description: "Convert GTFS transit data to network data"
 slug: "gtfs-to-network"
 weight: 1
 categories: "data-wrangling-map"

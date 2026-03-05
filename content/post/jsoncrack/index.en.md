@@ -1,6 +1,6 @@
 ---
 title: JSON Crack
-description: ブラウザ上で JSON データ構造を視覚的に理解する
+description: "Visually explore JSON data structures in your browser"
 slug: "jsoncrack"
 weight: 1
 categories: "data-wrangling"

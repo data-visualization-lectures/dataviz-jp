@@ -1,6 +1,6 @@
 ---
 title: 緯度経度フォーマッター
-description: 緯度経度データの桁数を簡単に変換
+description: "Easily convert latitude/longitude data precision"
 slug: "latlon-formatter"
 weight: 1
 categories: "data-wrangling-map"

@@ -1,6 +1,6 @@
 ---
 title: RAWGraphs2
-description: 多様なチャートを手軽に作成
+description: "Create diverse charts with ease"
 slug: "rawgraphs-db"
 weight: 1
 categories: "data-visualization"

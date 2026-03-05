@@ -1,6 +1,6 @@
 ---
 title: Leonardo
-description: Adobe がオープンソースとして提供しているツール
+description: "An open-source tool provided by Adobe"
 slug: "leonardo"
 weight: 1
 categories: "data-visualization-color"

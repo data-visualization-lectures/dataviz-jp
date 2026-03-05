@@ -1,6 +1,6 @@
 ---
 title: i want hue
-description: 区別しやすいカラーパレットを生成
+description: "Generate distinguishable color palettes"
 slug: "iwanthue"
 weight: 1
 categories: "data-visualization-color"

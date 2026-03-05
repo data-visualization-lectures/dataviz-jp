@@ -1,6 +1,6 @@
 ---
 title: Mapshaper
-description: 地図データの加工や変換
+description: "Edit and convert geographic data"
 slug: "mapshaper"
 weight: 1
 categories: "data-wrangling-map"

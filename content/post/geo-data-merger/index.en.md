@@ -1,6 +1,6 @@
 ---
 title: (Geo) DataMerger
-description: 地理データとテーマデータを手軽に結合
+description: "Easily merge geographic data with thematic data"
 slug: "geo-data-merger"
 weight: 1
 categories: "data-wrangling-map"

@@ -1,6 +1,6 @@
 ---
 title: Shift JIS ⇄ UTF-8 文字コード変換ツール
-description: 文字コードを、Shift JIS ⇄ UTF-8 間で相互に変換
+description: "Convert character encoding between Shift JIS and UTF-8"
 slug: "change-character-encoding"
 weight: 1
 categories: "data-wrangling"

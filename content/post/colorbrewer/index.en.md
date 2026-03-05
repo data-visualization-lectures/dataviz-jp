@@ -1,6 +1,6 @@
 ---
 title: Color Brewer
-description: カラースキーム選びを地図上でシミュレーション
+description: "Simulate color scheme selection on maps"
 slug: "colorbrewer"
 weight: 2
 categories: "data-visualization-color"

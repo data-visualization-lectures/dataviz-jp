@@ -1,6 +1,6 @@
 ---
 title: QuickChart UI
-description: URLだけでチャート画像生成
+description: "Generate chart images from URLs alone"
 slug: "quickchart"
 weight: 20
 categories: "data-visualization"

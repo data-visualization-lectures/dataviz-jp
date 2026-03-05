@@ -1,6 +1,6 @@
 ---
 title: OpenRefine
-description: 表データのクレンジング・変換ツール
+description: "Data cleansing and transformation tool for tabular data"
 slug: "openrefine"
 weight: 1
 categories: "data-wrangling"

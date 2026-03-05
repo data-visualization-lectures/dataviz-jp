@@ -181,3 +181,9 @@ chart.category:
   other: "カテゴリ"
 chart.related:
   other: "関連するチャート"
+
+# Post card buttons
+post.detail:
+  other: "詳しく見る"
+post.use-tool:
+  other: "ツールを使う"

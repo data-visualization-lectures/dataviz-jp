@@ -1,6 +1,6 @@
 ---
 title: Vega Editor
-description: JSON 形式で可視化仕様を書くことで、インタラクティブなグラフやチャートをリアルタイムにレンダリング
+description: "Write visualization specs in JSON to render interactive graphs and charts in real time"
 slug: "vega-editor"
 weight: 10
 categories: "data-visualization"

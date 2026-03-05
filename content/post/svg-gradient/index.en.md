@@ -1,6 +1,6 @@
 ---
 title: SVGグラデーションエディタ
-description: チャートのグラデーションをデザイン
+description: "Design gradients for charts"
 slug: "svg-gradient"
 weight: 5
 categories: "data-visualization-parts"

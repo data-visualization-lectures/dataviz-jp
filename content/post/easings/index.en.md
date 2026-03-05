@@ -1,6 +1,6 @@
 ---
 title: イージング関数チートシート
-description: 時間の経過に伴うパラメーターの変化を可視化
+description: "Visualize parameter changes over time"
 slug: "easings"
 weight: 1
 categories: "data-visualization-parts"

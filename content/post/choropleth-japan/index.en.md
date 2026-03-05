@@ -1,6 +1,6 @@
 ---
 title: 日本地図コロプレス
-description: 日本地図コロプレスを手軽に作成できるツール
+description: "A tool for easily creating Japan choropleth maps"
 slug: "choropleth-japan"
 weight: 1
 categories: "data-visualization-map"

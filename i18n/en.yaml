@@ -181,3 +181,9 @@ chart.category:
   other: "Category"
 chart.related:
   other: "Related Charts"
+
+# Post card buttons
+post.detail:
+  other: "Learn More"
+post.use-tool:
+  other: "Use Tool"

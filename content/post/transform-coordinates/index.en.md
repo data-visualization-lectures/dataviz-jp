@@ -1,6 +1,6 @@
 ---
 title: 座標系 変換ツール
-description: 地物ファイルの座標を変換
+description: "Convert coordinates of geographic feature files"
 slug: "transform-coordinates"
 weight: 1
 categories: "data-wrangling-map"

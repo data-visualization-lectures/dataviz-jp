@@ -1,6 +1,6 @@
 ---
 title: Word Cloud
-description: 日本語に特化したWord Cloud
+description: "Word cloud tool optimized for Japanese text"
 slug: "word-cloud"
 weight: 10
 categories: "data-visualization"

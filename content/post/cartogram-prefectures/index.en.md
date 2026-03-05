@@ -1,6 +1,6 @@
 ---
 title: 都道府県地図カルトグラム
-description: 都道府県地図カルトグラムを手軽に作成できるツール
+description: "A tool for easily creating prefecture map cartograms"
 slug: "cartogram-prefectures"
 weight: 1
 categories: "data-visualization-map"

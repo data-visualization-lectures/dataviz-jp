@@ -1,6 +1,6 @@
 ---
 title: 地図タイル・ブラウザー
-description: オープンな地図タイル数種類を切り替えて、XYZ タイル方式のタイル座標が確認
+description: "Switch between several open map tile types and check XYZ tile coordinates"
 slug: "what-the-tile"
 weight: 1
 categories: "data-wrangling-map"

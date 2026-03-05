@@ -1,6 +1,6 @@
 ---
 title: 住所 → 緯度経度 変換ツール
-description: ジオコーディング・ツール
+description: "Geocoding tool"
 slug: "address-to-latlon"
 weight: 1
 categories: "data-wrangling-map"

@@ -1,6 +1,6 @@
 ---
 title: kepler.gl
-description: 大規模地理空間データの可視化・探索ツール
+description: "Visualization and exploration tool for large-scale geospatial data"
 slug: "kepler-gl"
 weight: 1
 categories: "data-visualization-map"

@@ -1,6 +1,6 @@
 ---
 title: Mapbox Classic スタイル生成
-description: Kepler.gl や Foursquare Studio で利用可能な Mapbox 地図タイル
+description: "Mapbox map tiles for use with Kepler.gl and Foursquare Studio"
 slug: "classic-mapbox-styles"
 weight: 1
 categories: "data-wrangling-map"

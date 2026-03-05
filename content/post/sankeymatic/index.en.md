@@ -1,6 +1,6 @@
 ---
 title: Sankeymatic
-description: サンキー・ダイアグラムを手軽に
+description: "Create Sankey diagrams with ease"
 slug: "sankeymatic"
 weight: 1
 categories: "data-visualization"

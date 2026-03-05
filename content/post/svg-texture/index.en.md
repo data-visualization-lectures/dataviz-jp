@@ -1,6 +1,6 @@
 ---
 title: SVGテクスチャエディタ
-description: チャートのテクスチャをデザイン
+description: "Design textures for charts"
 slug: "svg-texture"
 weight: 5
 categories: "data-visualization-parts"

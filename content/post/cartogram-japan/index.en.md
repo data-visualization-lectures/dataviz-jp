@@ -1,6 +1,6 @@
 ---
 title: 日本地図カルトグラム
-description: 日本地図カルトグラムを手軽に作成できるツール
+description: "A tool for easily creating Japan map cartograms"
 slug: "cartogram-japan"
 weight: 1
 categories: "data-visualization-map"

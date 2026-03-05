@@ -1,6 +1,6 @@
 ---
 title: SVG ⇄ GeoJSON 変換ツール
-description: GeoJSON と SVG の相互変換を支援
+description: "Convert between GeoJSON and SVG formats"
 slug: "geojson-and-svg"
 weight: 1
 categories: "data-wrangling-map"

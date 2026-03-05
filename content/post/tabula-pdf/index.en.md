@@ -1,6 +1,6 @@
 ---
 title: Tabula PDF
-description: PDFから表データを取り出す
+description: "Extract table data from PDFs"
 slug: "tabula-pdf"
 weight: 1
 categories: "data-wrangling"

@@ -1,6 +1,6 @@
 ---
 title: Gephi Lite
-description: ネットワークグラフを手軽に作成
+description: "Create network graphs with ease"
 slug: "gephi-lite"
 weight: 10
 categories: "data-visualization"

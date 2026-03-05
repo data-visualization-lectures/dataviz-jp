@@ -1,6 +1,6 @@
 ---
 title: ADS-B / AIS 可視化
-description: 飛行機や船の移動データを手軽に動画化
+description: "Easily create videos from aircraft and ship movement data"
 slug: "broadcast-tracking-system"
 weight: 1
 categories: "data-visualization-map"

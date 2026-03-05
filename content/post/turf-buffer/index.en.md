@@ -1,6 +1,6 @@
 ---
 title: バッファ生成ツール
-description: 指定した半径指定をブラウザで手軽に
+description: "Easily create buffer zones with a specified radius in your browser"
 slug: "turf-buffer"
 weight: 1
 categories: "data-wrangling-map"
