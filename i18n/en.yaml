@@ -42,7 +42,7 @@ feature.wrangling-map.desc:
 sidebar.sample-data:
   other: "Sample Data"
 sidebar.data-portal:
-  other: "Data Portal"
+  other: "Original Data"
 
 # Pricing page
 pricing.title:

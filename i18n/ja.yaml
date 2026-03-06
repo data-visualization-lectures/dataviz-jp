@@ -42,7 +42,7 @@ feature.wrangling-map.desc:
 sidebar.sample-data:
   other: "サンプル・データ"
 sidebar.data-portal:
-  other: "データポータル"
+  other: "オリジナル・データ"
 
 # Pricing page
 pricing.title:
