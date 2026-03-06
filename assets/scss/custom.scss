@@ -84,6 +84,7 @@ body {
   overflow: hidden;
   background-color: var(--card-background);
   box-shadow: var(--shadow-l1);
+  margin-bottom: 1rem;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 
   &:hover {
