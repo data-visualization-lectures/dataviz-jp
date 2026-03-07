@@ -36,6 +36,8 @@ languages:
                   url: "/contact/"
                 - name: 運営会社
                   url: "/about/"
+                - name: ライセンス
+                  url: "/license/"
   en:
     languageName: English
     weight: 2
@@ -67,6 +69,8 @@ languages:
                   url: "/en/contact/"
                 - name: About
                   url: "/en/about/"
+                - name: License
+                  url: "/en/license/"
 
 minify:
   disableXML: true
