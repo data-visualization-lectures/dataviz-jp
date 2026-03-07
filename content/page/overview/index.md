@@ -1,5 +1,5 @@
 ---
-title: "機能紹介"
+title: "サービス紹介"
 slug: "overview"
 date: 2026-03-01
 ---

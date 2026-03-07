@@ -20,7 +20,7 @@ languages:
           - type: page-links
             params:
               links:
-                - name: 機能紹介
+                - name: サービス紹介
                   url: "/overview/"
                 - name: 料金プラン
                   url: "/pricing/"
@@ -53,7 +53,7 @@ languages:
           - type: page-links
             params:
               links:
-                - name: Features
+                - name: Service Overview
                   url: "/en/overview/"
                 - name: Pricing
                   url: "/en/pricing/"
