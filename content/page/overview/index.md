@@ -21,7 +21,7 @@ date: 2026-03-01
 
 21業種の広告出稿先（いわゆる4媒体のみ）の金額規模を一つのチャートで把握できます。
 
-![モザイク・プロット／RawGraphs](/images/koukokuhi_2023.png)
+{{< figure src="/images/koukokuhi_2023.png" caption="モザイク・プロット／RawGraphs" >}}
 
 
 ### 甲子園出場校ベンチ入り20人の都道府県別 出身中学分布（東北地方編）
@@ -29,18 +29,18 @@ date: 2026-03-01
 左に甲子園出場校、右にその出身都道府県を示し、その人数を線の太さで示します。
 着色ありが東北地方内での移動、グレイが東北地方外での移動です。
 
-![サンキー・ダイアグラム／Sankeymatic](/images/sankey_diagram.png)
+{{< figure src="/images/sankey_diagram.png" caption="サンキー・ダイアグラム／Sankeymatic" >}}
 
 
 ### 人気の飼い犬
 
 飼い犬の犬種を系統樹で分類し、末端の丸の大きさで人気を表しています。
 
-![リニア・デンドログラム／RawGraphs](/images/kaiinu.png)
+{{< figure src="/images/kaiinu.png" caption="リニア・デンドログラム／RawGraphs" >}}
 
 ### 名称（テキストデータ）を効率よくクレンジング
 
-![OpenRefineでのクレンジング](/images/openrefine.png)
+{{< figure src="/images/openrefine.png" caption="OpenRefineでのクレンジング" >}}
 
 ## データ業務、こんな状態になっていませんか？
 

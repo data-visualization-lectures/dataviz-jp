@@ -21,7 +21,7 @@ date: 2026-03-01
 
 View the advertising spend scale across 21 industries and 4 major media types in a single chart.
 
-![Mosaic Plot / RawGraphs](/images/koukokuhi_2023.png)
+{{< figure src="/images/koukokuhi_2023.png" caption="Mosaic Plot / RawGraphs" >}}
 
 
 ### Distribution of Home Middle Schools by Prefecture for Koshien Tournament Players (Tohoku Region)
@@ -29,18 +29,18 @@ View the advertising spend scale across 21 industries and 4 major media types in
 The left side shows Koshien participating schools, the right shows the home prefectures, and line thickness represents the number of players.
 Colored lines indicate movement within Tohoku, while gray lines indicate movement from outside the region.
 
-![Sankey Diagram / Sankeymatic](/images/sankey_diagram.png)
+{{< figure src="/images/sankey_diagram.png" caption="Sankey Diagram / Sankeymatic" >}}
 
 
 ### Popular Dog Breeds
 
 Dog breeds are classified in a phylogenetic tree, with the size of the circles at the tips representing popularity.
 
-![Linear Dendrogram / RawGraphs](/images/kaiinu.png)
+{{< figure src="/images/kaiinu.png" caption="Linear Dendrogram / RawGraphs" >}}
 
 ### Efficiently Cleansing Name (Text) Data
 
-![Cleansing with OpenRefine](/images/openrefine.png)
+{{< figure src="/images/openrefine.png" caption="Cleansing with OpenRefine" >}}
 
 ## Does this sound like your data workflow?
 
