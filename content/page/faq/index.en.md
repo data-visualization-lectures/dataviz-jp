@@ -1,42 +1,159 @@
 ---
 title: "FAQ"
 slug: "faq"
-date: 2026-02-23
+date: 2026-03-07
 ---
 
-## What kind of service is "Data Toolbox"?
+## About This Service
 
-We offer a wide collection of agile data visualization (charts, data maps, network diagrams) and data processing tools that are more versatile than Excel and easier to use than BI tools. All tools are available for unlimited use with a flat-rate subscription.
+### What is Data Toolbox?
 
-## Who owns the copyright of outputs (such as charts) created with these tools?
-
-The copyright of visualizations created by users belongs to the user. You are free to publish and use them as you wish.
-
-## Can I use outputs (such as charts) created with these tools for commercial purposes?
-
-Yes. You can freely use them in reports, presentations, academic papers, books, websites, and more.
+We provide a wide range of nimble data visualization (charts, data maps, network diagrams) and data wrangling tools — more diverse than Excel and easier than BI tools. Everything runs in your browser, and you can use all tools as much as you want with a flat-rate subscription.
 
 
-## Can I start using the service right away?
+### Who is this service for?
 
-The service is currently under development and testing. We plan to launch around March 2026.
+This service is for anyone who works with data.
 
-## What do I need to get started?
-All you need is a computer and an internet connection.
-While some tools can be used on tablets and smartphones, the interface is designed for computers, so we do not recommend using them on mobile devices.
-Any modern browser should work without issues.
+- People who want to create charts that Excel can't make
+- People who want to visualize data without programming languages like Python
+- People who want specialized visualizations such as maps, networks, or text
+- People who want to streamline data formatting and cleansing
+- It can be used for a wide range of purposes including general documentation, marketing, government, research, and data journalism.
 
-## What is a "project"?
-A "project" refers to the combination of "data itself" and "work performed with the tools."
+### What kinds of data visualizations can I create?
 
-## Can I save my work files?
-For data visualization tools, we provide a feature to save your work as projects. These are displayed in a list on your dashboard, and you can open any project with a single click. Other tools (data processing, color design) do not have a save feature; instead, you can download the results for your use.
+- Create various charts
+- Exploratory data visualization
+- 3D map visualization
+- Create data maps by prefecture or municipality
+- Network visualization
+- Text visualization
 
-## Is my uploaded data stored on the server?
+and more.
 
-Processing methods vary by tool. Some data visualization tools have a feature that saves your work-in-progress, and in those cases, data is also stored on the server side. For other tools, no data is retained on the server. Please be sure to back up any important data on your own.
+See the <a href="/en/how-to-use-data-viz/">Choosing the Right Data Visualization Tool</a> page for details.
 
-## Will more tools be added in the future?
 
-We continuously add and improve tools as part of this service.
+### What kinds of data wrangling can I do?
+
+- Visually cleanse data
+- Easily merge map data with thematic data
+- Quickly understand JSON structure
+- Fix character encoding issues
+- Easily convert addresses to latitude/longitude
+- Extract table data from PDFs
+- Quickly create buffer zones around POIs
+
+and more.
+
+See the <a href="/en/how-to-use-data-wrangling/">Choosing the Right Data Wrangling Tool</a> page for details.
+
+
+### Who owns the copyright of outputs (charts, etc.) created with these tools?
+
+The copyright of visualizations you create belongs to you. You are free to publish and use them as you wish.
+
+
+### Can I use outputs (charts, etc.) created with these tools commercially?
+
+Yes. You can freely use them in reports, presentations, papers, books, websites, and more.
+
+
+### Can I save my work?
+
+For data visualization tools, we provide the ability to save your work as a project. These are listed on your dashboard and can be opened with a single click. Other tools (data wrangling, color design) do not have a save function — please download the output for your use.
+
+### What is a project?
+We call the combination of "your data" and "your work in a tool" a "project."
+
+
+### Can I start using it right away?
+
+We are currently building and testing the service. We plan to launch around March 2026.
+
+
+## How to Use
+
+### Do I need to install anything?
+
+No installation is required. All tools run in your browser.
+You don't need any special software — just an internet connection and a web browser.
+
+### Do I need programming skills?
+
+No programming is required.
+You can create charts and process data simply by uploading or entering your data.
+We've designed professional tools to be as simple to use as possible.
+
+### What data formats are supported?
+
+Most tools accept data in CSV format.
+Some tools also support specific formats such as GeoJSON.
+Each tool's page lists supported data formats and provides sample data.
+
+Since Excel files can contain various data structures, we don't support direct Excel uploads. Instead, we provide the versatile data cleansing tool <a href="/en/openrefine/">OpenRefine</a>.
+
+
+### Is sample data available?
+
+We offer two types of data portals: sample data bundled with each tool, and original datasets curated based on popular requests.
+
+## Pricing & Subscriptions
+
+### How much does it cost?
+
+The most basic Standard Plan is ¥2,480/month.
+Annual billing includes a two-month discount.
+We also offer a plan that includes one-on-one coaching once a month in addition to tool access.
+
+See the <a href="/en/pricing/">Pricing</a> page for details.
+
+
+### Are subscriptions auto-renewed?
+
+Yes. Using Stripe's subscription system, your subscription is automatically renewed one month or one year after your payment date, depending on your plan.
+
+
+### Can I cancel at any time?
+
+Yes, you can cancel at any time. After cancellation, automatic payments will stop, and you can continue using the service until the end of your current billing period.
+
+## Data Security
+
+### Can I use personal or confidential data?
+
+Data used in our tools is generally not stored on our servers, but processing methods vary by tool. Some data visualization tools have a feature to save your work-in-progress, and in those cases data is stored on the server. For all other tools, data is not retained on the server side.
+
+
+## Future Plans
+
+### Will more tools be added?
+
+We continuously add and improve tools in this service.
+We plan to add new data visualization and data wrangling tools on an ongoing basis.
 Some tools may be modified or discontinued.
+We welcome requests for tools and datasets, and will accommodate them as much as possible.
+
+
+## Adoption & Organizational Use
+
+### Can teams or companies use this?
+
+Yes, teams and companies can use this service.
+As a suite of tools for streamlining data visualization and data wrangling, it can be used by people in various roles such as analysts and planners.
+It can also be adopted as a common data tool within a team.
+
+However, a license is required for each user.
+We offer bulk account registration and volume discounts — please contact us via the <a href="/en/contact/">Contact</a> page.
+
+
+
+### Can it be used for corporate training or educational purposes?
+
+Yes, it can be used for educational purposes.
+It can serve as a tool for learning data visualization and data literacy in university courses or corporate training.
+Since many of the tools are single-function, they are well-suited as teaching materials for understanding data structures and visualization mechanisms.
+
+However, a license is required for each user.
+We offer bulk account registration and volume discounts — please contact us via the <a href="/en/contact/">Contact</a> page.
