@@ -4,11 +4,11 @@ slug: "overview"
 date: 2026-03-01
 ---
 
-## 40 data visualization & data wrangling tools to support your data workflow
+## 38 data visualization & data wrangling tools to support your data workflow
 
-(*As of March 1, 2026)
+(*As of March 7, 2026)
 
-- Unlimited access to 40 types of tools
+- Unlimited access to 38 types of tools
 - No installation required — everything runs in your browser
 - Single-purpose tools that are easy to learn and use
 - Seamlessly switch between visualization and processing
@@ -60,7 +60,7 @@ Dog breeds are classified in a phylogenetic tree, with the size of the circles a
 ## Four key features that solve these problems
 
 
-✅ **Unlimited access to 40 types of tools**
+✅ **Unlimited access to 38 types of tools**
 
 From chart creation, map display, and color design to specialized visualization expressions. Data processing, formatting, and conversion tools are also included.
 
