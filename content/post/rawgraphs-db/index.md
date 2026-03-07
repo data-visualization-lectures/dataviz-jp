@@ -55,7 +55,6 @@ Microsoft Edgeを利用時に、ドラッグ操作がうまくいかないこと
 
 
 ![](images/screen01.png)
-
 ![](images/screen02.png)
 
 

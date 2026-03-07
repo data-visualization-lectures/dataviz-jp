@@ -43,7 +43,6 @@ A tool specialized for creating Sankey diagrams. Because the data format is simp
 
 
 ![](images/screen_01.png)
-
 ![](images/screen_02.png)
 
 

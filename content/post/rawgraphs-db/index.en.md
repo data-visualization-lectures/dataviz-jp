@@ -55,7 +55,6 @@ In that case, please use another browser such as Chrome.
 
 
 ![](images/screen01.png)
-
 ![](images/screen02.png)
 
 

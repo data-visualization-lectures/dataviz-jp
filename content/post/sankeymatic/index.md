@@ -43,7 +43,6 @@ image: "images/cover_sankeymatic.png"
 
 
 ![](images/screen_01.png)
-
 ![](images/screen_02.png)
 
 
