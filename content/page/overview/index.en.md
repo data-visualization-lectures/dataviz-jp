@@ -42,6 +42,10 @@ Dog breeds are classified in a phylogenetic tree, with the size of the circles a
 
 {{< figure src="/images/openrefine.png" caption="Cleansing with OpenRefine" >}}
 
+### Extract table data from a PDF by specifying a range.
+
+{{< figure src="/images/tabula.png" caption="Tabulaでのデータ抽出" >}}
+
 ## Does this sound like your data workflow?
 
 * You discover useful chart types, but your current tools don't support them

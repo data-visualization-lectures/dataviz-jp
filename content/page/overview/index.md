@@ -32,7 +32,7 @@ date: 2026-03-01
 {{< figure src="/images/sankey_diagram.png" caption="サンキー・ダイアグラム／Sankeymatic" >}}
 
 
-### 人気の飼い犬
+### 人気の飼い犬種
 
 飼い犬の犬種を系統樹で分類し、末端の丸の大きさで人気を表しています。
 
@@ -41,6 +41,12 @@ date: 2026-03-01
 ### 名称（テキストデータ）を効率よくクレンジング
 
 {{< figure src="/images/openrefine.png" caption="OpenRefineでのクレンジング" >}}
+
+### PDFから範囲を指定して表データを取り出す
+
+{{< figure src="/images/tabula.png" caption="Tabulaでのデータ抽出" >}}
+
+
 
 ## データ業務、こんな状態になっていませんか？
 
