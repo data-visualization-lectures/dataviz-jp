@@ -113,12 +113,14 @@
         {{ if ( compare.Gt .Site.Home.AllTranslations.Len 1 ) }}
           {{ with .Site.Home.AllTranslations }}
             <li id="i18n-switch">
-              {{ partial "helper/icon" "language" }}
-              <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
-                {{ range . }}
-                  <option value="{{ .Permalink }}" {{ if eq .Language.Lang $currentLanguageCode }}selected{{ end }}>{{ .Language.LanguageName }}</option>
+              {{ range . }}
+                {{ if ne .Language.Lang $currentLanguageCode }}
+                  <a href="{{ .Permalink }}">
+                    {{ partial "helper/icon" "language" }}
+                    <span>{{ .Language.LanguageName }}</span>
+                  </a>
                 {{ end }}
-              </select>
+              {{ end }}
             </li>
           {{ end }}
         {{ end }}
