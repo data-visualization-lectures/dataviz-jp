@@ -21,8 +21,9 @@ date: 2026-03-01
 
 ## 作れるもの（チャート・地図・データ加工の具体例）
 
-![](/images/sankey_diagram.png)
-![](/images/circular_dendrogram.png)
+![サンキー・ダイアグラム／Sankeymatic](/images/sankey_diagram.png)
+
+![サーキュラー・デンドログラム／RawGraphs](/images/circular_dendrogram.png)
 
 
 ## データ業務、こんな状態になっていませんか？
@@ -122,7 +123,7 @@ Excelでは扱えていたデータが、その他のツールで扱えるとは
 
 ## 料金
 
-通常プラン：月額 ¥2,480/月
+### 通常プラン：月額 ¥2,480/月
 
 すべてのプランについては<a href="/pricing/">料金プラン</a>ページをご覧ください。
 
