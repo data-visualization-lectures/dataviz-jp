@@ -1,5 +1,5 @@
 ---
-title: データ加工ツールの違いと使い分け
+title: データ加工ツールの使い分け
 description:
 slug: "how-to-use-data-wrangling"
 weight: 1

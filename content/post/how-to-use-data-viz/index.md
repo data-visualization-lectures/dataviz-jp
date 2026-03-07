@@ -1,5 +1,5 @@
 ---
-title: データ可視化ツールの違いと使い分け
+title: データ可視化ツールの使い分け
 description:
 slug: "how-to-use-data-viz"
 weight: 1
