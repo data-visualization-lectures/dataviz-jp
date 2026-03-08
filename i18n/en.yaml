@@ -4,7 +4,7 @@ hero.title:
 hero.subtitle:
   other: "Handy tools for data visualization & data wrangling"
 hero.notice:
-  other: "This service is currently in a closed testing phase for previous customers. Only users with an invitation code can access it. After incorporating feedback and improving features, we plan to open it to the public."
+  other: "We provide a wide range of nimble data visualization (charts, data maps, network diagrams) and data wrangling tools — more diverse than Excel and easier than BI tools. Everything runs in your browser, and you can use all tools as much as you want with a flat-rate subscription."
 hero.cta.primary:
   other: "Get Started"
 hero.cta.secondary:
