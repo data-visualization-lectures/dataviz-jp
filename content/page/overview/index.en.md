@@ -227,5 +227,5 @@ See the <a href="/en/faq/">FAQ</a> page for all frequently asked questions.
 Full refund guaranteed within two weeks. Give it a try.
 
 <div class="hero-buttons" style="margin-top: 2rem;">
-  <a href="https://auth.dataviz.jp/auth/sign-up" class="button primary">Get Started</a>
+  {{< auth-link path="/auth/sign-up" class="button primary" >}}Get Started{{< /auth-link >}}
 </div>

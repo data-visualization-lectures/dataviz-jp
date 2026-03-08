@@ -94,6 +94,7 @@ permalinks:
   page: /:slug/
 
 params:
+  authBaseURL: "https://auth.dataviz.jp"
   defaultImage:
     opengraph:
       enabled: true

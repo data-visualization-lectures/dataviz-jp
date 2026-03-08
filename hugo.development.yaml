@@ -1,0 +1,2 @@
+params:
+  authBaseURL: "http://localhost:3000"
