@@ -17,11 +17,22 @@ languages:
           bio: 株式会社ビジネス・アーキテクツにてユーザー・インターフェイス・デザイナーおよびアート・ディレクターを7年間経験後、独立。企業や教育機関での講義活動、ウェブサイトVisualizing.JPにおける情報発信、コミュニティData Visualization Japanにおけるコミュニティ活動など、データ可視化の実践と普及に関するさまざまな活動をおこなっている。共著書に『RESASの教科書』(日経BP、2016)がある。千葉工業大学デザイン科学修士修了。データ・ビジュアライゼーション・ジャパン発起人/Yahoo!ニュース・エキスパート。
       widgets:
         frontpage:
+          - type: banners
+            params:
+              items:
+                - image: /banners/banner_feature.jpg
+                  url: /overview/
+                  alt: サービス紹介
+                - image: /banners/banner_chart-catalogue.jpg
+                  url: /catalogue/
+                  alt: チャートカタログ
+                - image: /banners/banner_visualizing.jpg
+                  url: https://visualizing.jp/
+                  alt: チャート解説
+                  external: true
           - type: page-links
             params:
               links:
-                - name: サービス紹介
-                  url: "/overview/"
                 - name: 料金プラン
                   url: "/pricing/"
                 - name: よくある質問
@@ -50,11 +61,22 @@ languages:
           bio: "After 7 years as a UI designer and art director at Business Architects Inc., Yuichi went independent. He is active in data visualization practice and education, including lectures at companies and universities, publishing on Visualizing.JP, and community activities through Data Visualization Japan. Co-author of 'The RESAS Textbook' (Nikkei BP, 2016). M.S. in Design Science, Chiba Institute of Technology. Founder of Data Visualization Japan / Yahoo! News Expert."
       widgets:
         frontpage:
+          - type: banners
+            params:
+              items:
+                - image: /banners/banner_feature.jpg
+                  url: /overview/
+                  alt: Service Overview
+                - image: /banners/banner_chart-catalogue.jpg
+                  url: /catalogue/
+                  alt: Chart Catalogue
+                - image: /banners/banner_visualizing.jpg
+                  url: https://visualizing.jp/
+                  alt: Chart Explanations
+                  external: true
           - type: page-links
             params:
               links:
-                - name: Service Overview
-                  url: "/en/overview/"
                 - name: Pricing
                   url: "/en/pricing/"
                 - name: FAQ
