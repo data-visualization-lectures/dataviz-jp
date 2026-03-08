@@ -115,6 +115,8 @@ To tackle various visualizations, you need to prepare data suited to each purpos
 
 It's not just charts. We cover a wide variety of visual expressions.
 
+{{< figure src="/images/tool_data-viz.png" caption="Data Visualization Tools" >}}
+
 - Create various types of charts
 - Perform exploratory data visualization
 - Visualize data on 3D maps
@@ -131,6 +133,8 @@ See the <a href="/en/how-to-use-data-viz/">Choosing the Right Data Visualization
 ## What Data Wrangling Tools Can Do
 
 Improving data quality before visualization directly impacts the accuracy of your results.
+
+{{< figure src="/images/tool_data-wrangling.png" caption="Data Wrangling Tools" >}}
 
 - Visually cleanse data in an intuitive way
 - Easily merge geographic data with thematic data
