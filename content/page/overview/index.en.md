@@ -74,6 +74,8 @@ Easily convert PDFs published by government agencies and others into table data.
 
 ## Four key features that solve these problems
 
+{{< figure src="/images/feature_en.png" caption="Four key features" >}}
+
 
 ✅ **Unlimited access to 38 types of tools**
 
@@ -106,6 +108,41 @@ To tackle various visualizations, you need to prepare data suited to each purpos
 | Price | ◎ Many existing users | × Expensive | ◎ Free | ◎ Affordable subscription |
 | Team adoption | ◎ Possible | ◎ Possible | △ Engineer-dependent | ◎ Anyone can use it |
 | Target users | Office/general work | BI analysts | Data scientists | Office/general work, marketing, government, researchers, journalists, and more |
+
+
+
+## What Data Visualization Tools Can Do
+
+It's not just charts. We cover a wide variety of visual expressions.
+
+- Create various types of charts
+- Perform exploratory data visualization
+- Visualize data on 3D maps
+- Create data maps at the prefecture or municipality level
+- Visualize networks
+- Visualize text data
+
+and more.
+
+See the <a href="/en/how-to-use-data-viz/">Choosing the Right Data Visualization Tool</a> page for details.
+
+
+
+## What Data Wrangling Tools Can Do
+
+Improving data quality before visualization directly impacts the accuracy of your results.
+
+- Visually cleanse data in an intuitive way
+- Easily merge geographic data with thematic data
+- Quickly understand the structure of JSON
+- Fix character encoding issues
+- Easily calculate latitude and longitude from addresses
+- Extract table data from PDFs with ease
+- Quickly generate map data for buffer zones around POIs such as stations
+
+and more.
+
+See the <a href="/en/how-to-use-data-wrangling/">Choosing the Right Data Wrangling Tool</a> page for details.
 
 
 ## Available Tools (Card UI)
