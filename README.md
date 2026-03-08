@@ -1,6 +1,13 @@
 # dataviz.jp　サイト
 
 
+## ローカルテスト
+
+http://localhost:1313/?auth_debug
+
+
+
+
 ## 外部リンク用のカスタムスタイル
 
 ```
