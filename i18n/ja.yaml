@@ -184,6 +184,14 @@ chart.category:
 chart.related:
   other: "関連するチャート"
 
+# Tools page
+tools.title:
+  other: "ツール一覧"
+tools.subtitle:
+  other: "カテゴリーからツールを探す"
+tools.count:
+  other: "件"
+
 # Post card buttons
 post.detail:
   other: "詳しく見る"

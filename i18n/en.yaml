@@ -184,6 +184,14 @@ chart.category:
 chart.related:
   other: "Related Charts"
 
+# Tools page
+tools.title:
+  other: "Tools"
+tools.subtitle:
+  other: "Browse tools by category"
+tools.count:
+  other: " tools"
+
 # Post card buttons
 post.detail:
   other: "Learn More"
