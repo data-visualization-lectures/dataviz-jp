@@ -218,6 +218,7 @@
   <header class="pricing-header">
     <h1 class="pricing-header__title">{{ T "pricing.title" }}</h1>
     <p class="pricing-header__subtitle">{{ T "pricing.subtitle" }}</p>
+    <p class="pricing-header__subtitle">{{ T "pricing.refund" }}</p>
   </header>
 
   <!-- Standard Plan -->
@@ -238,6 +239,7 @@
         <li>{{ T "pricing.standard.monthly.f2" }}</li>
         <li>{{ T "pricing.standard.monthly.f3" }}</li>
         <li>{{ T "pricing.standard.monthly.f4" }}</li>
+        <li>{{ T "pricing.standard.monthly.f5" }}</li>
       </ul>
       <div class="pricing-card__cta">
         <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=monthly" class="button primary">{{ T "pricing.cta" }}</a>
@@ -261,7 +263,6 @@
         <li>{{ T "pricing.standard.yearly.f3" }}</li>
         <li>{{ T "pricing.standard.yearly.f4" }}</li>
         <li>{{ T "pricing.standard.yearly.f5" }}</li>
-        <li>{{ T "pricing.standard.yearly.f6" }}</li>
       </ul>
       <div class="pricing-card__cta">
         <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=yearly" class="button primary">{{ T "pricing.cta" }}</a>
@@ -279,7 +280,7 @@
         <span class="pricing-card__period">{{ T "pricing.per-month" }}</span>
       </div>
       <p class="pricing-card__description">
-        {{ T "pricing.coaching.desc" }}
+        {{ T "pricing.coaching.desc" | safeHTML }}
       </p>
       <hr class="pricing-card__divider">
       <ul class="pricing-card__features">
@@ -299,7 +300,7 @@
         <span class="pricing-card__period">{{ T "pricing.per-year" }}</span>
       </div>
       <p class="pricing-card__description">
-        {{ T "pricing.coaching.yearly.desc" }}
+        {{ T "pricing.coaching.yearly.desc" | safeHTML }}
       </p>
       <hr class="pricing-card__divider">
       <ul class="pricing-card__features">
@@ -312,6 +313,7 @@
       </div>
     </div>
   </div>
+
 
 </div>
 {{ end }}
