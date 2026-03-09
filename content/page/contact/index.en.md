@@ -9,8 +9,8 @@ date: 2026-02-23
 For inquiries before signing up, please use the form below.
 
 {{< external-link-card
-    url="https://forms.gle/UJL643uYbWXV2ZoM7"
-    title="ご契約前のお問い合わせ"
+    url="https://forms.gle/bgzzf6FGfQp5SVxz7"
+    title="Pre-Contract Inquiry about “Data Toolbox”"
     image=""
     site="Google Forms"
     description=""
