@@ -46,7 +46,7 @@ sidebar.data-portal:
 
 # Pricing page
 pricing.title:
-  other: "Pricing Plans (Draft)"
+  other: "Pricing Plans"
 pricing.subtitle:
   other: "Choose the plan that fits your needs"
 pricing.standard:
@@ -66,31 +66,31 @@ pricing.recommended:
 pricing.cta:
   other: "Subscribe"
 pricing.standard.monthly.desc:
-  other: "Perfect for personal use and trial. Try out the basic features."
+  other: "Our most basic plan. Renewed monthly, so it's flexible and easy to use based on your needs."
 pricing.standard.yearly.desc:
-  other: "For those serious about data visualization. All basic features plus advanced capabilities. Save 2 months compared to monthly."
+  other: "For those who want to fully commit. Save 2 months compared to monthly."
 pricing.standard.monthly.f1:
-  other: "Basic chart creation"
+  other: "Unlimited access to 38 tools"
 pricing.standard.monthly.f2:
-  other: "Data import (CSV)"
+  other: "No installation — runs in your browser"
 pricing.standard.monthly.f3:
-  other: "Up to 3 projects"
+  other: "Covers data visualization & data wrangling"
 pricing.standard.monthly.f4:
-  other: "Community support"
+  other: "Sample data & original data included"
+pricing.standard.monthly.f5:
+  other: "Cancel anytime"
 pricing.standard.yearly.f1:
-  other: "All Free plan features"
+  other: "Unlimited access to 38 tools"
 pricing.standard.yearly.f2:
-  other: "Advanced chart types"
+  other: "No installation — runs in your browser"
 pricing.standard.yearly.f3:
-  other: "Data import (Excel, JSON)"
+  other: "Covers data visualization & data wrangling"
 pricing.standard.yearly.f4:
-  other: "Unlimited projects"
+  other: "Sample data & original data included"
 pricing.standard.yearly.f5:
-  other: "Image export (PNG, SVG)"
-pricing.standard.yearly.f6:
-  other: "Priority email support"
+  other: "About ¥2,067/month (save ~¥4,960/year)"
 pricing.coaching.desc:
-  other: "Bundle of this tool and <a href=\"https://personal.data-viz-lectures.com/\">1-on-1 coaching</a>. Save ¥1,000/month."
+  other: "Bundle of this tool and monthly <a href=\"https://personal.data-viz-lectures.com/\">1-on-1 coaching</a>. Save ¥1,000/month."
 pricing.coaching.yearly.desc:
   other: "Bundle of this tool and <a href=\"https://personal.data-viz-lectures.com/\">1-on-1 coaching</a>. Save ¥1,000/month."
 pricing.coaching.f1:
@@ -101,6 +101,8 @@ pricing.coaching.monthly.f3:
   other: "¥1,000 discount from total"
 pricing.coaching.yearly.f3:
   other: "Save 2 months compared to monthly"
+pricing.refund:
+  other: "For first-time users, we offer a full refund within 14 days of registration."
 
 # Catalogue
 catalogue.filter.all:

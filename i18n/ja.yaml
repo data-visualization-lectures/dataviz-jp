@@ -46,9 +46,9 @@ sidebar.data-portal:
 
 # Pricing page
 pricing.title:
-  other: "料金プラン（まだ仮のものです）"
+  other: "料金プラン"
 pricing.subtitle:
-  other: "あなたのニーズに合ったプランをお選びください"
+  other: "あなたのニーズに合ったプランをお選びください。"
 pricing.standard:
   other: "通常プラン"
 pricing.coaching:
@@ -66,33 +66,33 @@ pricing.recommended:
 pricing.cta:
   other: "申し込む"
 pricing.standard.monthly.desc:
-  other: "個人利用や試用に最適な無料プラン。基本的な機能をお試しいただけます。"
+  other: "一番ベーシックなプランです。一ヶ月ごとの更新ですので、ご利用状況に応じて使いやすいです。"
 pricing.standard.yearly.desc:
-  other: "本格的にデータ可視化に取り組む方へ。すべての基本機能に加え、高度な機能が使えます。月額よりも2ヶ月分お得です。"
+  other: "しっかりと本格的に取り組みたい方へ。月額よりも2ヶ月分お得です。"
 pricing.standard.monthly.f1:
-  other: "基本的なチャート作成"
+  other: "38種類のツールが使い放題"
 pricing.standard.monthly.f2:
-  other: "データインポート（CSV）"
+  other: "インストール不要、ブラウザで完結"
 pricing.standard.monthly.f3:
-  other: "最大3プロジェクト"
+  other: "データ可視化＋データ加工をカバー"
 pricing.standard.monthly.f4:
-  other: "コミュニティサポート"
+  other: "サンプルデータ・オリジナルデータ付き"
+pricing.standard.monthly.f5:
+  other: "いつでも解約可能"
 pricing.standard.yearly.f1:
-  other: "Freeプランの全機能"
+  other: "38種類のツールが使い放題"
 pricing.standard.yearly.f2:
-  other: "高度なチャートタイプ"
+  other: "インストール不要、ブラウザで完結"
 pricing.standard.yearly.f3:
-  other: "データインポート（Excel, JSON）"
+  other: "データ可視化＋データ加工をカバー"
 pricing.standard.yearly.f4:
-  other: "プロジェクト数 無制限"
+  other: "サンプルデータ・オリジナルデータ付き"
 pricing.standard.yearly.f5:
-  other: "画像エクスポート（PNG, SVG）"
-pricing.standard.yearly.f6:
-  other: "優先メールサポート"
+  other: "月あたり約¥2,067（年間約¥4,960お得）"
 pricing.coaching.desc:
-  other: "本ツール利用と<a href=\"https://personal.data-viz-lectures.com/\">1対1でのコーチング</a>のセットです。月々1,000円お得です。"
+  other: "本ツール利用と月に一度の<a href=\"https://personal.data-viz-lectures.com/\">1対1でのコーチング</a>のセットです。月々1,000円お得です。"
 pricing.coaching.yearly.desc:
-  other: "本ツール利用と<a href=\"https://personal.data-viz-lectures.com/\">1対1でのコーチング</a>のセットです。月々1,000円お得です。"
+  other: "本ツール利用と月に一度の<a href=\"https://personal.data-viz-lectures.com/\">1対1でのコーチング</a>のセットです。月々1,000円お得です。"
 pricing.coaching.f1:
   other: "通常プランと同様のツール提供サービス（2,480円）"
 pricing.coaching.f2:
@@ -101,6 +101,8 @@ pricing.coaching.monthly.f3:
   other: "合計金額より1,000円ディスカウント"
 pricing.coaching.yearly.f3:
   other: "月額よりも2ヶ月分を割引"
+pricing.refund:
+  other: "初回ご利用に限り、登録から14日以内であれば返金に対応します。"
 
 # Catalogue
 catalogue.filter.all:
