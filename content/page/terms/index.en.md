@@ -4,10 +4,7 @@ slug: "terms"
 date: 2026-03-02
 ---
 
-This page is currently under preparation.
-The Terms of Service will be published soon.
-
----
+Version 1 - Enacted: March 10, 2026
 
 These Terms of Service (hereinafter referred to as "these Terms") set forth the conditions for using the data visualization and data processing tool suite service "Data Toolbox" (https://www.dataviz.jp/) (hereinafter referred to as "the Service") provided by Notation LLC (hereinafter referred to as "the Company"). Users shall use the Service upon agreeing to these Terms.
 
