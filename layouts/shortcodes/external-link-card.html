@@ -26,7 +26,12 @@
   <a class="external-link-card__inner" href="{{ $url | safeURL }}" target="{{ $target }}" rel="{{ $rel }}">
     <div class="external-link-card__media{{ if not $image }} external-link-card__media--placeholder{{ end }}">
       {{- with $image -}}
-        <img src="{{ . | safeURL }}" alt="{{ $title }}" loading="lazy" decoding="async" />
+        {{- $resolvedImage := $.Page.Resources.GetMatch . -}}
+        {{- if $resolvedImage -}}
+          <img src="{{ $resolvedImage.RelPermalink }}" alt="{{ $title }}" loading="lazy" decoding="async" />
+        {{- else -}}
+          <img src="{{ . | safeURL }}" alt="{{ $title }}" loading="lazy" decoding="async" />
+        {{- end -}}
       {{- else -}}
         <span class="external-link-card__media-icon" aria-hidden="true">
           <svg viewBox="0 0 24 24" focusable="false">
