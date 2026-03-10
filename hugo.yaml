@@ -23,6 +23,9 @@ languages:
                 - image: /banners/banner_feature.jpg
                   url: /overview/
                   alt: サービス紹介
+                - image: /banners/banner_tools.jpg
+                  url: /tools/
+                  alt: ツール一覧
                 - image: /banners/banner_chart-catalogue.jpg
                   url: /catalogue/
                   alt: チャートカタログ
@@ -69,6 +72,9 @@ languages:
                 - image: /banners/banner_feature.jpg
                   url: /overview/
                   alt: Service Overview
+                - image: /banners/banner_tools.jpg
+                  url: /tools/
+                  alt: Tools
                 - image: /banners/banner_chart-catalogue.jpg
                   url: /catalogue/
                   alt: Chart Catalogue
