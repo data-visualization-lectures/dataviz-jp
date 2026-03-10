@@ -1,10 +1,10 @@
 ---
 title: "Privacy Policy"
 slug: "privacy"
-date: 2026-03-02
+date: 2026-03-10
 ---
 
-Version 1 - Enacted: March 5, 2026
+Version 1 - Enacted: March 10, 2026
 
 "Data Toolbox" (hereinafter referred to as "the Service") considers the protection of users' personal information to be an important responsibility, and hereby establishes the following Privacy Policy.
 
@@ -15,6 +15,40 @@ This Policy describes how personal information is handled within the Service.
 ## 1. Information We Collect
 
 The Service may collect the following information.
+
+
+### Data That Users Visualize and Analyze
+
+The Service provides tools primarily intended for data visualization and analysis.
+
+- **Basic Operation**
+  Data uploaded or entered by users (file contents such as CSV, Excel, JSON, manually entered data, etc.) is processed **on the client side (within the user's browser)** for most features.
+  This data is not sent to or stored on the Service's servers.
+
+- **When the Save Feature Is Used**
+  In certain visualization tools, only when the user **explicitly selects "Save"**, the following data is stored on the server:
+  - Chart and configuration data that the user has instructed to save
+  - Data processing via OpenRefine (temporary storage to prevent loss of work data)
+
+  Saved data is handled as follows:
+  - It is linked to the user's account and accessible only by the user.
+  - Purpose of storage: Re-display, editing, and sharing (when permitted by the user) of saved content
+  - Retention period: Until the user deletes it (or all data is deleted upon account deletion)
+  - Upon request for deletion, data will be promptly removed.
+
+- **Note Regarding Data Containing Personal Information**
+  The Service **does not review or screen the content** of data entered or uploaded by users in advance.
+  If you upload data containing personal information to the server using the save feature, please handle it **under your own responsibility**.
+  Unless you use the save feature, no data, including any personal information, will remain on the server.
+
+Unless the save feature is used, no data that has been entered or uploaded (including data containing personal information) will remain on the server. However, OpenRefine performs temporary storage to prevent loss of work state.
+
+### Retention Period
+
+- Data stored on the server using the save feature (charts, settings, source data, etc.) is retained **until the user instructs its deletion**.
+- If an account deletion request is made, all associated saved data will be completely deleted **without delay (typically within 7 days)**.
+
+
 
 ### Information Provided by Users
 
@@ -78,9 +112,7 @@ The Service may use the following external services for its operation.
 ### Stripe (Payment Processing)
 
 Payment processing for paid services is handled by **Stripe, Inc.**
-Credit card information entered by users is securely processed by Stripe, and the Service does not obtain or store sensitive information such as card numbers.
-
-For information on how Stripe handles personal information, please refer to the following:
+Credit card information entered by users is securely processed by Stripe, and the Service does not obtain or store sensitive information such as card numbers. For information on how Stripe handles personal information, please refer to the following:
 
 https://stripe.com/jp/privacy
 
@@ -88,19 +120,13 @@ https://stripe.com/jp/privacy
 
 ## 5. Cookies and Analytics
 
-The Service may use cookies and similar technologies for the purpose of improving the Service and analyzing usage patterns.
-
-Cookies are small pieces of data stored in the user's browser and do not contain information that directly identifies an individual.
-
-Users may refuse cookies through their browser settings; however, doing so may result in some features of the Service becoming unavailable.
+The Service may use cookies and similar technologies for the purpose of improving the Service and analyzing usage patterns. Cookies are small pieces of data stored in the user's browser and do not contain information that directly identifies an individual. Users may refuse cookies through their browser settings; however, doing so may result in some features of the Service becoming unavailable.
 
 
 
 ## 6. Security of Personal Information
 
-The Service implements reasonable security measures to prevent leakage, loss, and alteration of personal information.
-
-Regarding credit card information, the Service is designed not to retain card information on its side by using a PCI-DSS compliant payment service (Stripe).
+The Service implements reasonable security measures to prevent leakage, loss, and alteration of personal information. Regarding credit card information, the Service is designed not to retain card information on its side by using a PCI-DSS compliant payment service (Stripe).
 
 
 
@@ -135,8 +161,8 @@ Data Toolbox
 Operator: Yuichi Yazaki
 
 {{< external-link-card
-    url="https://forms.gle/UJL643uYbWXV2ZoM7"
-    title="お問い合わせ"
+    url="https://forms.gle/bgzzf6FGfQp5SVxz7"
+    title="Pre-Contract Inquiry about "Data Toolbox""
     image=""
     site="Google Forms"
     description=""
