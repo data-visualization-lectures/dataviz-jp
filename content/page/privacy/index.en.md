@@ -162,7 +162,7 @@ Operator: Yuichi Yazaki
 
 {{< external-link-card
     url="https://forms.gle/bgzzf6FGfQp5SVxz7"
-    title="Pre-Contract Inquiry about "Data Toolbox""
+    title="Pre-Contract Inquiry about 'Data Toolbox'"
     image=""
     site="Google Forms"
     description=""
