@@ -170,6 +170,10 @@ params:
         - data-wrangling
         - data-wrangling-map
 
+  widgets:
+    page:
+      - type: toc
+
   article:
     math: false
     toc: true
