@@ -26,6 +26,9 @@ languages:
                 - image: /banners/banner_tools.jpg
                   url: /tools/
                   alt: ツール一覧
+                - image: /banners/banner_showcase.jpg
+                  url: /categories/showcase/
+                  alt: 作例
                 - image: /banners/banner_chart-catalogue.jpg
                   url: /catalogue/
                   alt: チャートカタログ
@@ -75,6 +78,9 @@ languages:
                 - image: /banners/banner_tools.jpg
                   url: /tools/
                   alt: Tools
+                - image: /banners/banner_showcase.jpg
+                  url: /en/categories/showcase/
+                  alt: Showcase
                 - image: /banners/banner_chart-catalogue.jpg
                   url: /catalogue/
                   alt: Chart Catalogue
