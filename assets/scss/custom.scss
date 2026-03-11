@@ -82,7 +82,7 @@ body {
 .external-link-card {
   border-radius: var(--card-border-radius);
   overflow: hidden;
-  background-color: var(--card-background);
+  background-color: #fff;
   box-shadow: var(--shadow-l1);
   margin-bottom: 1rem;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
@@ -120,7 +120,7 @@ html[data-scheme="dark"] {
 
 .external-link-card__media {
   position: relative;
-  background-color: var(--accent-color-darker);
+  background-color: #fff;
   height: 100%;
 
   img {
