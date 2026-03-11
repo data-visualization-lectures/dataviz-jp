@@ -227,7 +227,11 @@
     <div class="pricing-card">
       <div class="pricing-card__name">{{ T "pricing.monthly" }}</div>
       <div class="pricing-card__price">
+        {{- if eq .Lang "en" -}}
+        <span class="pricing-card__amount">$20</span>
+        {{- else -}}
         <span class="pricing-card__amount">¥2,480</span>
+        {{- end -}}
         <span class="pricing-card__period">{{ T "pricing.per-month" }}</span>
       </div>
       <p class="pricing-card__description">
@@ -242,7 +246,11 @@
         <li>{{ T "pricing.standard.monthly.f5" }}</li>
       </ul>
       <div class="pricing-card__cta">
+        {{- if eq .Lang "en" -}}
+        <a href="https://buy.stripe.com/9B6aEY8QKaFF18LcdW93y0j" class="button primary">{{ T "pricing.cta" }}</a>
+        {{- else -}}
         <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=monthly" class="button primary">{{ T "pricing.cta" }}</a>
+        {{- end -}}
       </div>
     </div>
 
@@ -250,7 +258,11 @@
       <span class="pricing-card__badge">{{ T "pricing.recommended" }}</span>
       <div class="pricing-card__name">{{ T "pricing.yearly" }}</div>
       <div class="pricing-card__price">
+        {{- if eq .Lang "en" -}}
+        <span class="pricing-card__amount">$200</span>
+        {{- else -}}
         <span class="pricing-card__amount">¥24,800</span>
+        {{- end -}}
         <span class="pricing-card__period">{{ T "pricing.per-year" }}</span>
       </div>
       <p class="pricing-card__description">
@@ -265,12 +277,17 @@
         <li>{{ T "pricing.standard.yearly.f5" }}</li>
       </ul>
       <div class="pricing-card__cta">
+        {{- if eq .Lang "en" -}}
+        <a href="https://buy.stripe.com/28E3cw1oibJJ5p15Py93y0k" class="button primary">{{ T "pricing.cta" }}</a>
+        {{- else -}}
         <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=yearly" class="button primary">{{ T "pricing.cta" }}</a>
+        {{- end -}}
       </div>
     </div>
   </div>
 
-  <!-- Coaching Plan -->
+  {{- if ne .Lang "en" -}}
+  <!-- Coaching Plan (Japanese only) -->
   <h2 class="pricing-section-title">{{ T "pricing.coaching" }}</h2>
   <div class="pricing-grid">
     <div class="pricing-card">
@@ -313,6 +330,7 @@
       </div>
     </div>
   </div>
+  {{- end -}}
 
 
 </div>

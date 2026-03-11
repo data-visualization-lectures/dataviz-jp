@@ -199,7 +199,7 @@ See the <a href="/en/about/">About</a> page for details.
 
 ## Pricing
 
-### Standard Plan: ¥2,480/month
+### Standard Plan: $20/month
 
 See the <a href="/en/pricing/">Pricing</a> page for all plans.
 

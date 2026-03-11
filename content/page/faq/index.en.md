@@ -103,9 +103,8 @@ We offer two types of data portals: sample data bundled with each tool, and orig
 
 ### How much does it cost?
 
-The most basic Standard Plan is ¥2,480/month.
-Annual billing includes a two-month discount.
-We also offer a plan that includes one-on-one coaching once a month in addition to tool access.
+The most basic Standard Plan is $20/month.
+Annual billing ($200/year) saves you $40 compared to monthly.
 
 See the <a href="/en/pricing/">Pricing</a> page for details.
 
