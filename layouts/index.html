@@ -118,7 +118,11 @@
       <p class="hero-subtitle">{{ T "hero.notice" }}</p>
     </div>
     <div class="hero-image">
-      <img src="/images/hero-dataviz.png" alt="{{ T "hero.image.alt" }}" style="width: 100%; height: auto; border-radius: 20px;">
+      {{- if eq .Lang "en" -}}
+      <img src="/images/hero-dataviz_en.jpg" alt="{{ T "hero.image.alt" }}" style="width: 100%; height: auto; border-radius: 20px;">
+      {{- else -}}
+      <img src="/images/hero-dataviz_ja.jpg" alt="{{ T "hero.image.alt" }}" style="width: 100%; height: auto; border-radius: 20px;">
+      {{- end -}}
     </div>
   </section>
 
