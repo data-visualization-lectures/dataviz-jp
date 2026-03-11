@@ -6,7 +6,7 @@ date: 2026-03-01
 
 ## 38 data visualization & data wrangling tools to support your data workflow
 
-(*As of March 7, 2026)
+(*As of March 11, 2026)
 
 - Unlimited access to 38 types of tools
 - No installation required — everything runs in your browser

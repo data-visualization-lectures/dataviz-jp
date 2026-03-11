@@ -14,6 +14,6 @@ And more. This list will be updated as needed.
 
 ## Changelog
 
-- March 10, 2026: The service was officially launched.
+- March 11, 2026: The service was officially launched.
 
 
