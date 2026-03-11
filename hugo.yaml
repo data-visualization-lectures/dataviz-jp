@@ -129,6 +129,7 @@ services:
 
 permalinks:
   post: /:slug/
+  showcase: /:slug/
   page: /:slug/
 
 params:
@@ -144,6 +145,7 @@ params:
       card: summary
   mainSections:
     - post
+    - showcase
   featuredImageField: image
   rssFullContent: true
   favicon: /favicon.ico

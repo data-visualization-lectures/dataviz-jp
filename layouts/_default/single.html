@@ -10,19 +10,7 @@
         {{- end -}}
     {{- end -}}
 
-    {{- $isShowcase := false -}}
-    {{- $categories := .Params.categories -}}
-    {{- if reflect.IsSlice $categories -}}
-        {{- range $categories -}}
-            {{- if eq . "showcase" -}}
-                {{- $isShowcase = true -}}
-            {{- end -}}
-        {{- end -}}
-    {{- else -}}
-        {{- if eq $categories "showcase" -}}
-            {{- $isShowcase = true -}}
-        {{- end -}}
-    {{- end -}}
+    {{- $isShowcase := eq .Section "showcase" -}}
 
     {{- $TOCManuallyDisabled := eq .Params.toc false -}}
     {{- $TOCEnabled := and (not $TOCManuallyDisabled) $TOCWidgetEnabled $isShowcase -}}
