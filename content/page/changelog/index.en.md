@@ -14,6 +14,12 @@ And more. This list will be updated as needed.
 
 ## Changelog
 
-- March 11, 2026: The service was officially launched.
+### March 12, 2026
+
+- Removed unnecessary line breaks within cells in Tabula
+- Added new tool: "Text Entity Extraction Tool"
+
+### March 11, 2026
+- The service was officially launched.
 
 
