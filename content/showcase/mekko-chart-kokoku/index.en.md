@@ -75,7 +75,7 @@ Data cleansing is now complete.
 Choose your favorite visualization tool.
 In this case, we'll use RawGraphs, which makes it easy to create Mekko charts.
 
-### Visualizing Data with RawGraphs
+## Visualizing Data with RawGraphs
 
 RawGraphs is a single-page tool where each step appears as you scroll down.
 
@@ -88,7 +88,7 @@ RawGraphs is a single-page tool where each step appears as you scroll down.
 ![Fine-tune the layout](images/kokoku_12.png)
 
 
-### Completed
+## Completed
 
 Export as PNG to include in slides or publish on the web.
 
@@ -97,10 +97,10 @@ Export as PNG to include in slides or publish on the web.
 Export as SVG to edit in design tools such as PowerPoint, Adobe Illustrator, or Figma.
 Some axis labels were too close together, so we adjusted them.
 
-#### Editing in PowerPoint
+### Editing in PowerPoint
 
 ![Editing in PowerPoint](images/kokoku_fin_pt.png)
 
-#### Editing in Adobe Illustrator
+### Editing in Adobe Illustrator
 
 ![Editing in Adobe Illustrator](images/kokoku_fin_ai.png)
