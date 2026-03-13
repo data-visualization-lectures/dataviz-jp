@@ -7,7 +7,9 @@ date: 2026-03-10
 
 ## Roadmap
 
+- AI-powered automatic chart selection and visualization tool
 - Public sharing feature for created visualization content
+- Project sharing within organizations
 - CSV support for data used in Cytoscape, Gephi, and similar tools
 
 And more. This list will be updated as needed.
