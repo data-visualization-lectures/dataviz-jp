@@ -70,7 +70,7 @@ pricing.standard.monthly.desc:
 pricing.standard.yearly.desc:
   other: "About $16.67/month (save $40/year compared to monthly)."
 pricing.standard.monthly.f1:
-  other: "Unlimited access to 38 tools"
+  other: "Unlimited access to 40 tools"
 pricing.standard.monthly.f2:
   other: "No installation — runs in your browser"
 pricing.standard.monthly.f3:
@@ -80,7 +80,7 @@ pricing.standard.monthly.f4:
 pricing.standard.monthly.f5:
   other: "Cancel anytime"
 pricing.standard.yearly.f1:
-  other: "Unlimited access to 38 tools"
+  other: "Unlimited access to 40 tools"
 pricing.standard.yearly.f2:
   other: "No installation — runs in your browser"
 pricing.standard.yearly.f3:
