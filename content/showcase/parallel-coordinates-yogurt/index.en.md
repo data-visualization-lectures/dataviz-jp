@@ -1,24 +1,25 @@
 ---
-title: Coloring Administrative District Maps with Data
+title: Finding the Ideal Yogurt with Parallel Coordinates
 description:
-slug: "choropleth-fukushima"
+slug: "parallel-coordinates-yogurt"
 weight: 1
 categories: "showcase"
-image: "images/cover_choropleth-fukushima.png"
+image: "images/cover_yogurt.png"
 ---
 
-Coloring administrative district maps — commonly known as blank maps — with data is called a "choropleth map." Although sometimes referred to as a "classified area map," <a href="https://visualizing.jp/classification-and-coloplethmap/" target="_blank">that term actually describes a data processing technique, not a visualization type</a>.
 
-Using our "Japan Choropleth Map" and "Prefecture Choropleth Map" tools, you can easily create high-quality choropleth maps.
+Let's find the "ideal yogurt" — high in protein, low in sugar.
 
-![Finished map](images/cover_choropleth-fukushima.png)
+With a <a href="/en/parallel-coordinates/">Parallel Coordinates chart</a>, you can easily filter data by applying multiple conditions simultaneously.
 
-Here we introduce how to create one using our tools.
+![Finished chart](images/yogurt_02.png)
+
+Here we show how to create this using our tools.
 
 {{< external-link-card
-    url="https://choropleth-prefectures.dataviz.jp/?project_id=dbbe184f-2022-403b-a84f-525991e61725"
-    title="Fukushima Prefecture: Population Change Rate 2011–2024"
-    image="images/cover_choropleth-fukushima.png"
+    url="https://parallel-coordinates.dataviz.jp//?project_id=6c3cf78f-9eec-4d37-9c79-24a92342f699"
+    title="Finding the Ideal Yogurt with Parallel Coordinates"
+    image="images/cover_yogurt.png"
     site="dataviz.jp"
     description=""
 >}}
@@ -27,72 +28,24 @@ Here we introduce how to create one using our tools.
 Paid subscribers can open the link above as an editable project file to learn the process and examine the data structure.
 
 
-### Visualizing with Sample Data
+## Collecting the Data
 
-![Blank map of Fukushima Prefecture](images/cf_1_1.png)
+First, we gathered nutritional information for yogurts sold at convenience stores, collecting data from each manufacturer's website.
 
-Here is what it looks like when you visualize pre-loaded population data on a Fukushima Prefecture map. By turning on the "Divide by area (/km²)" checkbox, the data becomes population density.
+## Visualizing with Parallel Coordinates
 
-![Population density of people under 15 in Fukushima Prefecture](images/cf_1_2.png)
+After loading nutritional data for 70 yogurt products and switching to Min-Max scale, metrics with different units are normalized to the same 0–1 axis.
 
-Incidentally, using a technique called a cartogram — which distorts area to reflect data (also available as a tool) — produces a warped map like this:
+![](images/yogurt_01.png)
 
-![Cartogram of population density of people under 15 in Fukushima Prefecture](images/cf_1_3.png)
+## Filtering Across Multiple Axes
 
+By brushing the upper range on the protein axis and the lower range on the carbohydrate axis, only products meeting the "high protein, low sugar" criteria remain as blue lines.
 
-### Visualizing with Your Own Data
+![](images/yogurt_02.png)
 
-You can of course prepare and visualize your own data.
+The standout result is PARTHENO Plain, a rich Greek yogurt — 10.9g of protein with just 4.6g of carbohydrates.
 
-In that case, download the sample data and keep only the place names to see what geographic names you need to prepare data for.
+## Reordering Axes
 
-![Downloaded sample file](images/cf_1_4.png)
-
-![Keep only the municipality name column](images/cf_1_5.png)
-
-### Population Comparison Data Between 2011 and 2024
-
-Download the "<a href="https://www.pref.fukushima.lg.jp/uploaded/attachment/702454.xlsx" target="_blank">Fukushima Prefecture Current Population Survey Annual Report: Reference Materials</a>" published by Fukushima Prefecture. This dataset compares population between 2011 and 2024.
-
-![Opening the downloaded data](images/cf_2_1.png)
-
-Keep only the sheet and table you need.
-
-![](images/cf_2_2.png)
-
-Once you have this, load it into OpenRefine for cleansing.
-
-![](images/cf_2_3.png)
-
-Remove unnecessary spaces and commas.
-The minus sign is represented as "△", so replace it with the minus symbol "-".
-
-![](images/cf_2_4.png)
-
-Also load the file with only municipality names from the sample data into OpenRefine as a separate project.
-
-![](images/cf_3_1.png)
-
-Use the "Add column based on this column" operation to perform a VLOOKUP-like join — merging two tables horizontally.
-
-![](images/cf_3_2.png)
-
-Join using an OpenRefine-specific script:
-
-```
-cell.cross('PROJECT_NAME','KEY_COLUMN_NAME').cells['COLUMN_NAME_TO_GET'].value[0]
-```
-
-- PROJECT_NAME — the project name of your original data
-- KEY_COLUMN_NAME — the name of the column to use as the key
-- COLUMN_NAME_TO_GET — the name of the column you want to join
-
-![](images/cf_3_3.png)
-
-You can see that the join was successful for all municipalities except Futaba, Namie, Okuma, and Tomioka, where no data exists.
-
-![](images/cf_3_4.png)
-
-Municipalities with higher population change rates are displayed in darker colors.
-
-![](images/cf_3_5.png)
+Try dragging axes to rearrange them, and hover over table rows to highlight the corresponding lines. Experience how the "feel" of the data changes with different arrangements.
