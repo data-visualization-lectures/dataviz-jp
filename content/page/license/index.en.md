@@ -12,6 +12,7 @@ The following tools are based on original open source projects. We are grateful 
 
 - **Color Brewer** — Apache-2.0 License (Cynthia Brewer, Mark Harrower, The Pennsylvania State University)
 - **Cytoscape** — MIT License (Cytoscape Consortium)
+- **D3.js** — ISC License (Mike Bostock)
 - **Data Illustrator** — MIT License (Georgia Tech)
 - **(Geo) Data Merger** — MIT License (Fabio Berta)
 - **GeoJSON.io** — ISC License (Mapbox)
@@ -22,6 +23,7 @@ The following tools are based on original open source projects. We are grateful 
 - **Leonardo** — Apache-2.0 License (Adobe)
 - **Mapshaper** — Mozilla Public License 2.0 (Matthew Bloch)
 - **OpenRefine** — BSD-3-Clause License (OpenRefine contributors)
+- **Parallel Coordinates** — BSD-3-Clause License (Kai Chang)
 - **RAWGraphs** — Apache-2.0 License (DensityDesign Lab, Politecnico di Milano)
 - **Sankeymatic** — ISC License (Steve Bogart)
 - **Tabula PDF** — MIT License (Manuel Aristarán, Mike Tigas, Jeremy B. Merrill)
