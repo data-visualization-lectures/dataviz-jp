@@ -16,6 +16,10 @@ And more. This list will be updated as needed.
 
 ## Changelog
 
+### March 17, 2026
+
+- Added Shift JIS data file support for RawGraphs, Parallel Coordinates, Voyager, Word Cloud, and Data Illustrator
+
 ### March 14, 2026
 
 - Added new tool: "Parallel Coordinates"

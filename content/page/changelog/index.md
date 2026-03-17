@@ -17,6 +17,10 @@ date: 2026-03-10
 ## 更新情報
 
 
+### 2026年3月17日
+
+- RawGraphs、Parallel Coordinates、Voyager、Word Cloud、Data Illustratorにおいて、Shift JISのデータファイルに対応
+
 ### 2026年3月14日
 
 - 新規ツール「パラレル・コーディネイト」の追加
