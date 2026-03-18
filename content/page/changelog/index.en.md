@@ -16,6 +16,10 @@ And more. This list will be updated as needed.
 
 ## Changelog
 
+### March 18, 2026
+
+- Added CSV format and Shift JIS data file support for Gephi and Cytoscape
+
 ### March 17, 2026
 
 - Added Shift JIS data file support for RawGraphs, Parallel Coordinates, Voyager, Word Cloud, and Data Illustrator
