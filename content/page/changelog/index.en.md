@@ -19,6 +19,7 @@ And more. This list will be updated as needed.
 ### March 18, 2026
 
 - Added CSV format and Shift JIS data file support for Gephi and Cytoscape
+- Added a spiral chart example using RawGraphs to the showcase
 
 ### March 17, 2026
 
