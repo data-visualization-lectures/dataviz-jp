@@ -16,6 +16,11 @@ And more. This list will be updated as needed.
 
 ## Changelog
 
+### March 23, 2026
+
+- Added new tool: "3D Surface Chart"
+- Added public sharing feature to Parallel Coordinates
+
 ### March 18, 2026
 
 - Added CSV format and Shift JIS data file support for Gephi and Cytoscape

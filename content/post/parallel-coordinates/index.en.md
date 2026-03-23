@@ -29,6 +29,7 @@ An interactive chart specialized for comparing and exploring multidimensional da
 - **Scale switching**: Toggle between three modes — Original (raw values), Min-Max (0–1 normalization), and Z-Score (standardization)
 - **Table synchronization**: The data table below syncs with brushing results. Hovering over a row highlights the corresponding line on the chart
 - **Export**: Export filtered results as CSV and chart images as SVG/PNG
+- **Share** — Share the current view via URL. OGP images for social media are generated automatically
 - **Project saving**: Save and restore data and settings (scale, axis order, brush ranges) to the cloud with thumbnails
 
 
