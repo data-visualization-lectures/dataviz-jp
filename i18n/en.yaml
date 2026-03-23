@@ -102,7 +102,7 @@ pricing.coaching.monthly.f3:
 pricing.coaching.yearly.f3:
   other: "Save 2 months compared to monthly"
 pricing.refund:
-  other: "For first-time users, we offer a full refund within 14 days of registration."
+  other: "Free to use for 14 days from account registration."
 
 # Catalogue
 catalogue.filter.all:

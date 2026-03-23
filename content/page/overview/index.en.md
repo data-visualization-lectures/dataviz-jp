@@ -228,8 +228,10 @@ See the <a href="/en/faq/">FAQ</a> page for all frequently asked questions.
 
 ## Get Started Now
 
-Full refund guaranteed within two weeks. Give it a try.
+You can use the tool free for 14 days after creating your account. Give it a try.
 
 <div class="hero-buttons" style="margin-top: 2rem;">
   {{< auth-link path="/auth/sign-up" class="button primary" >}}Get Started{{< /auth-link >}}
 </div>
+
+※ The 14-day money-back guarantee has been discontinued.

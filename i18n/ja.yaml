@@ -102,7 +102,7 @@ pricing.coaching.monthly.f3:
 pricing.coaching.yearly.f3:
   other: "月額よりも2ヶ月分を割引"
 pricing.refund:
-  other: "初回ご利用に限り、登録から14日以内であれば返金に対応します。"
+  other: "アカウント登録から14日間まで無料でご利用いただけます。"
 
 # Catalogue
 catalogue.filter.all:
