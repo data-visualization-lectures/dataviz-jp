@@ -16,6 +16,10 @@ And more. This list will be updated as needed.
 
 ## Changelog
 
+### March 24, 2026
+
+- Added new tool: "Draw-to-Answer Line Chart"
+
 ### March 23, 2026
 
 - Added new tool: "3D Surface Chart"
