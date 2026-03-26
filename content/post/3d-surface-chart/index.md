@@ -78,3 +78,8 @@ row2,5.42,5.38,5.25,...
 
 縦持ち（ロングフォーマット）のデータは、Excel やPythonの pivot() でピボットテーブル形式に変換してからご利用ください。
 
+## 参照
+
+3Dサーフェイス・チャートを時系列イールド・カーブに用いるアイデアは The New York Times によるものです。
+
+A 3-D View of a Chart That Predicts The Economic Future: The Yield Curve - The New York Times https://www.nytimes.com/interactive/2015/03/19/upshot/3d-yield-curve-economic-growth.html

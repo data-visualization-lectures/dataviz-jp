@@ -77,3 +77,9 @@ Year,Hokkaido,Aomori,Iwate,...,Okinawa
 ![Births by prefecture](images/example_02.png)
 
 If your data is in long format, convert it to a pivot table using Excel or Python's `pivot()` before loading.
+
+## References
+
+The idea of using a 3D surface chart for time-series yield curves originated from The New York Times.
+
+A 3-D View of a Chart That Predicts The Economic Future: The Yield Curve - The New York Times https://www.nytimes.com/interactive/2015/03/19/upshot/3d-yield-curve-economic-growth.html
