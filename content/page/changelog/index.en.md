@@ -16,6 +16,10 @@ And more. This list will be updated as needed.
 
 ## Changelog
 
+### March 31, 2026
+
+- Added a corporate number database that can be called from OpenRefine's "Reconciliation" feature
+
 ### March 24, 2026
 
 - Added new tool: "Draw-to-Answer Line Chart"
