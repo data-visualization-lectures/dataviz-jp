@@ -14,7 +14,7 @@ hero.image.alt:
 hero.alert.label:
   other: "Notice"
 hero.alert:
-  other: "Mar 31, 23:00 JST (several hours): Migrating the admin panel domain from auth.dataviz.jp to app.dataviz.jp. No action is required on your end."
+  other: "Apr 1, 23:00 JST (several hours): Migrating the admin panel domain from auth.dataviz.jp to app.dataviz.jp. No action is required on your end."
 hero.news.label:
   other: "Update"
 hero.news:
