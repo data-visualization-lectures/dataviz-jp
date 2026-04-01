@@ -14,7 +14,7 @@ hero.image.alt:
 hero.alert.label:
   other: "お知らせ"
 hero.alert:
-  other: "4月1日23時〜数時間：管理画面のドメインを auth.dataviz.jp から app.dataviz.jp へ移行します。ご利用者側ですることはござません。"
+  other: "4月1日23時〜数時間：管理画面のドメインを auth.dataviz.jp から app.dataviz.jp へ移行します。その時間帯はご利用いただけません。ご了承ください。ご利用者側ですることはござません。"
 hero.news.label:
   other: "更新情報"
 hero.news:
