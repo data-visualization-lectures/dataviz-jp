@@ -133,7 +133,7 @@ permalinks:
   page: /:slug/
 
 params:
-  authBaseURL: "https://auth.dataviz.jp"
+  authBaseURL: "https://app.dataviz.jp"
   defaultImage:
     opengraph:
       enabled: true
