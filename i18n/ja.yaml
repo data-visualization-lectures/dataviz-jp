@@ -12,13 +12,13 @@ hero.cta.secondary:
 hero.image.alt:
   other: "データ可視化イメージ"
 hero.alert.label:
-  other: "お知らせ"
+  other: ""
 hero.alert:
-  other: "4月1日23時〜数時間：管理画面のドメインを auth.dataviz.jp から app.dataviz.jp へ移行します。その時間帯はご利用いただけません。ご了承ください。ご利用者側ですることはござません。"
+  other: ""
 hero.news.label:
   other: "更新情報"
 hero.news:
-  other: "OpenRefine「照合（名寄せ）」機能から呼び出して使える法人番号データベースを追加しました。"
+  other: "アカウント画面のドメインが auth.dataviz.jp から app.dataviz.jp へ変更になりました。自動でリダイレクトされますが、ブックマークの更新をお願いします。"
 
 # Feature cards
 feature.dataviz.title:

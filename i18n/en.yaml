@@ -12,13 +12,13 @@ hero.cta.secondary:
 hero.image.alt:
   other: "Data Visualization Image"
 hero.alert.label:
-  other: "Notice"
+  other: ""
 hero.alert:
-  other: "Apr 1, 23:00 JST (several hours): Migrating the admin panel domain from auth.dataviz.jp to app.dataviz.jp. No action is required on your end."
+  other: ""
 hero.news.label:
   other: "Update"
 hero.news:
-  other: "Added a corporate number database that can be used from OpenRefine's Reconciliation feature."
+  other: "The account dashboard domain has been changed from auth.dataviz.jp to app.dataviz.jp. You will be redirected automatically, but please update your bookmarks."
 
 # Feature cards
 feature.dataviz.title:

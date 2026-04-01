@@ -16,6 +16,10 @@ And more. This list will be updated as needed.
 
 ## Changelog
 
+### April 2, 2026
+
+- The account dashboard domain has been changed from auth.dataviz.jp to app.dataviz.jp. You will be redirected automatically, but please update your bookmarks.
+
 ### March 31, 2026
 
 - Added a corporate number database that can be called from OpenRefine's "Reconciliation" feature
