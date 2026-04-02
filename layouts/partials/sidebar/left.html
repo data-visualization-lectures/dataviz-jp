@@ -96,13 +96,13 @@
     {{ end }}
     {{ if eq site.Params.headerMode "public" }}
     <li class="menu-divider" aria-hidden="true"></li>
-    {{ with $.Site.GetPage "/pricing" }}
+    {{ with $.Site.GetPage "/page/pricing" }}
     <li><a href='{{ .RelPermalink }}'>{{ partial "helper/icon" "link" }}<span>{{ .Title }}</span></a></li>
     {{ end }}
-    {{ with $.Site.GetPage "/faq" }}
+    {{ with $.Site.GetPage "/page/faq" }}
     <li><a href='{{ .RelPermalink }}'>{{ partial "helper/icon" "link" }}<span>{{ .Title }}</span></a></li>
     {{ end }}
-    {{ with $.Site.GetPage "/changelog" }}
+    {{ with $.Site.GetPage "/page/changelog" }}
     <li><a href='{{ .RelPermalink }}'>{{ partial "helper/icon" "link" }}<span>{{ .Title }}</span></a></li>
     {{ end }}
     {{ end }}
