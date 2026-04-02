@@ -1,6 +1,6 @@
 <script>
   window.DATAVIZ_HEADER_CONFIG = {
-    mode: 'public'
+    {{ if eq site.Params.headerMode "public" }}mode: 'public'{{ end }}
   };
 </script>
 <style>

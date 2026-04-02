@@ -1,4 +1,4 @@
-baseurl: https://www.dataviz.jp/
+baseurl: https://app.dataviz.jp/
 copyright: "dataviz.jp"
 DefaultContentLanguage: ja
 hasCJKLanguage: true
@@ -21,17 +21,21 @@ languages:
             params:
               items:
                 - image: /banners/banner_feature.jpg
-                  url: /overview/
+                  url: https://www.dataviz.jp/overview/
                   alt: サービス紹介
+                  external: true
                 - image: /banners/banner_tools.jpg
-                  url: /tools/
+                  url: https://www.dataviz.jp/tools/
                   alt: ツール一覧
+                  external: true
                 - image: /banners/banner_showcase.jpg
-                  url: /categories/showcase/
+                  url: https://www.dataviz.jp/categories/showcase/
                   alt: 作例
+                  external: true
                 - image: /banners/banner_chart-catalogue.jpg
-                  url: /catalogue/
+                  url: https://www.dataviz.jp/catalogue/
                   alt: チャートカタログ
+                  external: true
                 - image: /banners/banner_visualizing.jpg
                   url: https://visualizing.jp/
                   alt: チャート解説
@@ -40,23 +44,23 @@ languages:
             params:
               links:
                 - name: 料金プラン
-                  url: "/pricing/"
+                  url: "https://www.dataviz.jp/pricing/"
                 - name: よくある質問
-                  url: "/faq/"
+                  url: "https://www.dataviz.jp/faq/"
                 - name: 更新情報
-                  url: "/changelog/"
+                  url: "https://www.dataviz.jp/changelog/"
                 - name: 利用規約
-                  url: "/terms/"
+                  url: "https://www.dataviz.jp/terms/"
                 - name: プライバシー・ポリシー
-                  url: "/privacy/"
+                  url: "https://www.dataviz.jp/privacy/"
                 - name: 特定商取引法に基づく表記
-                  url: "/transaction-law/"
+                  url: "https://www.dataviz.jp/transaction-law/"
                 - name: お問い合わせ
-                  url: "/contact/"
+                  url: "https://www.dataviz.jp/contact/"
                 - name: 運営会社
-                  url: "/about/"
+                  url: "https://www.dataviz.jp/about/"
                 - name: ライセンス
-                  url: "/license/"
+                  url: "https://www.dataviz.jp/license/"
   en:
     languageName: English
     weight: 2
@@ -73,17 +77,21 @@ languages:
             params:
               items:
                 - image: /banners/banner_feature_en.jpg
-                  url: /overview/
+                  url: https://www.dataviz.jp/overview/
                   alt: Service Overview
+                  external: true
                 - image: /banners/banner_tools_en.jpg
-                  url: /tools/
+                  url: https://www.dataviz.jp/tools/
                   alt: Tools
+                  external: true
                 - image: /banners/banner_showcase_en.jpg
-                  url: /en/categories/showcase/
+                  url: https://www.dataviz.jp/en/categories/showcase/
                   alt: Showcase
+                  external: true
                 - image: /banners/banner_chart-catalogue_en.jpg
-                  url: /catalogue/
+                  url: https://www.dataviz.jp/catalogue/
                   alt: Chart Catalogue
+                  external: true
                 - image: /banners/banner_visualizing_en.jpg
                   url: https://visualizing.jp/
                   alt: Chart Explanations
@@ -92,23 +100,23 @@ languages:
             params:
               links:
                 - name: Pricing
-                  url: "/en/pricing/"
+                  url: "https://www.dataviz.jp/en/pricing/"
                 - name: FAQ
-                  url: "/en/faq/"
+                  url: "https://www.dataviz.jp/en/faq/"
                 - name: Changelog
-                  url: "/en/changelog/"
+                  url: "https://www.dataviz.jp/en/changelog/"
                 - name: Terms of Service
-                  url: "/en/terms/"
+                  url: "https://www.dataviz.jp/en/terms/"
                 - name: Privacy Policy
-                  url: "/en/privacy/"
+                  url: "https://www.dataviz.jp/en/privacy/"
                 - name: Specified Commercial Transaction Act
-                  url: "/en/transaction-law/"
+                  url: "https://www.dataviz.jp/en/transaction-law/"
                 - name: Contact
-                  url: "/en/contact/"
+                  url: "https://www.dataviz.jp/en/contact/"
                 - name: About
-                  url: "/en/about/"
+                  url: "https://www.dataviz.jp/en/about/"
                 - name: License
-                  url: "/en/license/"
+                  url: "https://www.dataviz.jp/en/license/"
 
 minify:
   disableXML: true
@@ -133,7 +141,7 @@ permalinks:
   page: /:slug/
 
 params:
-  headerMode: "public"
+  headerMode: "protected"
   authBaseURL: "https://app.dataviz.jp"
   defaultImage:
     opengraph:
@@ -146,7 +154,6 @@ params:
       card: summary
   mainSections:
     - post
-    - showcase
   featuredImageField: image
   rssFullContent: true
   favicon: /favicon.ico
@@ -171,7 +178,12 @@ params:
       image: img/avatar.png
     categories:
       order:
-        - how-to
+        - data-visualization
+        - data-visualization-map
+        - data-visualization-parts
+        - data-visualization-color
+        - data-wrangling
+        - data-wrangling-map
 
   widgets:
     page:
