@@ -19,6 +19,7 @@ And more. This list will be updated as needed.
 ### April 2, 2026
 
 - The account dashboard domain has been changed from auth.dataviz.jp to app.dataviz.jp. You will be redirected automatically, but please update your bookmarks.
+- The tools listing page has been moved from the public site `https://www.dataviz.jp/` to the members-only page `https://app.dataviz.jp/`.
 
 ### March 31, 2026
 
