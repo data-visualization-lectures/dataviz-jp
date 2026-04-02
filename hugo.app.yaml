@@ -118,6 +118,8 @@ languages:
                 - name: License
                   url: "https://www.dataviz.jp/en/license/"
 
+enableGitInfo: false
+
 minify:
   disableXML: true
   minifyOutput: true
