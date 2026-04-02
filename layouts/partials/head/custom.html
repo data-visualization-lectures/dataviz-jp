@@ -1,17 +1,19 @@
 {{/* www側: 対象カテゴリの投稿・一覧をapp.dataviz.jpへリダイレクト */}}
 {{- if eq site.Params.headerMode "public" -}}
-  {{- $excluded := slice "data-visualization" "data-visualization-map" "data-visualization-parts" "data-visualization-color" "data-wrangling" "data-wrangling-map" -}}
+  {{- $excludedPrefixes := slice "/categories/data-visualization/" "/categories/data-visualization-map/" "/categories/data-visualization-parts/" "/categories/data-visualization-color/" "/categories/data-wrangling/" "/categories/data-wrangling-map/" "/en/categories/data-visualization/" "/en/categories/data-visualization-map/" "/en/categories/data-visualization-parts/" "/en/categories/data-visualization-color/" "/en/categories/data-wrangling/" "/en/categories/data-wrangling-map/" -}}
+  {{- $excludedSlugs := slice "data-visualization" "data-visualization-map" "data-visualization-parts" "data-visualization-color" "data-wrangling" "data-wrangling-map" -}}
   {{- $shouldRedirect := false -}}
+  {{/* 投稿ページ: カテゴリで判定 */}}
   {{- with .Params.categories -}}
-    {{- if in $excluded . -}}
+    {{- if in $excludedSlugs . -}}
       {{- $shouldRedirect = true -}}
     {{- end -}}
   {{- end -}}
-  {{- if and (eq .Kind "taxonomy") (eq .Data.Singular "category") -}}
-    {{- range $excluded -}}
-      {{- if eq . ($.Page.Data.Term) -}}
-        {{- $shouldRedirect = true -}}
-      {{- end -}}
+  {{/* カテゴリ一覧ページ: URLプレフィックスで判定 */}}
+  {{- $permalink := .RelPermalink -}}
+  {{- range $excludedPrefixes -}}
+    {{- if hasPrefix $permalink . -}}
+      {{- $shouldRedirect = true -}}
     {{- end -}}
   {{- end -}}
   {{- if $shouldRedirect -}}
