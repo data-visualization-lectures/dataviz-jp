@@ -9,6 +9,7 @@
     }
   },
   "redirects": [
+    { "source": "/3d-surface-chart", "destination": "https://app.dataviz.jp/3d-surface-chart/", "statusCode": 301 },
     { "source": "/categories/data-visualization/:path*", "destination": "https://app.dataviz.jp/categories/data-visualization/:path*", "statusCode": 301 },
     { "source": "/categories/data-visualization-map/:path*", "destination": "https://app.dataviz.jp/categories/data-visualization-map/:path*", "statusCode": 301 },
     { "source": "/categories/data-visualization-parts/:path*", "destination": "https://app.dataviz.jp/categories/data-visualization-parts/:path*", "statusCode": 301 },
