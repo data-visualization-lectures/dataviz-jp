@@ -1,4 +1,8 @@
 {{ define "main" }}
+{{ if eq site.Params.headerMode "protected" }}
+  {{/* app.dataviz.jp: ツール一覧をトップページとして表示 */}}
+  {{ partial "tools-grid.html" . }}
+{{ else }}
 <style>
   .lp-container {
     display: flex;
@@ -194,8 +198,11 @@
   </div>
 
 </div>
-{{ end }}
+{{ end }}{{/* end else (www mode) */}}
+{{ end }}{{/* end define main */}}
 
 {{ define "right-sidebar" }}
+    {{ if ne site.Params.headerMode "protected" }}
     {{ partial "sidebar/right.html" (dict "Context" . "Scope" "frontpage") }}
+    {{ end }}
 {{ end }}
