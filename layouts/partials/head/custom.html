@@ -1,3 +1,24 @@
+{{/* www側: 対象カテゴリの投稿・一覧をapp.dataviz.jpへリダイレクト */}}
+{{- if eq site.Params.headerMode "public" -}}
+  {{- $excluded := slice "data-visualization" "data-visualization-map" "data-visualization-parts" "data-visualization-color" "data-wrangling" "data-wrangling-map" -}}
+  {{- $shouldRedirect := false -}}
+  {{- with .Params.categories -}}
+    {{- if in $excluded . -}}
+      {{- $shouldRedirect = true -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if and (eq .Kind "taxonomy") (eq .Data.Singular "category") -}}
+    {{- range $excluded -}}
+      {{- if eq . ($.Page.Data.Term) -}}
+        {{- $shouldRedirect = true -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if $shouldRedirect -}}
+    <meta http-equiv="refresh" content="0; url=https://app.dataviz.jp{{ .RelPermalink }}">
+    <link rel="canonical" href="https://app.dataviz.jp{{ .RelPermalink }}">
+  {{- end -}}
+{{- end -}}
 <script>
   window.DATAVIZ_HEADER_CONFIG = {
     {{ if eq site.Params.headerMode "public" }}mode: 'public'{{ end }}
