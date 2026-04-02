@@ -36,12 +36,6 @@ languages:
           - type: page-links
             params:
               links:
-                - name: 料金プラン
-                  url: "/pricing/"
-                - name: よくある質問
-                  url: "/faq/"
-                - name: 更新情報
-                  url: "/changelog/"
                 - name: 利用規約
                   url: "/terms/"
                 - name: プライバシー・ポリシー
@@ -85,12 +79,6 @@ languages:
           - type: page-links
             params:
               links:
-                - name: Pricing
-                  url: "/en/pricing/"
-                - name: FAQ
-                  url: "/en/faq/"
-                - name: Changelog
-                  url: "/en/changelog/"
                 - name: Terms of Service
                   url: "/en/terms/"
                 - name: Privacy Policy
