@@ -5,6 +5,15 @@ body {
   background-attachment: fixed;
 }
 
+/* Navigation text links: underline on hover */
+a:hover {
+  text-decoration: underline;
+}
+
+#main-menu li a:hover {
+  text-decoration: underline;
+}
+
 .home-category {
   display: flex;
   flex-direction: column;
@@ -98,6 +107,12 @@ html[data-scheme="dark"] {
     background: linear-gradient(135deg, var(--card-background-selected), var(--card-background));
     border: 1px solid var(--card-separator-color);
     box-shadow: var(--shadow-l2);
+  }
+
+  .button:hover,
+  .article-link-btn:hover,
+  .article-compact__external:hover {
+    filter: brightness(1.3);
   }
 }
 
@@ -231,13 +246,14 @@ html[data-scheme="dark"] {
   letter-spacing: 0.08em;
   text-decoration: none;
   cursor: pointer;
-  transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  transition: filter 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
   box-shadow: var(--shadow-l2);
   border: 1px solid transparent;
 
   &:hover {
     transform: translateY(-2px);
     box-shadow: var(--shadow-l3);
+    filter: brightness(0.7);
   }
 
   &:focus-visible {
@@ -255,11 +271,6 @@ html[data-scheme="dark"] {
     background: var(--accent-color);
     color: var(--accent-color-text);
     border-color: var(--accent-color);
-
-    &:hover {
-      background: var(--accent-color-darker);
-      border-color: var(--accent-color-darker);
-    }
   }
 
   /* Secondary variant */
@@ -267,12 +278,6 @@ html[data-scheme="dark"] {
     background: var(--card-background);
     color: var(--card-text-color-main);
     border-color: var(--card-separator-color);
-
-    &:hover {
-      background: var(--card-background-selected);
-      border-color: var(--accent-color);
-      color: var(--accent-color);
-    }
   }
 }
 
@@ -341,10 +346,11 @@ html[data-scheme="dark"] {
   font-size: 1.3rem;
   font-weight: 600;
   text-decoration: none;
-  transition: background 0.2s, transform 0.2s;
+  transition: filter 0.2s ease, transform 0.2s ease;
 
   &:hover {
     transform: translateY(-1px);
+    filter: brightness(0.7);
   }
 
   svg {
@@ -355,19 +361,11 @@ html[data-scheme="dark"] {
 .article-link-btn--detail {
   background: var(--card-background-selected);
   color: var(--card-text-color-main);
-
-  &:hover {
-    background: var(--card-separator-color);
-  }
 }
 
 .article-link-btn--external {
   background: var(--accent-color);
   color: var(--accent-color-text);
-
-  &:hover {
-    background: var(--accent-color-darker);
-  }
 }
 
 /* Compact article list with external link icon */
@@ -397,11 +395,11 @@ html[data-scheme="dark"] {
   background: var(--accent-color);
   color: var(--accent-color-text);
   text-decoration: none;
-  transition: background 0.2s, transform 0.2s;
+  transition: filter 0.2s ease, transform 0.2s ease;
   z-index: 1;
 
   &:hover {
-    background: var(--accent-color-darker);
+    filter: brightness(0.7);
     transform: translateY(-50%) scale(1.1);
   }
 }
