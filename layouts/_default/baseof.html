@@ -8,6 +8,9 @@
 
 <body class="{{ block `body-class` . }}{{ end }}">
     {{- partial "head/colorScheme" . -}}
+    {{- if eq site.Params.headerMode "protected" -}}
+      {{- partial "app-subnav.html" . -}}
+    {{- end -}}
 
     {{/* Always use extended width */}}
     <div class="container main-container flex on-phone--column extended">
