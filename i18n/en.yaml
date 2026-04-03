@@ -18,7 +18,7 @@ hero.alert:
 hero.news.label:
   other: "Update"
 hero.news:
-  other: "The account dashboard domain has been changed from auth.dataviz.jp to app.dataviz.jp. You will be redirected automatically, but please update your bookmarks."
+  other: "Launched the 'Data Library' page."
 
 # Feature cards
 feature.dataviz.title:

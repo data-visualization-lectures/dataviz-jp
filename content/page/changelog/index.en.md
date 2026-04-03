@@ -16,6 +16,11 @@ And more. This list will be updated as needed.
 
 ## Changelog
 
+### April 3, 2026
+
+- Launched the "Data Library" page. Accessible from the navigation bar, it lets you browse and search sample datasets available across tools, then launch a compatible tool with the selected data.
+- Added a "Sample Data" button to each tool's toolbar. You can now browse and load compatible sample datasets directly from within the tool.
+
 ### April 2, 2026
 
 - The account dashboard domain has been changed from auth.dataviz.jp to app.dataviz.jp. You will be redirected automatically, but please update your bookmarks.

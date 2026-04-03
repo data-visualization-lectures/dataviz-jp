@@ -18,7 +18,7 @@ hero.alert:
 hero.news.label:
   other: "更新情報"
 hero.news:
-  other: "アカウント画面のドメインが auth.dataviz.jp から app.dataviz.jp へ変更になりました。自動でリダイレクトされますが、ブックマークの更新をお願いします。"
+  other: "「データ一覧」ページを開設しました。"
 
 # Feature cards
 feature.dataviz.title:
