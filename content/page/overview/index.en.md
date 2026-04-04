@@ -4,11 +4,11 @@ slug: "overview"
 date: 2026-03-01
 ---
 
-## 40 data visualization & data wrangling tools to support your data workflow
+## over 40 data visualization & data wrangling tools to support your data workflow
 
 (*As of March 14, 2026)
 
-- Unlimited access to 40 types of tools
+- Unlimited access to over 40 types of tools
 - No installation required — everything runs in your browser
 - Single-purpose tools that are easy to learn and use
 - Seamlessly switch between visualization and processing
@@ -77,7 +77,7 @@ Easily convert PDFs published by government agencies and others into table data.
 {{< figure src="/images/feature_en.png" caption="Four key features" >}}
 
 
-✅ **Unlimited access to 40 types of tools**
+✅ **Unlimited access to over 40 types of tools**
 
 From chart creation, map display, and color design to specialized visualization expressions. Data processing, formatting, and conversion tools are also included.
 

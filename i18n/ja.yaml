@@ -4,7 +4,7 @@ hero.title:
 hero.subtitle:
   other: "データ可視化とデータ加工の便利ツール集"
 hero.notice:
-  other: "Excelよりも多様に、B.I.ツールよりも簡単に、小回りの利くデータ可視化（チャートやデータ地図、ネットワーク図）作成・データ加工ツールを40種類用意しています。ブラウザですべて完結し、定額で使い放題で利用いただけます。"
+  other: "Excelよりも多様に、B.I.ツールよりも簡単に、小回りの利くデータ可視化（チャートやデータ地図、ネットワーク図）作成・データ加工ツールを40種類以上用意しています。ブラウザですべて完結し、定額で使い放題で利用いただけます。"
 hero.cta.primary:
   other: "今すぐはじめる"
 hero.cta.secondary:
@@ -78,7 +78,7 @@ pricing.standard.monthly.desc:
 pricing.standard.yearly.desc:
   other: "しっかりと本格的に取り組みたい方へ。月額よりも2ヶ月分お得です。"
 pricing.standard.monthly.f1:
-  other: "40種類のツールが使い放題"
+  other: "40種類以上のツールが使い放題"
 pricing.standard.monthly.f2:
   other: "インストール不要、ブラウザで完結"
 pricing.standard.monthly.f3:
@@ -88,7 +88,7 @@ pricing.standard.monthly.f4:
 pricing.standard.monthly.f5:
   other: "いつでも解約可能"
 pricing.standard.yearly.f1:
-  other: "40種類のツールが使い放題"
+  other: "40種類以上のツールが使い放題"
 pricing.standard.yearly.f2:
   other: "インストール不要、ブラウザで完結"
 pricing.standard.yearly.f3:
