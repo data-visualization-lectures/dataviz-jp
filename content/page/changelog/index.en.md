@@ -18,6 +18,10 @@ And more. This list will be updated as needed.
 
 ## Changelog
 
+### April 5, 2026
+
+- Added new tool: "Japanese-Western Calendar Converter"
+
 ### April 3, 2026
 
 - Launched the "Data Library" page. Accessible from the navigation bar, it lets you browse and search sample datasets available across tools, then launch a compatible tool with the selected data.
