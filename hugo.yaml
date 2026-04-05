@@ -152,8 +152,7 @@ params:
       name: 矢崎裕一／Yuichi Yazaki
       image: img/avatar.png
     categories:
-      order:
-        - how-to
+      order: []
 
   widgets:
     page:
