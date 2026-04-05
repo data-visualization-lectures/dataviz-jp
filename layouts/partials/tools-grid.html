@@ -113,4 +113,17 @@
       {{- end -}}
     {{- end -}}
   </div>
+
+  {{- with site.GetPage "categories/how-to" -}}
+  <h2 class="tools-header__title" style="margin-top: 2rem;">{{ .Title }}</h2>
+  <div class="tools-grid">
+    {{- range .Pages.ByWeight -}}
+      <a href="{{ .RelPermalink }}" class="tools-card">
+        <div class="tools-card__icon">📖</div>
+        <h3 class="tools-card__title">{{ .Title }}</h3>
+        <p class="tools-card__desc">{{ .Description }}</p>
+      </a>
+    {{- end -}}
+  </div>
+  {{- end -}}
 </div>
