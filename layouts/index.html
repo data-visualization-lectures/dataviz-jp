@@ -201,6 +201,12 @@
 {{ end }}{{/* end else (www mode) */}}
 {{ end }}{{/* end define main */}}
 
+{{ define "left-sidebar" }}
+    {{ if ne site.Params.headerMode "protected" }}
+    {{ partial "sidebar/left.html" . }}
+    {{ end }}
+{{ end }}
+
 {{ define "right-sidebar" }}
     {{ if ne site.Params.headerMode "protected" }}
     {{ partial "sidebar/right.html" (dict "Context" . "Scope" "frontpage") }}
