@@ -1,7 +1,7 @@
 ---
 title: "How-to"
 slug: "how-to"
-description: "Articles explaining how to use the tools."
+description: "Find tools by how to use them"
 style:
   background: "#f59e0b"
   color: "#ffffff"
