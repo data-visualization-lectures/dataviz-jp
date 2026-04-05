@@ -6,7 +6,7 @@
     {{- block "head" . -}}{{ end }}
 </head>
 
-<body class="{{ block `body-class` . }}{{ end }}">
+<body class="{{ block `body-class` . }}{{ end }}{{ if eq site.Params.headerMode "protected" }} has-subnav{{ end }}">
     {{- partial "head/colorScheme" . -}}
     {{- if eq site.Params.headerMode "protected" -}}
       {{- partial "app-subnav.html" . -}}

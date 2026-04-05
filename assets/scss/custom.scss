@@ -301,8 +301,19 @@ html[data-scheme="dark"] {
   padding: 0;
 }
 
-/* Adjust top padding for external header (48px) + subnav (40px) */
+/* Adjust top padding for external header (48px) */
 :root {
+  --main-top-padding: 83px;
+  /* 35px + 48px */
+
+  @include respond(xl) {
+    --main-top-padding: 98px;
+    /* 50px + 48px */
+  }
+}
+
+/* Add subnav height (40px) when present (app.dataviz.jp) */
+body.has-subnav {
   --main-top-padding: 123px;
   /* 35px + 48px + 40px */
 
