@@ -114,8 +114,11 @@
     {{- end -}}
   </div>
 
-  {{- with site.GetPage "categories/how-to" -}}
-  <h2 class="tools-header__title" style="margin-top: 2rem;">{{ .Title }}</h2>
+  {{ with site.GetPage "categories/how-to" }}
+  <header class="tools-header" style="margin-top: 2rem;">
+    <h2 class="tools-header__title">{{ .Title }}</h2>
+    <p class="tools-header__subtitle">{{ .Params.description }}</p>
+  </header>
   <div class="tools-grid">
     {{- range .Pages.ByWeight -}}
       <a href="{{ .RelPermalink }}" class="tools-card">
@@ -125,5 +128,5 @@
       </a>
     {{- end -}}
   </div>
-  {{- end -}}
+  {{ end }}
 </div>
