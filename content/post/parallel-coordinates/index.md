@@ -10,7 +10,7 @@ image: "images/cover_parallel-coordinates.png"
 
 {{< external-link-card
     url="https://parallel-coordinates.dataviz.jp/"
-    title="RAWGraphs2"
+    title="Parallel Coordinates"
     image="images/cover_parallel-coordinates.png"
     site="dataviz.jp"
     description=""

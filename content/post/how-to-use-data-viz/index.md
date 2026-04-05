@@ -12,7 +12,8 @@ image: ""
 
 - [さまざまなチャートを作りたい](#さまざまなチャートを作りたい)
 - [探索的なデータ可視化をしたい場合](#探索的なデータ可視化をしたい場合)
-- [3D地図の可視化をしたい](#3d地図の可視化をしたい)
+- [3Dの可視化をしたい](#3Dの可視化をしたい)
+- [3D地図の可視化をしたい](#3D地図の可視化をしたい)
 - [都道府県や市区町村単位でデータ地図をつくりたい](#都道府県や市区町村単位でデータ地図をつくりたい)
 - [世界地図でデータ地図をつくりたい](#世界地図でデータ地図をつくりたい)
 - [ネットワークの可視化をしたい場合](#ネットワークの可視化をしたい場合)
@@ -50,6 +51,26 @@ image: ""
     image="/images/cover_voyager2.jpg"
     site="dataviz.jp"
     description="データ探索（Exploratory Data Analysis, EDA）を支援するビジュアライゼーションツール"
+>}}
+{{< /external-link-card >}}
+
+{{< external-link-card
+    url="https://parallel-coordinates.dataviz.jp/"
+    title="Parallel Coordinates"
+    image="/images/cover_parallel-coordinates.png"
+    site="dataviz.jp"
+    description=""
+>}}
+{{< /external-link-card >}}
+
+## 3Dの可視化をしたい
+
+{{< external-link-card
+    url="https://3d-surface-chart.dataviz.jp/"
+    title="3Dサーフェイス・チャート"
+    image="/images/cover_3d-surface-chart.png"
+    site="dataviz.jp"
+    description="「行 × 列 × 値」の3次元データを、色付きの曲面として地形図のように立体表示"
 >}}
 {{< /external-link-card >}}
 

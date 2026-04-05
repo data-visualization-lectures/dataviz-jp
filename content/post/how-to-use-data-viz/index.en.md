@@ -12,6 +12,7 @@ Here is a guide to the data visualization tools available, organized by purpose.
 
 - [Create various charts](#create-various-charts)
 - [Exploratory data visualization](#exploratory-data-visualization)
+- [3D visualization](#3d-visualization)
 - [3D map visualization](#3d-map-visualization)
 - [Create data maps by prefecture or municipality](#create-data-maps-by-prefecture-or-municipality)
 - [Create world data maps](#create-world-data-maps)
@@ -50,6 +51,26 @@ Here is a guide to the data visualization tools available, organized by purpose.
     image="/images/cover_voyager2.jpg"
     site="dataviz.jp"
     description="A visualization tool for Exploratory Data Analysis (EDA)"
+>}}
+{{< /external-link-card >}}
+
+{{< external-link-card
+    url="https://parallel-coordinates.dataviz.jp/"
+    title="Parallel Coordinates"
+    image="/images/cover_parallel-coordinates.png"
+    site="dataviz.jp"
+    description=""
+>}}
+{{< /external-link-card >}}
+
+## 3D visualization
+
+{{< external-link-card
+    url="https://3d-surface-chart.dataviz.jp/"
+    title="3D Surface Chart"
+    image="/images/cover_3d-surface-chart.png"
+    site="dataviz.jp"
+    description="Display 3D data (row × column × value) as a colored surface, like a topographic map"
 >}}
 {{< /external-link-card >}}
 

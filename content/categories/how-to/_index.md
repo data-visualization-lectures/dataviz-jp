@@ -1,5 +1,5 @@
 ---
-title: "使い方"
+title: "使い分け"
 slug: "how-to"
 description: "ツールの使い方を解説する記事です。"
 style:
