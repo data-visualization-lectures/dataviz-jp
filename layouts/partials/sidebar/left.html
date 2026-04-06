@@ -94,31 +94,6 @@
         </li>
       {{ end }}
     {{ end }}
-    {{ if eq site.Params.headerMode "public" }}
-    <li class="menu-divider" aria-hidden="true"></li>
-    {{ with $.Site.GetPage "/page/pricing" }}
-    <li><a href='{{ .RelPermalink }}'>{{ partial "helper/icon" "link" }}<span>{{ .Title }}</span></a></li>
-    {{ end }}
-    {{ with $.Site.GetPage "/page/faq" }}
-    <li><a href='{{ .RelPermalink }}'>{{ partial "helper/icon" "link" }}<span>{{ .Title }}</span></a></li>
-    {{ end }}
-    {{ with $.Site.GetPage "/page/changelog" }}
-    <li><a href='{{ .RelPermalink }}'>{{ partial "helper/icon" "link" }}<span>{{ .Title }}</span></a></li>
-    {{ end }}
-    {{ end }}
-    <li class="menu-divider" aria-hidden="true"></li>
-    <li>
-      <a href="https://example-data-portal.dataviz.jp/" target="_blank" rel="noopener">
-        {{ partial "helper/icon" "archives" }}
-        <span>{{ T "sidebar.sample-data" }}</span>
-      </a>
-    </li>
-    <li>
-      <a href="https://data-portal.dataviz.jp/" target="_blank" rel="noopener">
-        {{ partial "helper/icon" "archives" }}
-        <span>{{ T "sidebar.data-portal" }}</span>
-      </a>
-    </li>
     <li class="menu-bottom-section">
       <ol class="menu">
         {{- $currentLanguageCode := .Language.Lang -}}
