@@ -484,6 +484,23 @@ body.has-subnav {
 }
 
 /* ============================
+ *  Overview content on top page
+ * ============================ */
+.overview-content {
+  max-width: 800px;
+  margin: 0 auto;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  figure {
+    margin: 1.5rem 0;
+  }
+}
+
+/* ============================
  *  Fat Footer (www.dataviz.jp)
  * ============================ */
 .fat-footer {

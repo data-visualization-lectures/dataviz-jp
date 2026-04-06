@@ -21,7 +21,7 @@ languages:
             params:
               items:
                 - image: /banners/banner_feature.jpg
-                  url: https://www.dataviz.jp/overview/
+                  url: https://www.dataviz.jp/
                   alt: サービス紹介
                   external: true
                 - image: /banners/banner_tools.jpg
@@ -77,7 +77,7 @@ languages:
             params:
               items:
                 - image: /banners/banner_feature_en.jpg
-                  url: https://www.dataviz.jp/overview/
+                  url: https://www.dataviz.jp/
                   alt: Service Overview
                   external: true
                 - image: /banners/banner_tools_en.jpg

@@ -20,9 +20,6 @@ languages:
           - type: banners
             params:
               items:
-                - image: /banners/banner_feature.jpg
-                  url: /overview/
-                  alt: サービス紹介
                 - image: /banners/banner_showcase.jpg
                   url: /categories/showcase/
                   alt: 作例
@@ -48,9 +45,6 @@ languages:
           - type: banners
             params:
               items:
-                - image: /banners/banner_feature_en.jpg
-                  url: /overview/
-                  alt: Service Overview
                 - image: /banners/banner_showcase_en.jpg
                   url: /en/categories/showcase/
                   alt: Showcase

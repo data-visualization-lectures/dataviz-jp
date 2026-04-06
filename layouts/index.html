@@ -178,7 +178,6 @@
 
   <section class="hero-buttons hero-cta">
     <a href="{{ site.Params.authBaseURL }}/auth/sign-up" class="button primary">{{ T "hero.cta.primary" }}</a>
-    <a href="{{ "overview/" | relLangURL }}" class="button secondary">{{ T "hero.cta.secondary" }}</a>
   </section>
 
   <div class="hero-news-group">
@@ -196,6 +195,12 @@
     </div>
     {{ end }}
   </div>
+
+  {{ with .Content }}
+  <section class="overview-content article-content">
+    {{ . }}
+  </section>
+  {{ end }}
 
 </div>
 {{ end }}{{/* end else (www mode) */}}
