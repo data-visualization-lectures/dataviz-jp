@@ -205,3 +205,31 @@ post.detail:
   other: "Learn More"
 post.use-tool:
   other: "Use Tool"
+
+# Fat footer
+footer.nav.aria:
+  other: "Footer navigation"
+footer.col.service:
+  other: "Service"
+footer.col.legal:
+  other: "Legal"
+footer.col.other:
+  other: "Other"
+footer.link.pricing:
+  other: "Pricing"
+footer.link.faq:
+  other: "FAQ"
+footer.link.changelog:
+  other: "Changelog"
+footer.link.terms:
+  other: "Terms of Service"
+footer.link.privacy:
+  other: "Privacy Policy"
+footer.link.transaction:
+  other: "Specified Commercial Transactions Act"
+footer.link.contact:
+  other: "Contact"
+footer.link.about:
+  other: "About"
+footer.link.license:
+  other: "License"

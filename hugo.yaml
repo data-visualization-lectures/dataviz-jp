@@ -33,21 +33,6 @@ languages:
                   url: https://visualizing.jp/
                   alt: チャート解説
                   external: true
-          - type: page-links
-            params:
-              links:
-                - name: 利用規約
-                  url: "/terms/"
-                - name: プライバシー・ポリシー
-                  url: "/privacy/"
-                - name: 特定商取引法に基づく表記
-                  url: "/transaction-law/"
-                - name: お問い合わせ
-                  url: "/contact/"
-                - name: 運営会社
-                  url: "/about/"
-                - name: ライセンス
-                  url: "/license/"
   en:
     languageName: English
     weight: 2
@@ -76,21 +61,6 @@ languages:
                   url: https://visualizing.jp/
                   alt: Chart Explanations
                   external: true
-          - type: page-links
-            params:
-              links:
-                - name: Terms of Service
-                  url: "/en/terms/"
-                - name: Privacy Policy
-                  url: "/en/privacy/"
-                - name: Specified Commercial Transaction Act
-                  url: "/en/transaction-law/"
-                - name: Contact
-                  url: "/en/contact/"
-                - name: About
-                  url: "/en/about/"
-                - name: License
-                  url: "/en/license/"
 
 minify:
   disableXML: true

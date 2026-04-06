@@ -205,3 +205,31 @@ post.detail:
   other: "詳しく見る"
 post.use-tool:
   other: "ツールを使う"
+
+# Fat footer
+footer.nav.aria:
+  other: "フッターナビゲーション"
+footer.col.service:
+  other: "サービス"
+footer.col.legal:
+  other: "規約"
+footer.col.other:
+  other: "その他"
+footer.link.pricing:
+  other: "料金プラン"
+footer.link.faq:
+  other: "よくある質問"
+footer.link.changelog:
+  other: "更新情報"
+footer.link.terms:
+  other: "利用規約"
+footer.link.privacy:
+  other: "プライバシー・ポリシー"
+footer.link.transaction:
+  other: "特定商取引法に基づく表記"
+footer.link.contact:
+  other: "お問い合わせ"
+footer.link.about:
+  other: "運営会社"
+footer.link.license:
+  other: "ライセンス"
