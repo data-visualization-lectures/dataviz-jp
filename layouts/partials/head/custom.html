@@ -1,3 +1,11 @@
+{{/* hreflang: 検索エンジンに言語別URLを通知 */}}
+{{- if .IsTranslated -}}
+  {{- range .AllTranslations -}}
+    <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+  {{- end -}}
+  <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+{{- end -}}
+
 {{/* www側: 対象カテゴリの投稿・一覧をapp.dataviz.jpへリダイレクト */}}
 {{- if eq site.Params.headerMode "public" -}}
   {{- $excludedPrefixes := slice "/tools/" "/en/tools/" "/categories/data-visualization/" "/categories/data-visualization-map/" "/categories/data-visualization-parts/" "/categories/data-visualization-color/" "/categories/data-wrangling/" "/categories/data-wrangling-map/" "/en/categories/data-visualization/" "/en/categories/data-visualization-map/" "/en/categories/data-visualization-parts/" "/en/categories/data-visualization-color/" "/en/categories/data-wrangling/" "/en/categories/data-wrangling-map/" -}}
