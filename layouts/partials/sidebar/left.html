@@ -94,33 +94,17 @@
         </li>
       {{ end }}
     {{ end }}
+    {{ if (default false .Site.Params.colorScheme.toggle) }}
     <li class="menu-bottom-section">
       <ol class="menu">
-        {{- $currentLanguageCode := .Language.Lang -}}
-        {{ if ( compare.Gt .Site.Home.AllTranslations.Len 1 ) }}
-          {{ with .Site.Home.AllTranslations }}
-            <li id="i18n-switch">
-              {{ range . }}
-                {{ if ne .Language.Lang $currentLanguageCode }}
-                  <a href="{{ .Permalink }}">
-                    {{ partial "helper/icon" "language" }}
-                    <span>{{ .Language.LanguageName }}</span>
-                  </a>
-                {{ end }}
-              {{ end }}
-            </li>
-          {{ end }}
-        {{ end }}
-
-        {{ if (default false .Site.Params.colorScheme.toggle) }}
           <li id="dark-mode-toggle">
             {{ partial "helper/icon" "toggle-left" }}
             {{ partial "helper/icon" "toggle-right" }}
             <span>{{ T "darkMode" }}</span>
           </li>
-        {{ end }}
       </ol>
     </li>
+    {{ end }}
   </ol>
 
 </aside>

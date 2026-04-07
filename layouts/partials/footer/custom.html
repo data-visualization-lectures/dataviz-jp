@@ -13,6 +13,16 @@
         {{ end }}
         {{ default .Site.Title .Site.Copyright }}
       </div>
+      {{- $currentLang := .Language.Lang -}}
+      {{- if gt .Site.Home.AllTranslations.Len 1 -}}
+        <div class="fat-footer__lang">
+          {{- range .Site.Home.AllTranslations -}}
+            {{- if ne .Language.Lang $currentLang -}}
+              <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+            {{- end -}}
+          {{- end -}}
+        </div>
+      {{- end -}}
     </div>
 
     <nav class="fat-footer__nav" aria-label="{{ T "footer.nav.aria" }}">
