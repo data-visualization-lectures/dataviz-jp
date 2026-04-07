@@ -157,6 +157,34 @@
     align-items: center;
     gap: 0.5rem;
   }
+
+  .hero-banners {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .hero-banner {
+    display: block;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow-l1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    flex: 0 1 auto;
+    max-width: 220px;
+  }
+
+  .hero-banner:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-l2);
+  }
+
+  .hero-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 </style>
 
 <div class="lp-container">
@@ -197,6 +225,18 @@
     {{ end }}
   </div>
 
+  <nav class="hero-banners" aria-label="{{ T "tools.banners.aria" }}">
+    <a href="{{ "categories/showcase/" | relLangURL }}" class="hero-banner">
+      <img src="/banners/banner_showcase{{ if eq .Lang "en" }}_en{{ end }}.jpg" alt="{{ T "tools.banner.showcase" }}" loading="lazy">
+    </a>
+    <a href="{{ "catalogue/" | relLangURL }}" class="hero-banner">
+      <img src="/banners/banner_chart-catalogue{{ if eq .Lang "en" }}_en{{ end }}.jpg" alt="{{ T "tools.banner.catalogue" }}" loading="lazy">
+    </a>
+    <a href="https://visualizing.jp/" class="hero-banner" target="_blank" rel="noopener">
+      <img src="/banners/banner_visualizing{{ if eq .Lang "en" }}_en{{ end }}.jpg" alt="{{ T "tools.banner.visualizing" }}" loading="lazy">
+    </a>
+  </nav>
+
   {{ with .Content }}
   <section class="overview-content article-content">
     {{ . }}
@@ -208,7 +248,7 @@
 {{ end }}{{/* end define main */}}
 
 {{ define "left-sidebar" }}
-    {{ if ne site.Params.headerMode "protected" }}
+    {{ if eq site.Params.headerMode "protected" }}
     {{ partial "sidebar/left.html" . }}
     {{ end }}
 {{ end }}

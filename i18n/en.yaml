@@ -206,6 +206,16 @@ post.detail:
 post.use-tool:
   other: "Use Tool"
 
+# Tools page banners
+tools.banners.aria:
+  other: "Related content"
+tools.banner.showcase:
+  other: "Showcase"
+tools.banner.catalogue:
+  other: "Chart Catalogue"
+tools.banner.visualizing:
+  other: "Chart Explanations"
+
 # Fat footer
 footer.nav.aria:
   other: "Footer navigation"

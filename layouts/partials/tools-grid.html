@@ -80,6 +80,34 @@
     color: var(--card-text-color-tertiary);
     margin-top: 0.5rem;
   }
+
+  .tools-banners {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .tools-banner {
+    display: block;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow-l1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    flex: 0 1 auto;
+    max-width: 220px;
+  }
+
+  .tools-banner:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-l2);
+  }
+
+  .tools-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 </style>
 
 {{- $icons := dict
@@ -94,6 +122,18 @@
 {{- $order := default (slice) .Site.Params.sidebar.categories.order -}}
 
 <div class="tools-container">
+  <nav class="tools-banners" aria-label="{{ T "tools.banners.aria" }}">
+    <a href="https://www.dataviz.jp/{{ if eq .Lang "en" }}en/{{ end }}categories/showcase/" class="tools-banner" target="_blank" rel="noopener">
+      <img src="/banners/banner_showcase{{ if eq .Lang "en" }}_en{{ end }}.jpg" alt="{{ T "tools.banner.showcase" }}" loading="lazy">
+    </a>
+    <a href="https://www.dataviz.jp/catalogue/" class="tools-banner" target="_blank" rel="noopener">
+      <img src="/banners/banner_chart-catalogue{{ if eq .Lang "en" }}_en{{ end }}.jpg" alt="{{ T "tools.banner.catalogue" }}" loading="lazy">
+    </a>
+    <a href="https://visualizing.jp/" class="tools-banner" target="_blank" rel="noopener">
+      <img src="/banners/banner_visualizing{{ if eq .Lang "en" }}_en{{ end }}.jpg" alt="{{ T "tools.banner.visualizing" }}" loading="lazy">
+    </a>
+  </nav>
+
   <header class="tools-header">
     <h1 class="tools-header__title">{{ T "tools.title" }}</h1>
     <p class="tools-header__subtitle">{{ T "tools.subtitle" }}</p>
