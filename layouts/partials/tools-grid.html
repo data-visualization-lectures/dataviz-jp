@@ -82,20 +82,23 @@
   }
 
   .tools-banners {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  @media (max-width: 768px) {
+    .tools-banners {
+      grid-template-columns: 1fr;
+    }
   }
 
   .tools-banner {
     display: block;
-    border-radius: 8px;
+    border-radius: 12px;
     overflow: hidden;
     box-shadow: var(--shadow-l1);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    flex: 0 1 auto;
-    max-width: 220px;
   }
 
   .tools-banner:hover {
@@ -106,7 +109,8 @@
   .tools-banner img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
   }
 </style>
 

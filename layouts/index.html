@@ -248,9 +248,8 @@
 {{ end }}{{/* end define main */}}
 
 {{ define "left-sidebar" }}
-    {{ if eq site.Params.headerMode "protected" }}
-    {{ partial "sidebar/left.html" . }}
-    {{ end }}
+    {{/* トップページでは左サイドバーを非表示 */}}
+    {{ " " }}
 {{ end }}
 
 {{ define "right-sidebar" }}
