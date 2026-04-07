@@ -84,11 +84,14 @@
   .tools-banners {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 1.5rem;
+    max-width: 60%;
+    margin: 0 auto;
   }
 
   @media (max-width: 768px) {
     .tools-banners {
+      max-width: 100%;
       grid-template-columns: 1fr;
     }
   }
