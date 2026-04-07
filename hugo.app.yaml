@@ -28,15 +28,15 @@ languages:
                   url: https://www.dataviz.jp/tools/
                   alt: ツール一覧
                   external: true
-                - image: /banners/banner_showcase.jpg
+                - image: /banners/banner_showcase_v2.jpg
                   url: https://www.dataviz.jp/categories/showcase/
                   alt: 作例
                   external: true
-                - image: /banners/banner_chart-catalogue.jpg
+                - image: /banners/banner_chart-catalogue_v2.jpg
                   url: https://www.dataviz.jp/catalogue/
                   alt: チャートカタログ
                   external: true
-                - image: /banners/banner_visualizing.jpg
+                - image: /banners/banner_visualizing_v2.jpg
                   url: https://visualizing.jp/
                   alt: チャート解説
                   external: true
@@ -84,15 +84,15 @@ languages:
                   url: https://www.dataviz.jp/tools/
                   alt: Tools
                   external: true
-                - image: /banners/banner_showcase_en.jpg
+                - image: /banners/banner_showcase_en_v2.jpg
                   url: https://www.dataviz.jp/en/categories/showcase/
                   alt: Showcase
                   external: true
-                - image: /banners/banner_chart-catalogue_en.jpg
+                - image: /banners/banner_chart-catalogue_en_v2.jpg
                   url: https://www.dataviz.jp/catalogue/
                   alt: Chart Catalogue
                   external: true
-                - image: /banners/banner_visualizing_en.jpg
+                - image: /banners/banner_visualizing_en_v2.jpg
                   url: https://visualizing.jp/
                   alt: Chart Explanations
                   external: true
