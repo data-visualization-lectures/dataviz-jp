@@ -18,6 +18,10 @@ And more. This list will be updated as needed.
 
 ## Changelog
 
+### April 8, 2026
+
+- Fixed a display issue around the common header that occurred in some tools.
+
 ### April 5, 2026
 
 - Added new tool: "Japanese-Western Calendar Converter"
