@@ -112,6 +112,58 @@ pricing.coaching.yearly.f3:
 pricing.refund:
   other: "Free to use for 14 days from account registration."
 
+# Pricing tabs
+pricing.tab.individual:
+  other: "For Individuals"
+pricing.tab.team:
+  other: "For Teams"
+
+# Team plans
+pricing.team.subtitle:
+  other: "Plans for teams working on data visualization together. Leaders share projects and all members can learn."
+pricing.team.small.name:
+  other: "Small Team Plan"
+pricing.team.small.desc:
+  other: "Perfect for small teams. Leaders share projects that all members can view and use."
+pricing.team.small.f1:
+  other: "Up to 5 members"
+pricing.team.small.f2:
+  other: "Unlimited access to over 40 tools"
+pricing.team.small.f3:
+  other: "Leader shares projects with the team"
+pricing.team.small.f4:
+  other: "Members can view and copy shared projects"
+pricing.team.standard.name:
+  other: "Team Plan"
+pricing.team.standard.desc:
+  other: "For mid-size teams. Ideal for department or project-level use."
+pricing.team.standard.f1:
+  other: "Up to 10 members"
+pricing.team.standard.f2:
+  other: "Unlimited access to over 40 tools"
+pricing.team.standard.f3:
+  other: "Leader shares projects with the team"
+pricing.team.standard.f4:
+  other: "Members can view and copy shared projects"
+pricing.team.enterprise.name:
+  other: "Enterprise Plan"
+pricing.team.enterprise.desc:
+  other: "For large organizations. Ideal for training and internal education."
+pricing.team.enterprise.f1:
+  other: "Up to 30 members"
+pricing.team.enterprise.f2:
+  other: "Unlimited access to over 40 tools"
+pricing.team.enterprise.f3:
+  other: "Leader shares projects with the team"
+pricing.team.enterprise.f4:
+  other: "Members can view and copy shared projects"
+pricing.team.enterprise.f5:
+  other: "Onboarding support"
+pricing.team.per-year:
+  other: "/ year (save 2 months)"
+pricing.team.contact:
+  other: "Contact Us"
+
 # Catalogue
 catalogue.filter.all:
   other: "All"

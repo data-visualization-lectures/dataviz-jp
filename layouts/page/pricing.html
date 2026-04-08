@@ -36,6 +36,54 @@
     text-align: center;
   }
 
+  /* Tabs */
+  .pricing-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    margin-top: 0.5rem;
+  }
+
+  .pricing-tab {
+    padding: 0.75rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid var(--card-separator-color);
+    background: transparent;
+    color: var(--card-text-color-secondary);
+    transition: all 0.2s;
+  }
+
+  .pricing-tab:first-child {
+    border-radius: 8px 0 0 8px;
+    border-right: 1px solid var(--card-separator-color);
+  }
+
+  .pricing-tab:last-child {
+    border-radius: 0 8px 8px 0;
+    border-left: 1px solid var(--card-separator-color);
+  }
+
+  .pricing-tab--active {
+    background: var(--accent-color);
+    color: var(--accent-color-text);
+    border-color: var(--accent-color);
+  }
+
+  .pricing-tab:hover:not(.pricing-tab--active) {
+    background: var(--card-background);
+    box-shadow: var(--shadow-l1);
+  }
+
+  .pricing-tab-content {
+    display: none;
+  }
+
+  .pricing-tab-content--active {
+    display: contents;
+  }
+
   /* Pricing Cards Grid */
   .pricing-grid {
     display: grid;
@@ -44,11 +92,18 @@
     align-items: stretch;
   }
 
+  .pricing-grid--three {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   @media (max-width: 768px) {
     .pricing-grid {
       grid-template-columns: 1fr;
       max-width: 420px;
       margin: 0 auto;
+    }
+    .pricing-grid--three {
+      grid-template-columns: 1fr;
     }
   }
 
@@ -219,7 +274,16 @@
     <h1 class="pricing-header__title">{{ T "pricing.title" }}</h1>
     <p class="pricing-header__subtitle">{{ T "pricing.subtitle" }}</p>
     <p class="pricing-header__subtitle">{{ T "pricing.refund" }}</p>
+
+    <!-- Tabs -->
+    <div class="pricing-tabs">
+      <button class="pricing-tab pricing-tab--active" data-tab="individual">{{ T "pricing.tab.individual" }}</button>
+      <button class="pricing-tab" data-tab="team">{{ T "pricing.tab.team" }}</button>
+    </div>
   </header>
+
+  <!-- ============ Individual tab ============ -->
+  <div class="pricing-tab-content pricing-tab-content--active" data-tab="individual">
 
   <!-- Standard Plan -->
   <h2 class="pricing-section-title">{{ T "pricing.standard" }}</h2>
@@ -246,11 +310,7 @@
         <li>{{ T "pricing.standard.monthly.f5" }}</li>
       </ul>
       <div class="pricing-card__cta">
-        {{- if eq .Lang "en" -}}
-        <a href="https://buy.stripe.com/9B6aEY8QKaFF18LcdW93y0j" class="button primary">{{ T "pricing.cta" }}</a>
-        {{- else -}}
         <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=monthly" class="button primary">{{ T "pricing.cta" }}</a>
-        {{- end -}}
       </div>
     </div>
 
@@ -277,11 +337,7 @@
         <li>{{ T "pricing.standard.yearly.f5" }}</li>
       </ul>
       <div class="pricing-card__cta">
-        {{- if eq .Lang "en" -}}
-        <a href="https://buy.stripe.com/28E3cw1oibJJ5p15Py93y0k" class="button primary">{{ T "pricing.cta" }}</a>
-        {{- else -}}
         <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=yearly" class="button primary">{{ T "pricing.cta" }}</a>
-        {{- end -}}
       </div>
     </div>
   </div>
@@ -332,8 +388,200 @@
   </div>
   {{- end -}}
 
+  </div><!-- /individual tab -->
+
+  <!-- ============ Team tab ============ -->
+  <div class="pricing-tab-content" data-tab="team">
+
+  <p class="pricing-header__subtitle" style="text-align:center;">{{ T "pricing.team.subtitle" }}</p>
+
+  <!-- Small Team Plan -->
+  <h2 class="pricing-section-title">{{ T "pricing.team.small.name" }}</h2>
+  <div class="pricing-grid">
+    <div class="pricing-card">
+      <div class="pricing-card__name">{{ T "pricing.monthly" }}</div>
+      <div class="pricing-card__price">
+        {{- if eq .Lang "en" -}}
+        <span class="pricing-card__amount">$90</span>
+        {{- else -}}
+        <span class="pricing-card__amount">¥10,800</span>
+        {{- end -}}
+        <span class="pricing-card__period">{{ T "pricing.per-month" }}</span>
+      </div>
+      <p class="pricing-card__description">
+        {{ T "pricing.team.small.desc" }}
+      </p>
+      <hr class="pricing-card__divider">
+      <ul class="pricing-card__features">
+        <li>{{ T "pricing.team.small.f1" }}</li>
+        <li>{{ T "pricing.team.small.f2" }}</li>
+        <li>{{ T "pricing.team.small.f3" }}</li>
+        <li>{{ T "pricing.team.small.f4" }}</li>
+      </ul>
+      <div class="pricing-card__cta">
+        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=team_small_monthly" class="button primary">{{ T "pricing.cta" }}</a>
+      </div>
+    </div>
+
+    <div class="pricing-card pricing-card--recommended">
+      <span class="pricing-card__badge">{{ T "pricing.recommended" }}</span>
+      <div class="pricing-card__name">{{ T "pricing.yearly" }}</div>
+      <div class="pricing-card__price">
+        {{- if eq .Lang "en" -}}
+        <span class="pricing-card__amount">$900</span>
+        {{- else -}}
+        <span class="pricing-card__amount">¥108,000</span>
+        {{- end -}}
+        <span class="pricing-card__period">{{ T "pricing.team.per-year" }}</span>
+      </div>
+      <p class="pricing-card__description">
+        {{ T "pricing.team.small.desc" }}
+      </p>
+      <hr class="pricing-card__divider">
+      <ul class="pricing-card__features">
+        <li>{{ T "pricing.team.small.f1" }}</li>
+        <li>{{ T "pricing.team.small.f2" }}</li>
+        <li>{{ T "pricing.team.small.f3" }}</li>
+        <li>{{ T "pricing.team.small.f4" }}</li>
+      </ul>
+      <div class="pricing-card__cta">
+        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=team_small_yearly" class="button primary">{{ T "pricing.cta" }}</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Team Plan -->
+  <h2 class="pricing-section-title">{{ T "pricing.team.standard.name" }}</h2>
+  <div class="pricing-grid">
+    <div class="pricing-card">
+      <div class="pricing-card__name">{{ T "pricing.monthly" }}</div>
+      <div class="pricing-card__price">
+        {{- if eq .Lang "en" -}}
+        <span class="pricing-card__amount">$160</span>
+        {{- else -}}
+        <span class="pricing-card__amount">¥19,800</span>
+        {{- end -}}
+        <span class="pricing-card__period">{{ T "pricing.per-month" }}</span>
+      </div>
+      <p class="pricing-card__description">
+        {{ T "pricing.team.standard.desc" }}
+      </p>
+      <hr class="pricing-card__divider">
+      <ul class="pricing-card__features">
+        <li>{{ T "pricing.team.standard.f1" }}</li>
+        <li>{{ T "pricing.team.standard.f2" }}</li>
+        <li>{{ T "pricing.team.standard.f3" }}</li>
+        <li>{{ T "pricing.team.standard.f4" }}</li>
+      </ul>
+      <div class="pricing-card__cta">
+        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=team_standard_monthly" class="button primary">{{ T "pricing.cta" }}</a>
+      </div>
+    </div>
+
+    <div class="pricing-card pricing-card--recommended">
+      <span class="pricing-card__badge">{{ T "pricing.recommended" }}</span>
+      <div class="pricing-card__name">{{ T "pricing.yearly" }}</div>
+      <div class="pricing-card__price">
+        {{- if eq .Lang "en" -}}
+        <span class="pricing-card__amount">$1,600</span>
+        {{- else -}}
+        <span class="pricing-card__amount">¥198,000</span>
+        {{- end -}}
+        <span class="pricing-card__period">{{ T "pricing.team.per-year" }}</span>
+      </div>
+      <p class="pricing-card__description">
+        {{ T "pricing.team.standard.desc" }}
+      </p>
+      <hr class="pricing-card__divider">
+      <ul class="pricing-card__features">
+        <li>{{ T "pricing.team.standard.f1" }}</li>
+        <li>{{ T "pricing.team.standard.f2" }}</li>
+        <li>{{ T "pricing.team.standard.f3" }}</li>
+        <li>{{ T "pricing.team.standard.f4" }}</li>
+      </ul>
+      <div class="pricing-card__cta">
+        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=team_standard_yearly" class="button primary">{{ T "pricing.cta" }}</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Enterprise Plan -->
+  <h2 class="pricing-section-title">{{ T "pricing.team.enterprise.name" }}</h2>
+  <div class="pricing-grid">
+    <div class="pricing-card">
+      <div class="pricing-card__name">{{ T "pricing.monthly" }}</div>
+      <div class="pricing-card__price">
+        {{- if eq .Lang "en" -}}
+        <span class="pricing-card__amount">$420</span>
+        {{- else -}}
+        <span class="pricing-card__amount">¥52,000</span>
+        {{- end -}}
+        <span class="pricing-card__period">{{ T "pricing.per-month" }}</span>
+      </div>
+      <p class="pricing-card__description">
+        {{ T "pricing.team.enterprise.desc" }}
+      </p>
+      <hr class="pricing-card__divider">
+      <ul class="pricing-card__features">
+        <li>{{ T "pricing.team.enterprise.f1" }}</li>
+        <li>{{ T "pricing.team.enterprise.f2" }}</li>
+        <li>{{ T "pricing.team.enterprise.f3" }}</li>
+        <li>{{ T "pricing.team.enterprise.f4" }}</li>
+        <li>{{ T "pricing.team.enterprise.f5" }}</li>
+      </ul>
+      <div class="pricing-card__cta">
+        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=team_enterprise_monthly" class="button primary">{{ T "pricing.cta" }}</a>
+      </div>
+    </div>
+
+    <div class="pricing-card pricing-card--recommended">
+      <span class="pricing-card__badge">{{ T "pricing.recommended" }}</span>
+      <div class="pricing-card__name">{{ T "pricing.yearly" }}</div>
+      <div class="pricing-card__price">
+        {{- if eq .Lang "en" -}}
+        <span class="pricing-card__amount">$4,200</span>
+        {{- else -}}
+        <span class="pricing-card__amount">¥520,000</span>
+        {{- end -}}
+        <span class="pricing-card__period">{{ T "pricing.team.per-year" }}</span>
+      </div>
+      <p class="pricing-card__description">
+        {{ T "pricing.team.enterprise.desc" }}
+      </p>
+      <hr class="pricing-card__divider">
+      <ul class="pricing-card__features">
+        <li>{{ T "pricing.team.enterprise.f1" }}</li>
+        <li>{{ T "pricing.team.enterprise.f2" }}</li>
+        <li>{{ T "pricing.team.enterprise.f3" }}</li>
+        <li>{{ T "pricing.team.enterprise.f4" }}</li>
+        <li>{{ T "pricing.team.enterprise.f5" }}</li>
+      </ul>
+      <div class="pricing-card__cta">
+        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=team_enterprise_yearly" class="button primary">{{ T "pricing.cta" }}</a>
+      </div>
+    </div>
+  </div>
+
+  </div><!-- /team tab -->
 
 </div>
+
+<script>
+(function() {
+  var tabs = document.querySelectorAll('.pricing-tab');
+  var contents = document.querySelectorAll('.pricing-tab-content');
+  tabs.forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      var target = this.getAttribute('data-tab');
+      tabs.forEach(function(t) { t.classList.remove('pricing-tab--active'); });
+      this.classList.add('pricing-tab--active');
+      contents.forEach(function(c) {
+        c.classList.toggle('pricing-tab-content--active', c.getAttribute('data-tab') === target);
+      });
+    });
+  });
+})();
+</script>
 {{ end }}
 
 {{ define "right-sidebar" }}

@@ -112,6 +112,58 @@ pricing.coaching.yearly.f3:
 pricing.refund:
   other: "アカウント登録から14日間まで無料でご利用いただけます。"
 
+# Pricing tabs
+pricing.tab.individual:
+  other: "一人で利用"
+pricing.tab.team:
+  other: "複数人で利用"
+
+# Team plans
+pricing.team.subtitle:
+  other: "チームでデータ可視化に取り組むためのプランです。リーダーがプロジェクトを共有し、メンバー全員が学べます。"
+pricing.team.small.name:
+  other: "スモールチームプラン"
+pricing.team.small.desc:
+  other: "少人数のチームに最適。リーダーが共有したプロジェクトをメンバー全員が閲覧・活用できます。"
+pricing.team.small.f1:
+  other: "最大5名までご利用可能"
+pricing.team.small.f2:
+  other: "40種類以上のツールが使い放題"
+pricing.team.small.f3:
+  other: "リーダーがプロジェクトをチームに共有"
+pricing.team.small.f4:
+  other: "メンバーは共有プロジェクトを閲覧・コピー保存"
+pricing.team.standard.name:
+  other: "チームプラン"
+pricing.team.standard.desc:
+  other: "中規模チーム向け。部署やプロジェクト単位での活用に適しています。"
+pricing.team.standard.f1:
+  other: "最大10名までご利用可能"
+pricing.team.standard.f2:
+  other: "40種類以上のツールが使い放題"
+pricing.team.standard.f3:
+  other: "リーダーがプロジェクトをチームに共有"
+pricing.team.standard.f4:
+  other: "メンバーは共有プロジェクトを閲覧・コピー保存"
+pricing.team.enterprise.name:
+  other: "法人プラン"
+pricing.team.enterprise.desc:
+  other: "大規模な組織での導入に。研修や社内教育にも最適です。"
+pricing.team.enterprise.f1:
+  other: "最大30名までご利用可能"
+pricing.team.enterprise.f2:
+  other: "40種類以上のツールが使い放題"
+pricing.team.enterprise.f3:
+  other: "リーダーがプロジェクトをチームに共有"
+pricing.team.enterprise.f4:
+  other: "メンバーは共有プロジェクトを閲覧・コピー保存"
+pricing.team.enterprise.f5:
+  other: "導入サポート"
+pricing.team.per-year:
+  other: "/ 年（2ヶ月分お得）"
+pricing.team.contact:
+  other: "お問い合わせ"
+
 # Catalogue
 catalogue.filter.all:
   other: "すべて"
