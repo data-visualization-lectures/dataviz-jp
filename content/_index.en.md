@@ -186,7 +186,7 @@ By using a common set of tools, you build a foundation for improving not just in
 
 We offer multi-user plans for teams and departments. The subscriber becomes the leader and can share project files with other members.
 
-{{< figure src="/images/team-plan.png" alt="Multi-user plan: the leader manages projects and members participate" >}}
+{{< figure src="/images/team-plan_en.png" alt="Multi-user plan: the leader manages projects and members participate" >}}
 
 - ✔ The subscriber (leader) shares projects with the team
 - ✔ Members can independently edit and save shared projects
