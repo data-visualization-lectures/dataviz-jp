@@ -182,6 +182,20 @@ By using a common set of tools, you build a foundation for improving not just in
 - ✔ Speed up decision-making across the entire department
 
 
+## Multi-User Plans
+
+We offer multi-user plans for teams and departments. The subscriber becomes the leader and can share project files with other members.
+
+{{< figure src="/images/team-plan.png" alt="Multi-user plan: the leader manages projects and members participate" >}}
+
+- ✔ The subscriber (leader) shares projects with the team
+- ✔ Members can independently edit and save shared projects
+- ✔ Accounts for members are issued after subscription (migration of existing users is also available)
+- ✔ Choose from plans for 5, 10, or 30 members
+
+See the <a href="/en/pricing/">Pricing</a> page for details.
+
+
 ## About the Creator
 
 Developed over one year by a data visualization practitioner.
