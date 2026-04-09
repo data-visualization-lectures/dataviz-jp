@@ -120,7 +120,7 @@ pricing.tab.team:
 
 # Team plans
 pricing.team.subtitle:
-  other: "チームでデータ可視化に取り組むためのプランです。リーダーがプロジェクトを共有し、メンバー全員が学べます。"
+  other: "ご契約者がリーダーとなり、他のメンバーにプロジェクトファイルを共有できます。他のメンバーはご契約後、アカウントを発行いたします（既存ユーザーの移行も可能）。個人でのコーチングプランに該当するプランについては<a href=\"https://www.dataviz.jp/contact/\">お問い合わせ</a>ください。"
 pricing.team.small.name:
   other: "スモールチームプラン（最大5名まで）"
 pricing.team.small.desc:

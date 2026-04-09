@@ -120,7 +120,7 @@ pricing.tab.team:
 
 # Team plans
 pricing.team.subtitle:
-  other: "Plans for teams working on data visualization together. Leaders share projects and all members can learn."
+  other: "The subscriber becomes the leader and can share project files with other members. Accounts for other members will be issued after subscription (migration of existing users is also available). For coaching plans for individuals, please <a href=\"https://www.dataviz.jp/contact/\">contact us</a>."
 pricing.team.small.name:
   other: "Small Team Plan (Up to 5)"
 pricing.team.small.desc:
