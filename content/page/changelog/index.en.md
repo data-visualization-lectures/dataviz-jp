@@ -18,6 +18,10 @@ And more. This list will be updated as needed.
 
 ## Changelog
 
+### April 9, 2026
+
+- Launched multi-user plans for teams and departments. Choose from plans for 5, 10, or 30 members.
+
 ### April 8, 2026
 
 - Fixed a display issue around the common header that occurred in some tools.
