@@ -122,7 +122,7 @@ pricing.tab.team:
 pricing.team.subtitle:
   other: "Plans for teams working on data visualization together. Leaders share projects and all members can learn."
 pricing.team.small.name:
-  other: "Small Team Plan"
+  other: "Small Team Plan (Up to 5)"
 pricing.team.small.desc:
   other: "Perfect for small teams. Leaders share projects that all members can view and use."
 pricing.team.small.f1:
@@ -134,7 +134,7 @@ pricing.team.small.f3:
 pricing.team.small.f4:
   other: "Members can view and copy shared projects"
 pricing.team.standard.name:
-  other: "Team Plan"
+  other: "Team Plan (Up to 10)"
 pricing.team.standard.desc:
   other: "For mid-size teams. Ideal for department or project-level use."
 pricing.team.standard.f1:
@@ -146,7 +146,7 @@ pricing.team.standard.f3:
 pricing.team.standard.f4:
   other: "Members can view and copy shared projects"
 pricing.team.enterprise.name:
-  other: "Enterprise Plan"
+  other: "Enterprise Plan (Up to 30)"
 pricing.team.enterprise.desc:
   other: "For large organizations. Ideal for training and internal education."
 pricing.team.enterprise.f1:

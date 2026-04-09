@@ -122,7 +122,7 @@ pricing.tab.team:
 pricing.team.subtitle:
   other: "チームでデータ可視化に取り組むためのプランです。リーダーがプロジェクトを共有し、メンバー全員が学べます。"
 pricing.team.small.name:
-  other: "スモールチームプラン"
+  other: "スモールチームプラン（最大5名まで）"
 pricing.team.small.desc:
   other: "少人数のチームに最適。リーダーが共有したプロジェクトをメンバー全員が閲覧・活用できます。"
 pricing.team.small.f1:
@@ -134,7 +134,7 @@ pricing.team.small.f3:
 pricing.team.small.f4:
   other: "メンバーは共有プロジェクトを閲覧・コピー保存"
 pricing.team.standard.name:
-  other: "チームプラン"
+  other: "チームプラン（最大10名まで）"
 pricing.team.standard.desc:
   other: "中規模チーム向け。部署やプロジェクト単位での活用に適しています。"
 pricing.team.standard.f1:
@@ -146,7 +146,7 @@ pricing.team.standard.f3:
 pricing.team.standard.f4:
   other: "メンバーは共有プロジェクトを閲覧・コピー保存"
 pricing.team.enterprise.name:
-  other: "法人プラン"
+  other: "法人プラン（最大30名まで）"
 pricing.team.enterprise.desc:
   other: "大規模な組織での導入に。研修や社内教育にも最適です。"
 pricing.team.enterprise.f1:
