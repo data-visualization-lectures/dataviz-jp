@@ -202,6 +202,8 @@ Excelでは扱えていたデータが、その他のツールで扱えるとは
 
 データ可視化の実務家が一年かけて開発。
 
+{{< figure src="/images/book_dataviz-all.jpg" alt="データ可視化の基本が全部わかる本 書影" class="figure--narrow" >}}
+
 - 「データ可視化の基本が全部わかる本」著者
 - Data Visualization Japan 主催
 - 大学でデータ可視化の講義を担当

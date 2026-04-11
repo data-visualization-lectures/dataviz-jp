@@ -200,6 +200,8 @@ See the <a href="/en/pricing/">Pricing</a> page for details.
 
 Developed over one year by a data visualization practitioner.
 
+{{< figure src="/images/book_dataviz-all.jpg" alt="The Complete Guide to Data Visualization Basics book cover" class="figure--narrow" >}}
+
 - Author of "The Complete Guide to Data Visualization Basics" (Japanese)
 - Organizer of Data Visualization Japan
 - Lectures on data visualization at universities
