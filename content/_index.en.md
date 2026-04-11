@@ -9,7 +9,7 @@ menu:
 
 ## over 40 data visualization & data wrangling tools to support your data workflow
 
-(*As of March 14, 2026)
+(*As of April 9, 2026)
 
 - Unlimited access to over 40 types of tools
 - No installation required — everything runs in your browser
