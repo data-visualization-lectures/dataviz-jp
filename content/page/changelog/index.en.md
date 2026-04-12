@@ -18,6 +18,12 @@ And more. This list will be updated as needed.
 
 ## Changelog
 
+### April 12, 2026
+
+- Localized checkout and sign-up flows for English users. The entire subscription experience — from pricing to payment — is now available in English.
+- Introduced USD pricing for international users. Plans now start at $17/month for individuals and $72/month for small teams.
+- Renamed "Enterprise Plan" to "Group Plan" for consistency across billing and pricing pages.
+
 ### April 9, 2026
 
 - Launched multi-user plans for teams and departments. Choose from plans for 5, 10, or 30 members.
