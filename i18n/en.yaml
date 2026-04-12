@@ -146,7 +146,7 @@ pricing.team.standard.f3:
 pricing.team.standard.f4:
   other: "Members can view and copy shared projects"
 pricing.team.enterprise.name:
-  other: "Enterprise Plan (Up to 30)"
+  other: "Group Plan (Up to 30)"
 pricing.team.enterprise.desc:
   other: "For large organizations. Ideal for training and internal education."
 pricing.team.enterprise.f1:
