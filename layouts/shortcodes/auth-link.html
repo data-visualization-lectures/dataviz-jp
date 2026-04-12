@@ -1,1 +1,1 @@
-<a href="{{ site.Params.authBaseURL }}{{ .Get "path" }}" class="{{ .Get "class" }}">{{ .Inner }}</a>
+<a href="{{ site.Params.authBaseURL }}{{ .Get "path" }}?lang={{ .Page.Lang }}" class="{{ .Get "class" }}">{{ .Inner }}</a>
