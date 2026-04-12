@@ -1,6 +1,7 @@
 {{ define "main" }}
 {{ $currencyParam := cond (eq .Lang "en") "&currency=usd" "" }}
 {{ $langParam := printf "&lang=%s" .Lang }}
+{{ $extraParams := printf "%s%s" $currencyParam $langParam | safeURL }}
 <style>
   /* Pricing Page */
   .pricing-container {
@@ -312,7 +313,7 @@
         <li>{{ T "pricing.standard.monthly.f5" }}</li>
       </ul>
       <div class="pricing-card__cta">
-        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=monthly{{ $currencyParam }}{{ $langParam }}" class="button primary">{{ T "pricing.cta" }}</a>
+        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=monthly{{ $extraParams }}" class="button primary">{{ T "pricing.cta" }}</a>
       </div>
     </div>
 
@@ -339,7 +340,7 @@
         <li>{{ T "pricing.standard.yearly.f5" }}</li>
       </ul>
       <div class="pricing-card__cta">
-        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=yearly{{ $currencyParam }}{{ $langParam }}" class="button primary">{{ T "pricing.cta" }}</a>
+        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=yearly{{ $extraParams }}" class="button primary">{{ T "pricing.cta" }}</a>
       </div>
     </div>
   </div>
@@ -364,7 +365,7 @@
         <li>{{ T "pricing.coaching.monthly.f3" }}</li>
       </ul>
       <div class="pricing-card__cta">
-        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=coaching_monthly{{ $currencyParam }}{{ $langParam }}" class="button primary">{{ T "pricing.cta" }}</a>
+        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=coaching_monthly{{ $extraParams }}" class="button primary">{{ T "pricing.cta" }}</a>
       </div>
     </div>
 
@@ -384,7 +385,7 @@
         <li>{{ T "pricing.coaching.yearly.f3" }}</li>
       </ul>
       <div class="pricing-card__cta">
-        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=coaching_yearly{{ $currencyParam }}{{ $langParam }}" class="button primary">{{ T "pricing.cta" }}</a>
+        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=coaching_yearly{{ $extraParams }}" class="button primary">{{ T "pricing.cta" }}</a>
       </div>
     </div>
   </div>
@@ -421,7 +422,7 @@
         <li>{{ T "pricing.team.small.f4" }}</li>
       </ul>
       <div class="pricing-card__cta">
-        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=team_small_monthly{{ $currencyParam }}{{ $langParam }}" class="button primary">{{ T "pricing.cta" }}</a>
+        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=team_small_monthly{{ $extraParams }}" class="button primary">{{ T "pricing.cta" }}</a>
       </div>
     </div>
 
@@ -447,7 +448,7 @@
         <li>{{ T "pricing.team.small.f4" }}</li>
       </ul>
       <div class="pricing-card__cta">
-        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=team_small_yearly{{ $currencyParam }}{{ $langParam }}" class="button primary">{{ T "pricing.cta" }}</a>
+        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=team_small_yearly{{ $extraParams }}" class="button primary">{{ T "pricing.cta" }}</a>
       </div>
     </div>
   </div>
@@ -476,7 +477,7 @@
         <li>{{ T "pricing.team.standard.f4" }}</li>
       </ul>
       <div class="pricing-card__cta">
-        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=team_standard_monthly{{ $currencyParam }}{{ $langParam }}" class="button primary">{{ T "pricing.cta" }}</a>
+        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=team_standard_monthly{{ $extraParams }}" class="button primary">{{ T "pricing.cta" }}</a>
       </div>
     </div>
 
@@ -502,7 +503,7 @@
         <li>{{ T "pricing.team.standard.f4" }}</li>
       </ul>
       <div class="pricing-card__cta">
-        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=team_standard_yearly{{ $currencyParam }}{{ $langParam }}" class="button primary">{{ T "pricing.cta" }}</a>
+        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=team_standard_yearly{{ $extraParams }}" class="button primary">{{ T "pricing.cta" }}</a>
       </div>
     </div>
   </div>
@@ -532,7 +533,7 @@
         <li>{{ T "pricing.team.enterprise.f5" }}</li>
       </ul>
       <div class="pricing-card__cta">
-        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=team_enterprise_monthly{{ $currencyParam }}{{ $langParam }}" class="button primary">{{ T "pricing.cta" }}</a>
+        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=team_enterprise_monthly{{ $extraParams }}" class="button primary">{{ T "pricing.cta" }}</a>
       </div>
     </div>
 
@@ -559,7 +560,7 @@
         <li>{{ T "pricing.team.enterprise.f5" }}</li>
       </ul>
       <div class="pricing-card__cta">
-        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=team_enterprise_yearly{{ $currencyParam }}{{ $langParam }}" class="button primary">{{ T "pricing.cta" }}</a>
+        <a href="{{ site.Params.authBaseURL }}/billing/checkout?plan=team_enterprise_yearly{{ $extraParams }}" class="button primary">{{ T "pricing.cta" }}</a>
       </div>
     </div>
   </div>
