@@ -109,14 +109,16 @@ html[data-scheme="dark"] {
     box-shadow: var(--shadow-l2);
   }
 
-  .button:hover,
-  .article-link-btn:hover,
-  .article-compact__external:hover {
-    filter: brightness(1.3);
-  }
-
+  .button.primary:hover,
+  .article-link-btn--external:hover,
+  .article-compact__external:hover,
   .app-subnav__link:hover {
     filter: brightness(0.7);
+  }
+
+  .button.secondary:hover,
+  .article-link-btn--detail:hover {
+    filter: brightness(1.3);
   }
 }
 
@@ -276,6 +278,10 @@ html[data-scheme="dark"] {
     background: var(--accent-color);
     color: var(--accent-color-text);
     border-color: var(--accent-color);
+
+    &:hover {
+      filter: brightness(1.3);
+    }
   }
 
   /* Secondary variant */
@@ -422,6 +428,10 @@ body.has-subnav {
 .article-link-btn--external {
   background: var(--accent-color);
   color: var(--accent-color-text);
+
+  &:hover {
+    filter: brightness(1.3);
+  }
 }
 
 /* Compact article list with external link icon */
@@ -455,7 +465,7 @@ body.has-subnav {
   z-index: 1;
 
   &:hover {
-    filter: brightness(0.7);
+    filter: brightness(1.3);
     transform: translateY(-50%) scale(1.1);
   }
 }
