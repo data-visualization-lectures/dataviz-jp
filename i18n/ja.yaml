@@ -52,6 +52,16 @@ sidebar.sample-data:
 sidebar.data-portal:
   other: "オリジナル・データ"
 
+# App sub-navigation
+header.navTools:
+  other: "ツール一覧"
+header.navDataLibrary:
+  other: "データ一覧"
+header.navProjects:
+  other: "保存プロジェクト一覧"
+header.navAccount:
+  other: "アカウント情報"
+
 # Pricing page
 pricing.title:
   other: "料金プラン"

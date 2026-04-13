@@ -52,6 +52,16 @@ sidebar.sample-data:
 sidebar.data-portal:
   other: "Original Data"
 
+# App sub-navigation
+header.navTools:
+  other: "Tools"
+header.navDataLibrary:
+  other: "Data Library"
+header.navProjects:
+  other: "Saved Projects"
+header.navAccount:
+  other: "Account"
+
 # Pricing page
 pricing.title:
   other: "Pricing Plans"
