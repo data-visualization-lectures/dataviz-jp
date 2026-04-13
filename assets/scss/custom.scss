@@ -5,9 +5,9 @@ body {
   background-attachment: fixed;
 }
 
-/* Navigation text links: underline on hover */
-a:hover {
-  text-decoration: underline;
+/* Text link transition */
+a {
+  transition: color 0.2s ease;
 }
 
 #main-menu li a:hover {
@@ -113,6 +113,10 @@ html[data-scheme="dark"] {
   .article-link-btn:hover,
   .article-compact__external:hover {
     filter: brightness(1.3);
+  }
+
+  .app-subnav__link:hover {
+    filter: brightness(0.7);
   }
 }
 
@@ -225,6 +229,7 @@ html[data-scheme="dark"] {
 
 /* Inline link styles */
 .article-content a,
+.chart-detail__content a,
 .pricing-card__description a,
 .pricing-faq__answer a {
   text-decoration: underline;
