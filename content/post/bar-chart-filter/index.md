@@ -23,7 +23,15 @@ Bar Chart Filter は、CSVやTSVデータをアップロードするだけで、
 
 ![シェアしたHTMLの例](images/bar-chart-filter_01.png)
 
-[https://bar-chart-filter.dataviz.jp/share.html?id=b399cffd-a05c-4ea8-9e66-278ffac8e5cc](https://bar-chart-filter.dataviz.jp/share.html?id=b399cffd-a05c-4ea8-9e66-278ffac8e5cc)
+{{< external-link-card
+    url="https://bar-chart-filter.dataviz.jp/share.html?id=b399cffd-a05c-4ea8-9e66-278ffac8e5cc"
+    title="令和6年度 墨田区住民意識調査"
+    image="images/bar-chart-filter_01.png"
+    site="dataviz.jp"
+    description="ショーケース"
+>}}
+{{< /external-link-card >}}
+
 
 ## 機能
 

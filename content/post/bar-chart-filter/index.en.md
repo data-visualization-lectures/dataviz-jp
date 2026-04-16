@@ -23,7 +23,15 @@ Bar Chart Filter lets you upload CSV or TSV data to instantly create an interact
 
 ![Example of a shared HTML page](images/bar-chart-filter_01.png)
 
-[https://bar-chart-filter.dataviz.jp/share.html?id=b399cffd-a05c-4ea8-9e66-278ffac8e5cc](https://bar-chart-filter.dataviz.jp/share.html?id=b399cffd-a05c-4ea8-9e66-278ffac8e5cc)
+{{< external-link-card
+    url="https://bar-chart-filter.dataviz.jp/share.html?id=b399cffd-a05c-4ea8-9e66-278ffac8e5cc"
+    title="FY2024 Sumida City Resident Survey"
+    image="images/bar-chart-filter_01.png"
+    site="dataviz.jp"
+    description="Showcase"
+>}}
+{{< /external-link-card >}}
+
 
 ## Features
 
