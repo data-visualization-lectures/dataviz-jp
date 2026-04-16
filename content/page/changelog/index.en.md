@@ -18,6 +18,10 @@ And more. This list will be updated as needed.
 
 ## Changelog
 
+### April 16, 2026
+
+- Added new tool: "Bar Chart Cross-Filter." Upload CSV or TSV data and click across multiple bar charts to cross-filter and explore your data — a BI-style capability now available as a standalone tool.
+
 ### April 12, 2026
 
 - Localized checkout and sign-up flows for English users. The entire subscription experience — from pricing to payment — is now available in English.
