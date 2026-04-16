@@ -121,6 +121,8 @@ pricing.coaching.yearly.f3:
   other: "Save 2 months compared to monthly"
 pricing.refund:
   other: "Free to use for 14 days from account registration."
+pricing.receipt:
+  other: "We issue receipts (Stripe)."
 
 # Pricing tabs
 pricing.tab.individual:

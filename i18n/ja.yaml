@@ -121,6 +121,8 @@ pricing.coaching.yearly.f3:
   other: "月額よりも2ヶ月分を割引"
 pricing.refund:
   other: "アカウント登録から14日間まで無料でご利用いただけます。"
+pricing.receipt:
+  other: "領収書を発行します（Stripe）。"
 
 # Pricing tabs
 pricing.tab.individual:
