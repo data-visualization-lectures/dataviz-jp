@@ -18,7 +18,7 @@ hero.alert:
 hero.news.label:
   other: "更新情報"
 hero.news:
-  other: "「データ一覧」ページを開設しました。"
+  other: "新規ツール「棒グラフ・クロスフィルター」を追加しました。"
 
 # Feature cards
 feature.dataviz.title:

@@ -18,7 +18,7 @@ hero.alert:
 hero.news.label:
   other: "Update"
 hero.news:
-  other: "Launched the 'Data Library' page."
+  other: "Added new tool: 'Bar Chart Cross-Filter.'"
 
 # Feature cards
 feature.dataviz.title:
