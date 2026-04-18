@@ -62,6 +62,52 @@ header.navProjects:
 header.navAccount:
   other: "Account"
 
+# www main navigation
+header.navFeatures:
+  other: "Features"
+header.navPricing:
+  other: "Pricing"
+header.mainnavAria:
+  other: "Main navigation"
+
+# www main navigation - dropdown items
+mainnav.features.manyTools:
+  other: "40+ tools, unlimited use"
+mainnav.features.manyToolsDesc:
+  other: "Viz and wrangling on a flat fee"
+mainnav.features.browserOnly:
+  other: "Browser-only, no install"
+mainnav.features.browserOnlyDesc:
+  other: "Zero setup, instant access"
+mainnav.features.dataViz:
+  other: "What data viz tools can do"
+mainnav.features.dataVizDesc:
+  other: "Charts, maps, networks and more"
+mainnav.features.dataWrangling:
+  other: "What data wrangling tools can do"
+mainnav.features.dataWranglingDesc:
+  other: "Clean, transform and join data"
+mainnav.features.dataPortal:
+  other: "Data portal"
+mainnav.features.dataPortalDesc:
+  other: "Sample and practical datasets"
+mainnav.features.teamShare:
+  other: "Team project sharing"
+mainnav.features.teamShareDesc:
+  other: "Boost team data literacy"
+mainnav.tools.allTools:
+  other: "All tools"
+mainnav.tools.allToolsDesc:
+  other: "Browse all 40+ tools"
+mainnav.tools.howToViz:
+  other: "Choosing data viz tools"
+mainnav.tools.howToVizDesc:
+  other: "Pick tools by purpose"
+mainnav.tools.howToWrangling:
+  other: "Choosing data wrangling tools"
+mainnav.tools.howToWranglingDesc:
+  other: "Pick tools by purpose"
+
 # Pricing page
 pricing.title:
   other: "Pricing Plans"

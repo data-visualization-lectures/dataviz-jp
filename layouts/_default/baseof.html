@@ -6,10 +6,13 @@
     {{- block "head" . -}}{{ end }}
 </head>
 
-<body class="{{ block `body-class` . }}{{ end }}{{ if eq site.Params.headerMode "protected" }} has-subnav{{ end }}">
+<body class="{{ block `body-class` . }}{{ end }}{{ if eq site.Params.headerMode "protected" }} has-subnav{{ end }}{{ if eq site.Params.headerMode "public" }} has-mainnav{{ end }}">
     {{- partial "head/colorScheme" . -}}
     {{- if eq site.Params.headerMode "protected" -}}
       {{- partial "app-subnav.html" . -}}
+    {{- end -}}
+    {{- if eq site.Params.headerMode "public" -}}
+      {{- partial "www-mainnav.html" . -}}
     {{- end -}}
 
     {{/* Always use extended width */}}

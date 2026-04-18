@@ -62,6 +62,52 @@ header.navProjects:
 header.navAccount:
   other: "アカウント情報"
 
+# www main navigation
+header.navFeatures:
+  other: "特徴"
+header.navPricing:
+  other: "料金プラン"
+header.mainnavAria:
+  other: "メインナビゲーション"
+
+# www main navigation - dropdown items
+mainnav.features.manyTools:
+  other: "40種類以上のツールが使い放題"
+mainnav.features.manyToolsDesc:
+  other: "可視化から加工まで定額で利用可能"
+mainnav.features.browserOnly:
+  other: "インストール不要、ブラウザだけで完結"
+mainnav.features.browserOnlyDesc:
+  other: "環境構築なしですぐ使える"
+mainnav.features.dataViz:
+  other: "データ可視化ツールで出来ること"
+mainnav.features.dataVizDesc:
+  other: "チャート・地図・ネットワークまで"
+mainnav.features.dataWrangling:
+  other: "データ加工ツールで出来ること"
+mainnav.features.dataWranglingDesc:
+  other: "クレンジング・変換・結合"
+mainnav.features.dataPortal:
+  other: "データポータル"
+mainnav.features.dataPortalDesc:
+  other: "サンプル&実務データを提供"
+mainnav.features.teamShare:
+  other: "グループでのプロジェクト共有機能"
+mainnav.features.teamShareDesc:
+  other: "チーム全体でリテラシー底上げ"
+mainnav.tools.allTools:
+  other: "全ツール一覧"
+mainnav.tools.allToolsDesc:
+  other: "40種類以上のツールを一覧表示"
+mainnav.tools.howToViz:
+  other: "データ可視化ツールの使い分け"
+mainnav.tools.howToVizDesc:
+  other: "目的別にツールを選ぶ"
+mainnav.tools.howToWrangling:
+  other: "データ加工ツールの使い分け"
+mainnav.tools.howToWranglingDesc:
+  other: "目的別にツールを選ぶ"
+
 # Pricing page
 pricing.title:
   other: "料金プラン"
