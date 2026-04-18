@@ -55,3 +55,8 @@ The following tools are originally developed by dataviz.jp.
 - **SVG Gradient Editor**
 - **SVG Texture Editor**
 - **Word Cloud**
+
+## Site
+
+- Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>.
+- Theme <a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener">Stack</a> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>.

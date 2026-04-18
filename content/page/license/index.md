@@ -56,3 +56,8 @@ date: 2026-03-04
 - **バッファ生成ツール**
 - **緯度経度フォーマッター**
 
+## サイト構築
+
+- <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> で構築されています。
+- テーマ <a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener">Stack</a> は <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> によって設計されています。
+
