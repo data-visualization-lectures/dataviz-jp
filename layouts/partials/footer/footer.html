@@ -1,3 +1,4 @@
+{{- if ne site.Params.headerMode "public" -}}
 <footer class="site-footer">
     <section class="copyright">
         &copy;
@@ -13,3 +14,4 @@
     </section>
     {{ end }}
 </footer>
+{{- end -}}
