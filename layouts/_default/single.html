@@ -38,6 +38,16 @@
     {{ partialCached "article/components/photoswipe" . }}
 {{ end }}
 
+{{ define "left-sidebar" }}
+    {{- $isFeature := false -}}
+    {{- with .Params.categories -}}
+        {{- if in . "features" -}}{{- $isFeature = true -}}{{- end -}}
+    {{- end -}}
+    {{- if not $isFeature -}}
+        {{ partial "sidebar/left.html" . }}
+    {{- end -}}
+{{ end }}
+
 {{ define "right-sidebar" }}
     {{ if .Scratch.Get "hasWidget" }}{{ partial "sidebar/right.html" (dict "Context" . "Scope" "page") }}{{ end}}
 {{ end }}
